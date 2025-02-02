@@ -1,0 +1,22 @@
+<div class="entry-container">
+    @for (category of categories; track category.name) {
+        <div class="category">
+            <div class="category--title">
+                {{ category.name | uppercase }}
+            </div>
+            @for (movie of category.movies; track movie.title) {
+                <div [ngClass]="checkIfSelected(category, movie) ? 'movie selected' : 'movie'" (click)="selectMovie(movie, category)">
+                    <div class="movie--text">
+                        <div class="movie--text-title">
+                            {{ movie.title | titlecase }}
+                        </div>
+                        <div class="movie--text-subtitle">
+
+                        </div>
+                    </div>
+                    <img [src]="movie.posterURL" alt="{{ movie.title }}" [height]="pictureHeight">
+                </div>
+            }
+        </div>
+    }
+</div>

@@ -1,0 +1,42 @@
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.new-entry {
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 1rem;
+    border: 1px solid white;
+    transition: color 500ms ease-out, 
+                background-color 500ms ease-out, 
+                border-color 500ms ease-out;
+
+    &--icon {
+        font-size: 4rem;
+        font-weight: 300;
+    }
+
+    &--text {
+        padding-left: 1rem;
+        font-size: 2rem;
+    }
+
+    &:hover {
+        background-color: goldenrod;
+        color: black;
+        border-color: black;
+    }
+}
+
+.graph {
+    width: 100%;
+    margin-top: 2rem;
+    height: 50vh;
+    background-color: black;
+}

@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "8e3aa43e-7d80-4498-8f97-0cee0499ed79": {
+      "ProjectGuid": "8e3aa43e-7d80-4498-8f97-0cee0499ed79",
+      "DisplayName": "OscarPartyAPI",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

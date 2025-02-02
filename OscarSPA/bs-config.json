@@ -1,0 +1,8 @@
+{
+    "server": {
+      "baseDir": "./dist/oscars/browser",
+      "routes": {
+        "/": "index.html"
+      }
+    }
+  }  

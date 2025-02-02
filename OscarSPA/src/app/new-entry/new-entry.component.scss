@@ -1,0 +1,75 @@
+:host {
+    display: flex;
+    justify-content: center;
+}
+
+@mixin selected-movie {
+    background-color: goldenrod;
+    color: black;
+    border-color: black;
+}
+
+.entry-container {
+    padding: 3rem;
+}
+
+.category {
+    display: flex;
+    color: white;
+    flex-direction: column;
+    margin-bottom: 3rem;
+
+    &--title {
+        font-size: 3rem;
+        margin-top: 2rem;
+        font-weight: 300;
+    }
+}
+
+.movie {
+    cursor: pointer;
+    margin: 0.5rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    display: flex;
+    font-size: 2rem;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid white;
+    padding: 1rem;
+    transition: color 500ms ease-out,
+                background-color 500ms ease-out,
+                border-color 500ms ease-out;
+
+    &:hover {
+        @include selected-movie;
+    }
+
+    &--text {
+
+        &-title {
+            font-weight: 200;
+        }
+
+    }
+}
+
+.selected {
+    @include selected-movie;
+}
+
+@media screen and (max-width: 800px) {
+    .entry-container {
+        padding: 0.25rem;
+    }
+
+    .category--title {
+        font-size: 1.5rem;
+    }
+
+    .movie {
+        font-size: 1rem;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
+}
