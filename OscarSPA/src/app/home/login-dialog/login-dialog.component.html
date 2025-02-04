@@ -1,0 +1,43 @@
+<div class="login-container">
+    <div class="title">
+        {{ data.title }}
+    </div>
+    <div class="entry-fields">
+        <div class="labels">
+            <div class="username">
+                USERNAME
+            </div>
+            <div class="pin">
+                PIN
+            </div>
+            @if (!data.isLogin) {
+                <div class="pin">
+                    PIN
+                </div>
+            }
+        </div>
+        <div class="inputs">
+            <div class="username-input">
+                <input type="text">
+            </div>
+            <div class="pin-input">
+                <input type="tel" maxlength="4">
+            </div>
+            @if (!data.isLogin) {
+                <div class="pin-input">
+                    <input type="tel" maxlength="4">
+                </div>
+            }
+        </div>
+    </div>
+    @if (error) {
+        <div class="error">
+            
+        </div>
+    }
+    <div class="enter">
+        <div class="enter--button">
+            ENTER
+        </div>
+    </div>
+</div>

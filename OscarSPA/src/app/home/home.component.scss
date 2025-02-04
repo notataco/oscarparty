@@ -5,8 +5,15 @@
     padding: 2rem;
 }
 
-.new-entry {
+.sign-up {
     display: flex;
+    flex-direction: row;
+}
+
+.button {
+    display: flex;
+    flex: 1;
+    margin: 0.5rem;
     color: white;
     align-items: center;
     justify-content: center;
@@ -18,6 +25,7 @@
                 border-color 500ms ease-out;
 
     &--icon {
+        display: flex;
         font-size: 4rem;
         font-weight: 300;
     }
@@ -39,4 +47,14 @@
     margin-top: 2rem;
     height: 50vh;
     background-color: black;
+}
+
+@media screen and (max-width: 800px) {
+    .button {
+        padding: 0.5rem;
+
+        &--text {
+            font-size: 1rem;
+        }
+    }
 }
