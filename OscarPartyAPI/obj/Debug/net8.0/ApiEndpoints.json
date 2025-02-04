@@ -1,26 +1,6 @@
 [
   {
     "ContainingType": "OscarPartyController",
-    "Method": "GetAllUsers",
-    "RelativePath": "api/OscarParty/GetAllUsers",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.List\u00601[[OscarPartyAPI._models.User, OscarPartyAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "OscarPartyController",
     "Method": "GetCategories",
     "RelativePath": "api/OscarParty/GetCategories",
     "HttpMethod": "GET",
@@ -41,8 +21,8 @@
   },
   {
     "ContainingType": "OscarPartyController",
-    "Method": "SaveNewUser",
-    "RelativePath": "api/OscarParty/SaveNewUser",
+    "Method": "Login",
+    "RelativePath": "api/OscarParty/Login",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -53,6 +33,42 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": []
+    "ReturnTypes": [
+      {
+        "Type": "OscarPartyAPI._models.User",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OscarPartyController",
+    "Method": "Signup",
+    "RelativePath": "api/OscarParty/Signup",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "OscarPartyAPI._models.User",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "OscarPartyAPI._models.User",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   }
 ]
