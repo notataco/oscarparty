@@ -47,6 +47,10 @@ export class HomeComponent {
     });
   }
 
+  public logout() {
+    this._userService.logout();
+  }
+
   public newEntry() {
     this._router.navigate(['/new-entry']);
   }
