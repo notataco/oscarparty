@@ -12,7 +12,14 @@ export class UserService {
   
   user?: User;
 
-  constructor(private readonly _httpClient: HttpClient) { }
+  constructor(private readonly _httpClient: HttpClient) 
+  { 
+    const storedUser = localStorage.getItem('user');
+
+    if (storedUser) {
+      this.user = JSON.parse(storedUser);
+    }
+  }
 
   public login(user: User): Observable<User> {
     return this._httpClient.post<User>(`${this._api}/Login`, user);
@@ -24,6 +31,9 @@ export class UserService {
 
   public setUser(user: User): void {
     this.user = user;
+
+    // User caching for page reload
+    localStorage.setItem('user', JSON.stringify(this.user));
   }
 
   public getUser(): User {
