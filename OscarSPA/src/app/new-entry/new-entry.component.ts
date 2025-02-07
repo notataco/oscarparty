@@ -77,6 +77,14 @@ export class NewEntryComponent implements OnInit {
     return selected;
   }
 
+  public submitPicks(): void {
+    this._movieService.submitPicks(this.picks).subscribe({
+      next: res => {
+
+      }
+    });
+  }
+
   private setPictureHeight(): void {
     if (window.innerWidth < 800) {
       this.pictureHeight = 75;

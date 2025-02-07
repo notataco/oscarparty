@@ -18,14 +18,14 @@
         </div>
         <div class="inputs">
             <div class="username-input">
-                <input type="text">
+                <input type="text" [(ngModel)]="username">
             </div>
             <div class="pin-input">
-                <input type="tel" maxlength="4">
+                <input type="tel" maxlength="4" [(ngModel)]="pin">
             </div>
             @if (!data.isLogin) {
                 <div class="pin-input">
-                    <input type="tel" maxlength="4">
+                    <input type="tel" maxlength="4" [(ngModel)]="confirmPin">
                 </div>
             }
         </div>
@@ -36,7 +36,7 @@
         </div>
     }
     <div class="enter">
-        <div class="enter--button">
+        <div class="enter--button" (click)="submit()">
             ENTER
         </div>
     </div>

@@ -70,5 +70,21 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "OscarPartyController",
+    "Method": "SubmitPicks",
+    "RelativePath": "api/OscarParty/SubmitPicks",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "picks",
+        "Type": "System.Collections.Generic.List\u00601[[OscarPartyAPI._models.UserPick, OscarPartyAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

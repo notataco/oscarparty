@@ -21,7 +21,9 @@ namespace OscarPartyAPI.Services
             }
             catch (ArgumentException ex) 
             { 
-                return await _oscarPartyRepository.SaveNewUser(user);
+                _ = await _oscarPartyRepository.SaveNewUser(user);
+
+                return await _oscarPartyRepository.CheckUser(user);
             }
         }
 
@@ -58,6 +60,11 @@ namespace OscarPartyAPI.Services
             }
 
             return categories;
+        }
+
+        public async Task SubmitPicks(List<UserPick> picks)
+        {
+            await _oscarPartyRepository.SubmitPicks(picks);
         }
     }
 }

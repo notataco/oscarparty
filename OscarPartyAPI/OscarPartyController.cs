@@ -37,4 +37,12 @@ public class OscarPartyController : ControllerBase
 
         return Ok(categories);
     }
+
+    [HttpPut("SubmitPicks")]
+    public async Task<IActionResult> SubmitPicks(List<UserPick> picks)
+    {
+        await _oscarPartyService.SubmitPicks(picks);
+
+        return Ok();
+    }
 }

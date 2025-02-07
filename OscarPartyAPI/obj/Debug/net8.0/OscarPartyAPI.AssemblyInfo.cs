@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OscarPartyAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+22405313aed17660aafef56c8cdb4d4f4101452d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c7aa64c17064ba97d46597b562b1ee1f0cd0027b")]
 [assembly: System.Reflection.AssemblyProductAttribute("OscarPartyAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OscarPartyAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -138,6 +138,46 @@
           }
         }
       }
+    },
+    "/api/OscarParty/SubmitPicks": {
+      "put": {
+        "tags": [
+          "OscarParty"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/UserPick"
+                }
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/UserPick"
+                }
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/UserPick"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
     }
   },
   "components": {
@@ -255,6 +295,32 @@
             "nullable": true
           },
           "pin": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "UserPick": {
+        "type": "object",
+        "properties": {
+          "pickID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "userID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "categoryID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "movieID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "actorID": {
             "type": "integer",
             "format": "int32"
           }

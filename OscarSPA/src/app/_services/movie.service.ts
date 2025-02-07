@@ -1,10 +1,9 @@
 import { Injectable, OnInit } from '@angular/core';
 import { Category } from '../_models/category.model';
 import { Movie } from '../_models/movie.model';
-import { Actor } from '../_models/actor.model';
 import { Observable } from 'rxjs';
 import { HttpClient } from '@angular/common/http';
-import { User } from '../_models/user.model';
+import { UserPick } from '../_models/user-pick.model';
 
 @Injectable({
   providedIn: 'root'
@@ -17,19 +16,15 @@ export class MovieService {
 
   constructor(private readonly _httpClient: HttpClient) { }
 
-  public login(user: User): Observable<User> {
-    return this._httpClient.post<User>(`${this._api}/Login`, user);
-  }
-
-  public signup(user: User): Observable<User> {
-    return this._httpClient.post<User>(`${this._api}/Signup`, user);
-  }
-
   public getCategories(): Observable<Array<Category>> {
     return this._httpClient.get<Array<Category>>(`${this._api}/GetCategories`);
   }
 
   public getAllMovies(): Array<Movie> {
     return this.allMovies;
+  }
+
+  public submitPicks(picks: Array<UserPick>) {
+    return this._httpClient.put(`${this._api}/SubmitPicks`, picks);
   }
 }
