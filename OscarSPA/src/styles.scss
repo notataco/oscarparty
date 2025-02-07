@@ -3,7 +3,14 @@ html, body {
     font-family: 'Montserrat';
 }
 
+.mat-mdc-dialog-container .mat-mdc-dialog-surface {
+    background-color: #131313;
+    color: white
+}
+
 @font-face {
     font-family: 'Montserrat';
     src: url('assets/fonts/Montserrat-VariableFont_wght.ttf') format('truetype');
 }
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

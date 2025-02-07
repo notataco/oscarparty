@@ -14,20 +14,20 @@ public class OscarPartyController : ControllerBase
         _oscarPartyService = oscarPartyService;
     }
 
-    [HttpGet("GetAllUsers")]
-    public async Task<ActionResult<List<User>>> GetAllUsers()
+    [HttpPost("Login")]
+    public async Task<ActionResult<User>> Login([FromBody] User user)
     {
-        var users = await _oscarPartyService.GetAllUsers();
+        var existingUser = await _oscarPartyService.Login(user);
 
-        return Ok(users);
+        return Ok(existingUser);
     }
 
-    [HttpPost("SaveNewUser")]
-    public async Task<ActionResult> SaveNewUser([FromBody] User user)
+    [HttpPost("Signup")]
+    public async Task<ActionResult<User>> Signup([FromBody] User user)
     {
-        await _oscarPartyService.SaveNewUser(user);
+        var newUser = await _oscarPartyService.SaveNewUser(user);
 
-        return Ok();
+        return Ok(newUser);
     }
 
     [HttpGet("GetCategories")]
@@ -36,5 +36,13 @@ public class OscarPartyController : ControllerBase
         var categories = await _oscarPartyService.GetAllCategories();
 
         return Ok(categories);
+    }
+
+    [HttpPut("SubmitPicks")]
+    public async Task<IActionResult> SubmitPicks(List<UserPick> picks)
+    {
+        await _oscarPartyService.SubmitPicks(picks);
+
+        return Ok();
     }
 }

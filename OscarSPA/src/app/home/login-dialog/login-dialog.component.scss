@@ -1,0 +1,64 @@
+.login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    height: auto;
+    width: auto;
+}
+
+.title {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-weight: 200;
+}
+
+.username, .pin, .username-input, .pin-input {
+    margin: 1rem;
+    font-weight: 200;
+}
+
+.username, .pin {
+    padding: 0.5rem;
+}
+
+.entry-fields {
+    display: flex;
+    flex-direction: row;
+}
+
+.pin {
+    display: flex;
+    justify-content: end;
+}
+
+input {
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.425);
+    border-radius: 5px;
+    padding: 0.5rem;
+    color: white;
+    outline: none;
+}
+
+.enter {
+    margin-top: 1rem;
+
+    &--button {
+        cursor: pointer;
+        font-size: 200;
+        border: 1px solid white;
+        padding: 1rem;
+        transition: color 500ms ease-out, 
+                    background-color 500ms ease-out, 
+                    border-color 500ms ease-out;
+
+        &:hover {
+            background-color: goldenrod;
+            color: black;
+            border-color: black;
+        }
+    }
+
+}

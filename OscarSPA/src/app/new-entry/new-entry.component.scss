@@ -58,6 +58,22 @@
     @include selected-movie;
 }
 
+.submit-button {
+    margin: 4rem;
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 1rem;
+    border: 1px solid white;
+    transition: color 500ms ease-out,
+                background-color 500ms ease-out,
+                border-color 500ms ease-out;
+
+    &:hover {
+        @include selected-movie;
+    }
+}
+
 @media screen and (max-width: 800px) {
     .entry-container {
         padding: 0.25rem;

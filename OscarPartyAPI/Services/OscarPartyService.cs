@@ -11,9 +11,32 @@ namespace OscarPartyAPI.Services
             _oscarPartyRepository = oscarPartyRepository;
         }
 
-        public async Task SaveNewUser(User user)
+        public async Task<User> SaveNewUser(User user)
         {
-            await _oscarPartyRepository.SaveNewUser(user);
+            try
+            {
+                var existingUser = await _oscarPartyRepository.CheckUser(user);
+
+                throw new InvalidOperationException("User already exsists");
+            }
+            catch (ArgumentException ex) 
+            { 
+                _ = await _oscarPartyRepository.SaveNewUser(user);
+
+                return await _oscarPartyRepository.CheckUser(user);
+            }
+        }
+
+        public async Task<User> Login(User user)
+        {
+            try
+            {
+                return await _oscarPartyRepository.CheckUser(user);
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("User does not exist");
+            }
         }
 
         public async Task<List<User>> GetAllUsers()
@@ -37,6 +60,11 @@ namespace OscarPartyAPI.Services
             }
 
             return categories;
+        }
+
+        public async Task SubmitPicks(List<UserPick> picks)
+        {
+            await _oscarPartyRepository.SubmitPicks(picks);
         }
     }
 }

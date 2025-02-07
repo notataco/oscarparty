@@ -1,303 +1,303 @@
 {
   "Files": [
     {
-      "Id": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\fonts\\Montserrat-Italic-VariableFont_wght.ttf",
+      "Id": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\fonts\\Montserrat-Italic-VariableFont_wght.ttf",
       "PackagePath": "staticwebassets\\assets\\fonts\\Montserrat-Italic-VariableFont_wght.ttf"
     },
     {
-      "Id": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\fonts\\Montserrat-VariableFont_wght.ttf",
+      "Id": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\fonts\\Montserrat-VariableFont_wght.ttf",
       "PackagePath": "staticwebassets\\assets\\fonts\\Montserrat-VariableFont_wght.ttf"
     },
     {
-      "Id": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\fonts\\OFL.txt",
+      "Id": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\fonts\\OFL.txt",
       "PackagePath": "staticwebassets\\assets\\fonts\\OFL.txt"
     },
     {
-      "Id": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\fonts\\README.txt",
+      "Id": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\fonts\\README.txt",
       "PackagePath": "staticwebassets\\assets\\fonts\\README.txt"
     },
     {
-      "Id": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-Black.ttf",
+      "Id": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-Black.ttf",
       "PackagePath": "staticwebassets\\assets\\fonts\\static\\Montserrat-Black.ttf"
     },
     {
-      "Id": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-BlackItalic.ttf",
+      "Id": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-BlackItalic.ttf",
       "PackagePath": "staticwebassets\\assets\\fonts\\static\\Montserrat-BlackItalic.ttf"
     },
     {
-      "Id": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-Bold.ttf",
+      "Id": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-Bold.ttf",
       "PackagePath": "staticwebassets\\assets\\fonts\\static\\Montserrat-Bold.ttf"
     },
     {
-      "Id": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-BoldItalic.ttf",
+      "Id": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-BoldItalic.ttf",
       "PackagePath": "staticwebassets\\assets\\fonts\\static\\Montserrat-BoldItalic.ttf"
     },
     {
-      "Id": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-ExtraBold.ttf",
+      "Id": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-ExtraBold.ttf",
       "PackagePath": "staticwebassets\\assets\\fonts\\static\\Montserrat-ExtraBold.ttf"
     },
     {
-      "Id": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-ExtraBoldItalic.ttf",
+      "Id": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-ExtraBoldItalic.ttf",
       "PackagePath": "staticwebassets\\assets\\fonts\\static\\Montserrat-ExtraBoldItalic.ttf"
     },
     {
-      "Id": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-ExtraLight.ttf",
+      "Id": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-ExtraLight.ttf",
       "PackagePath": "staticwebassets\\assets\\fonts\\static\\Montserrat-ExtraLight.ttf"
     },
     {
-      "Id": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-ExtraLightItalic.ttf",
+      "Id": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-ExtraLightItalic.ttf",
       "PackagePath": "staticwebassets\\assets\\fonts\\static\\Montserrat-ExtraLightItalic.ttf"
     },
     {
-      "Id": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-Italic.ttf",
+      "Id": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-Italic.ttf",
       "PackagePath": "staticwebassets\\assets\\fonts\\static\\Montserrat-Italic.ttf"
     },
     {
-      "Id": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-Light.ttf",
+      "Id": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-Light.ttf",
       "PackagePath": "staticwebassets\\assets\\fonts\\static\\Montserrat-Light.ttf"
     },
     {
-      "Id": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-LightItalic.ttf",
+      "Id": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-LightItalic.ttf",
       "PackagePath": "staticwebassets\\assets\\fonts\\static\\Montserrat-LightItalic.ttf"
     },
     {
-      "Id": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-Medium.ttf",
+      "Id": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-Medium.ttf",
       "PackagePath": "staticwebassets\\assets\\fonts\\static\\Montserrat-Medium.ttf"
     },
     {
-      "Id": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-MediumItalic.ttf",
+      "Id": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-MediumItalic.ttf",
       "PackagePath": "staticwebassets\\assets\\fonts\\static\\Montserrat-MediumItalic.ttf"
     },
     {
-      "Id": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-Regular.ttf",
+      "Id": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-Regular.ttf",
       "PackagePath": "staticwebassets\\assets\\fonts\\static\\Montserrat-Regular.ttf"
     },
     {
-      "Id": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-SemiBold.ttf",
+      "Id": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-SemiBold.ttf",
       "PackagePath": "staticwebassets\\assets\\fonts\\static\\Montserrat-SemiBold.ttf"
     },
     {
-      "Id": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-SemiBoldItalic.ttf",
+      "Id": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-SemiBoldItalic.ttf",
       "PackagePath": "staticwebassets\\assets\\fonts\\static\\Montserrat-SemiBoldItalic.ttf"
     },
     {
-      "Id": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-Thin.ttf",
+      "Id": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-Thin.ttf",
       "PackagePath": "staticwebassets\\assets\\fonts\\static\\Montserrat-Thin.ttf"
     },
     {
-      "Id": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-ThinItalic.ttf",
+      "Id": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-ThinItalic.ttf",
       "PackagePath": "staticwebassets\\assets\\fonts\\static\\Montserrat-ThinItalic.ttf"
     },
     {
-      "Id": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\6888.webp",
+      "Id": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\6888.webp",
       "PackagePath": "staticwebassets\\assets\\posters\\6888.webp"
     },
     {
-      "Id": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\anora.webp",
+      "Id": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\anora.webp",
       "PackagePath": "staticwebassets\\assets\\posters\\anora.webp"
     },
     {
-      "Id": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\anuja.jpg",
+      "Id": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\anuja.jpg",
       "PackagePath": "staticwebassets\\assets\\posters\\anuja.jpg"
     },
     {
-      "Id": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\apprentice.webp",
+      "Id": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\apprentice.webp",
       "PackagePath": "staticwebassets\\assets\\posters\\apprentice.webp"
     },
     {
-      "Id": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\arealpain.webp",
+      "Id": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\arealpain.webp",
       "PackagePath": "staticwebassets\\assets\\posters\\arealpain.webp"
     },
     {
-      "Id": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\beautifulmen.jpg",
+      "Id": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\beautifulmen.jpg",
       "PackagePath": "staticwebassets\\assets\\posters\\beautifulmen.jpg"
     },
     {
-      "Id": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\betterman.webp",
+      "Id": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\betterman.webp",
       "PackagePath": "staticwebassets\\assets\\posters\\betterman.webp"
     },
     {
-      "Id": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\blackbox.webp",
+      "Id": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\blackbox.webp",
       "PackagePath": "staticwebassets\\assets\\posters\\blackbox.webp"
     },
     {
-      "Id": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\brutalist.webp",
+      "Id": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\brutalist.webp",
       "PackagePath": "staticwebassets\\assets\\posters\\brutalist.webp"
     },
     {
-      "Id": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\candies.webp",
+      "Id": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\candies.webp",
       "PackagePath": "staticwebassets\\assets\\posters\\candies.webp"
     },
     {
-      "Id": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\completeunknown.webp",
+      "Id": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\completeunknown.webp",
       "PackagePath": "staticwebassets\\assets\\posters\\completeunknown.webp"
     },
     {
-      "Id": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\conclave.webp",
+      "Id": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\conclave.webp",
       "PackagePath": "staticwebassets\\assets\\posters\\conclave.webp"
     },
     {
-      "Id": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\cypress.jpeg",
+      "Id": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\cypress.jpeg",
       "PackagePath": "staticwebassets\\assets\\posters\\cypress.jpeg"
     },
     {
-      "Id": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\death.jpg",
+      "Id": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\death.jpg",
       "PackagePath": "staticwebassets\\assets\\posters\\death.jpg"
     },
     {
-      "Id": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\differentman.webp",
+      "Id": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\differentman.webp",
       "PackagePath": "staticwebassets\\assets\\posters\\differentman.webp"
     },
     {
-      "Id": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\dune.webp",
+      "Id": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\dune.webp",
       "PackagePath": "staticwebassets\\assets\\posters\\dune.webp"
     },
     {
-      "Id": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\eltonjohn.jpeg",
+      "Id": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\eltonjohn.jpeg",
       "PackagePath": "staticwebassets\\assets\\posters\\eltonjohn.jpeg"
     },
     {
-      "Id": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\flow.webp",
+      "Id": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\flow.webp",
       "PackagePath": "staticwebassets\\assets\\posters\\flow.webp"
     },
     {
-      "Id": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\gladiator.webp",
+      "Id": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\gladiator.webp",
       "PackagePath": "staticwebassets\\assets\\posters\\gladiator.webp"
     },
     {
-      "Id": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\insideout.webp",
+      "Id": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\insideout.webp",
       "PackagePath": "staticwebassets\\assets\\posters\\insideout.webp"
     },
     {
-      "Id": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\instrument.jpg",
+      "Id": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\instrument.jpg",
       "PackagePath": "staticwebassets\\assets\\posters\\instrument.jpg"
     },
     {
-      "Id": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\kingdomofapes.webp",
+      "Id": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\kingdomofapes.webp",
       "PackagePath": "staticwebassets\\assets\\posters\\kingdomofapes.webp"
     },
     {
-      "Id": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\lastranger.jpg",
+      "Id": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\lastranger.jpg",
       "PackagePath": "staticwebassets\\assets\\posters\\lastranger.jpg"
     },
     {
-      "Id": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\maria.webp",
+      "Id": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\maria.webp",
       "PackagePath": "staticwebassets\\assets\\posters\\maria.webp"
     },
     {
-      "Id": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\memoirofasnail.webp",
+      "Id": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\memoirofasnail.webp",
       "PackagePath": "staticwebassets\\assets\\posters\\memoirofasnail.webp"
     },
     {
-      "Id": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\needle.jpg",
+      "Id": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\needle.jpg",
       "PackagePath": "staticwebassets\\assets\\posters\\needle.jpg"
     },
     {
-      "Id": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\nickelboys.webp",
+      "Id": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\nickelboys.webp",
       "PackagePath": "staticwebassets\\assets\\posters\\nickelboys.webp"
     },
     {
-      "Id": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\nootherland.jpg",
+      "Id": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\nootherland.jpg",
       "PackagePath": "staticwebassets\\assets\\posters\\nootherland.jpg"
     },
     {
-      "Id": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\nosferatu.webp",
+      "Id": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\nosferatu.webp",
       "PackagePath": "staticwebassets\\assets\\posters\\nosferatu.webp"
     },
     {
-      "Id": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\notarobot.jpg",
+      "Id": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\notarobot.jpg",
       "PackagePath": "staticwebassets\\assets\\posters\\notarobot.jpg"
     },
     {
-      "Id": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\orchestra.jpg",
+      "Id": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\orchestra.jpg",
       "PackagePath": "staticwebassets\\assets\\posters\\orchestra.jpg"
     },
     {
-      "Id": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\perez.webp",
+      "Id": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\perez.webp",
       "PackagePath": "staticwebassets\\assets\\posters\\perez.webp"
     },
     {
-      "Id": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\porcelain.jpg",
+      "Id": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\porcelain.jpg",
       "PackagePath": "staticwebassets\\assets\\posters\\porcelain.jpg"
     },
     {
-      "Id": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\remainsilent.jpg",
+      "Id": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\remainsilent.jpg",
       "PackagePath": "staticwebassets\\assets\\posters\\remainsilent.jpg"
     },
     {
-      "Id": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\romulus.webp",
+      "Id": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\romulus.webp",
       "PackagePath": "staticwebassets\\assets\\posters\\romulus.webp"
     },
     {
-      "Id": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\sacredfig.jpg",
+      "Id": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\sacredfig.jpg",
       "PackagePath": "staticwebassets\\assets\\posters\\sacredfig.jpg"
     },
     {
-      "Id": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\september5.jpg",
+      "Id": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\september5.jpg",
       "PackagePath": "staticwebassets\\assets\\posters\\september5.jpg"
     },
     {
-      "Id": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\singsing.webp",
+      "Id": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\singsing.webp",
       "PackagePath": "staticwebassets\\assets\\posters\\singsing.webp"
     },
     {
-      "Id": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\soundtrack.jpg",
+      "Id": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\soundtrack.jpg",
       "PackagePath": "staticwebassets\\assets\\posters\\soundtrack.jpg"
     },
     {
-      "Id": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\stillhere.webp",
+      "Id": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\stillhere.webp",
       "PackagePath": "staticwebassets\\assets\\posters\\stillhere.webp"
     },
     {
-      "Id": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\substance.webp",
+      "Id": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\substance.webp",
       "PackagePath": "staticwebassets\\assets\\posters\\substance.webp"
     },
     {
-      "Id": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\sugarcane.jpg",
+      "Id": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\sugarcane.jpg",
       "PackagePath": "staticwebassets\\assets\\posters\\sugarcane.jpg"
     },
     {
-      "Id": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\wallace.webp",
+      "Id": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\wallace.webp",
       "PackagePath": "staticwebassets\\assets\\posters\\wallace.webp"
     },
     {
-      "Id": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\wicked.webp",
+      "Id": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\wicked.webp",
       "PackagePath": "staticwebassets\\assets\\posters\\wicked.webp"
     },
     {
-      "Id": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\wildrobot.webp",
+      "Id": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\wildrobot.webp",
       "PackagePath": "staticwebassets\\assets\\posters\\wildrobot.webp"
     },
     {
-      "Id": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\wonder.jpg",
+      "Id": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\wonder.jpg",
       "PackagePath": "staticwebassets\\assets\\posters\\wonder.jpg"
     },
     {
-      "Id": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\yuck.jpg",
+      "Id": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\yuck.jpg",
       "PackagePath": "staticwebassets\\assets\\posters\\yuck.jpg"
     },
     {
-      "Id": "D:\\Repos\\OscarPartyAPI\\wwwroot\\favicon.ico",
+      "Id": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\Repos\\OscarPartyAPI\\wwwroot\\index.html",
+      "Id": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "D:\\Repos\\OscarPartyAPI\\wwwroot\\main-QILQFKP5.js",
+      "Id": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\main-QILQFKP5.js",
       "PackagePath": "staticwebassets\\main-QILQFKP5.js"
     },
     {
-      "Id": "D:\\Repos\\OscarPartyAPI\\wwwroot\\media\\Montserrat-VariableFont_wght-KEGAHBID.ttf",
+      "Id": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\media\\Montserrat-VariableFont_wght-KEGAHBID.ttf",
       "PackagePath": "staticwebassets\\media\\Montserrat-VariableFont_wght-KEGAHBID.ttf"
     },
     {
-      "Id": "D:\\Repos\\OscarPartyAPI\\wwwroot\\polyfills-FFHMD2TL.js",
+      "Id": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\polyfills-FFHMD2TL.js",
       "PackagePath": "staticwebassets\\polyfills-FFHMD2TL.js"
     },
     {
-      "Id": "D:\\Repos\\OscarPartyAPI\\wwwroot\\styles-6ELTHERW.css",
+      "Id": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\styles-6ELTHERW.css",
       "PackagePath": "staticwebassets\\styles-6ELTHERW.css"
     },
     {

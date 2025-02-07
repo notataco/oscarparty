@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/CPZ6WjryEU=",
+  "dgSpecHash": "o+9jSLaNYZM=",
   "success": true,
-  "projectFilePath": "D:\\Repos\\OscarPartyAPI\\OscarPartyAPI.csproj",
+  "projectFilePath": "D:\\Repos\\Oscars\\OscarPartyAPI\\OscarPartyAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\edwar\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\edwar\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
