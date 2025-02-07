@@ -59,8 +59,7 @@
               "RelativeToolTip": "Services\\IOscarPartyService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T03:53:18.824Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-04T03:53:18.824Z"
             },
             {
               "$type": "Document",
@@ -72,8 +71,7 @@
               "RelativeToolTip": "Services\\OscarPartyService.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAowDoAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T03:53:20.575Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-04T03:53:20.575Z"
             },
             {
               "$type": "Document",
@@ -85,8 +83,7 @@
               "RelativeToolTip": "OscarPartyController.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAwCgAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T04:02:58.743Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-04T04:02:58.743Z"
             },
             {
               "$type": "Document",
@@ -98,8 +95,7 @@
               "RelativeToolTip": "Repositories\\IOscarPartyRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T03:53:16.002Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-04T03:53:16.002Z"
             },
             {
               "$type": "Document",
@@ -111,8 +107,7 @@
               "RelativeToolTip": "_models\\UserPick.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T03:02:12.952Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-07T03:02:12.952Z"
             }
           ]
         }
