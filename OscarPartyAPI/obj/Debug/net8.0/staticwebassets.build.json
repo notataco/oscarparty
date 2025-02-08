@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "v4BwyKvQ2+TkhAHR6UBL9H+XVrDsd527np3yE6WG5Sg=",
+  "Hash": "Dq30UZwkVY5L/IBnhG+GfeXWoQXZkKQBIAOgh7Zq8Bo=",
   "Source": "OscarPartyAPI",
   "BasePath": "_content/OscarPartyAPI",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "OscarPartyAPI\\wwwroot",
       "Source": "OscarPartyAPI",
-      "ContentRoot": "D:\\Repos\\OscarPartyAPI\\wwwroot\\",
+      "ContentRoot": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\",
       "BasePath": "_content/OscarPartyAPI",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\fonts\\Montserrat-Italic-VariableFont_wght.ttf",
+      "Identity": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\fonts\\Montserrat-Italic-VariableFont_wght.ttf",
       "SourceId": "OscarPartyAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Repos\\OscarPartyAPI\\wwwroot\\",
+      "ContentRoot": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\",
       "BasePath": "_content/OscarPartyAPI",
       "RelativePath": "assets/fonts/Montserrat-Italic-VariableFont_wght#[.{fingerprint}]?.ttf",
       "AssetKind": "All",
@@ -38,10 +38,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\fonts\\Montserrat-Italic-VariableFont_wght.ttf"
     },
     {
-      "Identity": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\fonts\\Montserrat-VariableFont_wght.ttf",
+      "Identity": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\fonts\\Montserrat-VariableFont_wght.ttf",
       "SourceId": "OscarPartyAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Repos\\OscarPartyAPI\\wwwroot\\",
+      "ContentRoot": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\",
       "BasePath": "_content/OscarPartyAPI",
       "RelativePath": "assets/fonts/Montserrat-VariableFont_wght#[.{fingerprint}]?.ttf",
       "AssetKind": "All",
@@ -59,10 +59,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\fonts\\Montserrat-VariableFont_wght.ttf"
     },
     {
-      "Identity": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\fonts\\OFL.txt",
+      "Identity": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\fonts\\OFL.txt",
       "SourceId": "OscarPartyAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Repos\\OscarPartyAPI\\wwwroot\\",
+      "ContentRoot": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\",
       "BasePath": "_content/OscarPartyAPI",
       "RelativePath": "assets/fonts/OFL#[.{fingerprint}]?.txt",
       "AssetKind": "All",
@@ -80,10 +80,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\fonts\\OFL.txt"
     },
     {
-      "Identity": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\fonts\\README.txt",
+      "Identity": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\fonts\\README.txt",
       "SourceId": "OscarPartyAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Repos\\OscarPartyAPI\\wwwroot\\",
+      "ContentRoot": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\",
       "BasePath": "_content/OscarPartyAPI",
       "RelativePath": "assets/fonts/README#[.{fingerprint}]?.txt",
       "AssetKind": "All",
@@ -101,10 +101,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\fonts\\README.txt"
     },
     {
-      "Identity": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-Black.ttf",
+      "Identity": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-Black.ttf",
       "SourceId": "OscarPartyAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Repos\\OscarPartyAPI\\wwwroot\\",
+      "ContentRoot": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\",
       "BasePath": "_content/OscarPartyAPI",
       "RelativePath": "assets/fonts/static/Montserrat-Black#[.{fingerprint}]?.ttf",
       "AssetKind": "All",
@@ -122,10 +122,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\fonts\\static\\Montserrat-Black.ttf"
     },
     {
-      "Identity": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-BlackItalic.ttf",
+      "Identity": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-BlackItalic.ttf",
       "SourceId": "OscarPartyAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Repos\\OscarPartyAPI\\wwwroot\\",
+      "ContentRoot": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\",
       "BasePath": "_content/OscarPartyAPI",
       "RelativePath": "assets/fonts/static/Montserrat-BlackItalic#[.{fingerprint}]?.ttf",
       "AssetKind": "All",
@@ -143,10 +143,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\fonts\\static\\Montserrat-BlackItalic.ttf"
     },
     {
-      "Identity": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-Bold.ttf",
+      "Identity": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-Bold.ttf",
       "SourceId": "OscarPartyAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Repos\\OscarPartyAPI\\wwwroot\\",
+      "ContentRoot": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\",
       "BasePath": "_content/OscarPartyAPI",
       "RelativePath": "assets/fonts/static/Montserrat-Bold#[.{fingerprint}]?.ttf",
       "AssetKind": "All",
@@ -164,10 +164,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\fonts\\static\\Montserrat-Bold.ttf"
     },
     {
-      "Identity": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-BoldItalic.ttf",
+      "Identity": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-BoldItalic.ttf",
       "SourceId": "OscarPartyAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Repos\\OscarPartyAPI\\wwwroot\\",
+      "ContentRoot": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\",
       "BasePath": "_content/OscarPartyAPI",
       "RelativePath": "assets/fonts/static/Montserrat-BoldItalic#[.{fingerprint}]?.ttf",
       "AssetKind": "All",
@@ -185,10 +185,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\fonts\\static\\Montserrat-BoldItalic.ttf"
     },
     {
-      "Identity": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-ExtraBold.ttf",
+      "Identity": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-ExtraBold.ttf",
       "SourceId": "OscarPartyAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Repos\\OscarPartyAPI\\wwwroot\\",
+      "ContentRoot": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\",
       "BasePath": "_content/OscarPartyAPI",
       "RelativePath": "assets/fonts/static/Montserrat-ExtraBold#[.{fingerprint}]?.ttf",
       "AssetKind": "All",
@@ -206,10 +206,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\fonts\\static\\Montserrat-ExtraBold.ttf"
     },
     {
-      "Identity": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-ExtraBoldItalic.ttf",
+      "Identity": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-ExtraBoldItalic.ttf",
       "SourceId": "OscarPartyAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Repos\\OscarPartyAPI\\wwwroot\\",
+      "ContentRoot": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\",
       "BasePath": "_content/OscarPartyAPI",
       "RelativePath": "assets/fonts/static/Montserrat-ExtraBoldItalic#[.{fingerprint}]?.ttf",
       "AssetKind": "All",
@@ -227,10 +227,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\fonts\\static\\Montserrat-ExtraBoldItalic.ttf"
     },
     {
-      "Identity": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-ExtraLight.ttf",
+      "Identity": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-ExtraLight.ttf",
       "SourceId": "OscarPartyAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Repos\\OscarPartyAPI\\wwwroot\\",
+      "ContentRoot": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\",
       "BasePath": "_content/OscarPartyAPI",
       "RelativePath": "assets/fonts/static/Montserrat-ExtraLight#[.{fingerprint}]?.ttf",
       "AssetKind": "All",
@@ -248,10 +248,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\fonts\\static\\Montserrat-ExtraLight.ttf"
     },
     {
-      "Identity": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-ExtraLightItalic.ttf",
+      "Identity": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-ExtraLightItalic.ttf",
       "SourceId": "OscarPartyAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Repos\\OscarPartyAPI\\wwwroot\\",
+      "ContentRoot": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\",
       "BasePath": "_content/OscarPartyAPI",
       "RelativePath": "assets/fonts/static/Montserrat-ExtraLightItalic#[.{fingerprint}]?.ttf",
       "AssetKind": "All",
@@ -269,10 +269,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\fonts\\static\\Montserrat-ExtraLightItalic.ttf"
     },
     {
-      "Identity": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-Italic.ttf",
+      "Identity": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-Italic.ttf",
       "SourceId": "OscarPartyAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Repos\\OscarPartyAPI\\wwwroot\\",
+      "ContentRoot": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\",
       "BasePath": "_content/OscarPartyAPI",
       "RelativePath": "assets/fonts/static/Montserrat-Italic#[.{fingerprint}]?.ttf",
       "AssetKind": "All",
@@ -290,10 +290,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\fonts\\static\\Montserrat-Italic.ttf"
     },
     {
-      "Identity": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-Light.ttf",
+      "Identity": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-Light.ttf",
       "SourceId": "OscarPartyAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Repos\\OscarPartyAPI\\wwwroot\\",
+      "ContentRoot": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\",
       "BasePath": "_content/OscarPartyAPI",
       "RelativePath": "assets/fonts/static/Montserrat-Light#[.{fingerprint}]?.ttf",
       "AssetKind": "All",
@@ -311,10 +311,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\fonts\\static\\Montserrat-Light.ttf"
     },
     {
-      "Identity": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-LightItalic.ttf",
+      "Identity": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-LightItalic.ttf",
       "SourceId": "OscarPartyAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Repos\\OscarPartyAPI\\wwwroot\\",
+      "ContentRoot": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\",
       "BasePath": "_content/OscarPartyAPI",
       "RelativePath": "assets/fonts/static/Montserrat-LightItalic#[.{fingerprint}]?.ttf",
       "AssetKind": "All",
@@ -332,10 +332,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\fonts\\static\\Montserrat-LightItalic.ttf"
     },
     {
-      "Identity": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-Medium.ttf",
+      "Identity": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-Medium.ttf",
       "SourceId": "OscarPartyAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Repos\\OscarPartyAPI\\wwwroot\\",
+      "ContentRoot": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\",
       "BasePath": "_content/OscarPartyAPI",
       "RelativePath": "assets/fonts/static/Montserrat-Medium#[.{fingerprint}]?.ttf",
       "AssetKind": "All",
@@ -353,10 +353,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\fonts\\static\\Montserrat-Medium.ttf"
     },
     {
-      "Identity": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-MediumItalic.ttf",
+      "Identity": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-MediumItalic.ttf",
       "SourceId": "OscarPartyAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Repos\\OscarPartyAPI\\wwwroot\\",
+      "ContentRoot": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\",
       "BasePath": "_content/OscarPartyAPI",
       "RelativePath": "assets/fonts/static/Montserrat-MediumItalic#[.{fingerprint}]?.ttf",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\fonts\\static\\Montserrat-MediumItalic.ttf"
     },
     {
-      "Identity": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-Regular.ttf",
+      "Identity": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-Regular.ttf",
       "SourceId": "OscarPartyAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Repos\\OscarPartyAPI\\wwwroot\\",
+      "ContentRoot": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\",
       "BasePath": "_content/OscarPartyAPI",
       "RelativePath": "assets/fonts/static/Montserrat-Regular#[.{fingerprint}]?.ttf",
       "AssetKind": "All",
@@ -395,10 +395,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\fonts\\static\\Montserrat-Regular.ttf"
     },
     {
-      "Identity": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-SemiBold.ttf",
+      "Identity": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-SemiBold.ttf",
       "SourceId": "OscarPartyAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Repos\\OscarPartyAPI\\wwwroot\\",
+      "ContentRoot": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\",
       "BasePath": "_content/OscarPartyAPI",
       "RelativePath": "assets/fonts/static/Montserrat-SemiBold#[.{fingerprint}]?.ttf",
       "AssetKind": "All",
@@ -416,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\fonts\\static\\Montserrat-SemiBold.ttf"
     },
     {
-      "Identity": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-SemiBoldItalic.ttf",
+      "Identity": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-SemiBoldItalic.ttf",
       "SourceId": "OscarPartyAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Repos\\OscarPartyAPI\\wwwroot\\",
+      "ContentRoot": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\",
       "BasePath": "_content/OscarPartyAPI",
       "RelativePath": "assets/fonts/static/Montserrat-SemiBoldItalic#[.{fingerprint}]?.ttf",
       "AssetKind": "All",
@@ -437,10 +437,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\fonts\\static\\Montserrat-SemiBoldItalic.ttf"
     },
     {
-      "Identity": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-Thin.ttf",
+      "Identity": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-Thin.ttf",
       "SourceId": "OscarPartyAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Repos\\OscarPartyAPI\\wwwroot\\",
+      "ContentRoot": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\",
       "BasePath": "_content/OscarPartyAPI",
       "RelativePath": "assets/fonts/static/Montserrat-Thin#[.{fingerprint}]?.ttf",
       "AssetKind": "All",
@@ -458,10 +458,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\fonts\\static\\Montserrat-Thin.ttf"
     },
     {
-      "Identity": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-ThinItalic.ttf",
+      "Identity": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-ThinItalic.ttf",
       "SourceId": "OscarPartyAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Repos\\OscarPartyAPI\\wwwroot\\",
+      "ContentRoot": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\",
       "BasePath": "_content/OscarPartyAPI",
       "RelativePath": "assets/fonts/static/Montserrat-ThinItalic#[.{fingerprint}]?.ttf",
       "AssetKind": "All",
@@ -479,10 +479,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\fonts\\static\\Montserrat-ThinItalic.ttf"
     },
     {
-      "Identity": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\6888.webp",
+      "Identity": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\6888.webp",
       "SourceId": "OscarPartyAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Repos\\OscarPartyAPI\\wwwroot\\",
+      "ContentRoot": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\",
       "BasePath": "_content/OscarPartyAPI",
       "RelativePath": "assets/posters/6888#[.{fingerprint}]?.webp",
       "AssetKind": "All",
@@ -500,10 +500,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\posters\\6888.webp"
     },
     {
-      "Identity": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\anora.webp",
+      "Identity": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\anora.webp",
       "SourceId": "OscarPartyAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Repos\\OscarPartyAPI\\wwwroot\\",
+      "ContentRoot": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\",
       "BasePath": "_content/OscarPartyAPI",
       "RelativePath": "assets/posters/anora#[.{fingerprint}]?.webp",
       "AssetKind": "All",
@@ -521,10 +521,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\posters\\anora.webp"
     },
     {
-      "Identity": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\anuja.jpg",
+      "Identity": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\anuja.jpg",
       "SourceId": "OscarPartyAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Repos\\OscarPartyAPI\\wwwroot\\",
+      "ContentRoot": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\",
       "BasePath": "_content/OscarPartyAPI",
       "RelativePath": "assets/posters/anuja#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -542,10 +542,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\posters\\anuja.jpg"
     },
     {
-      "Identity": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\apprentice.webp",
+      "Identity": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\apprentice.webp",
       "SourceId": "OscarPartyAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Repos\\OscarPartyAPI\\wwwroot\\",
+      "ContentRoot": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\",
       "BasePath": "_content/OscarPartyAPI",
       "RelativePath": "assets/posters/apprentice#[.{fingerprint}]?.webp",
       "AssetKind": "All",
@@ -563,10 +563,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\posters\\apprentice.webp"
     },
     {
-      "Identity": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\arealpain.webp",
+      "Identity": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\arealpain.webp",
       "SourceId": "OscarPartyAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Repos\\OscarPartyAPI\\wwwroot\\",
+      "ContentRoot": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\",
       "BasePath": "_content/OscarPartyAPI",
       "RelativePath": "assets/posters/arealpain#[.{fingerprint}]?.webp",
       "AssetKind": "All",
@@ -584,10 +584,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\posters\\arealpain.webp"
     },
     {
-      "Identity": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\beautifulmen.jpg",
+      "Identity": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\beautifulmen.jpg",
       "SourceId": "OscarPartyAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Repos\\OscarPartyAPI\\wwwroot\\",
+      "ContentRoot": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\",
       "BasePath": "_content/OscarPartyAPI",
       "RelativePath": "assets/posters/beautifulmen#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -605,10 +605,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\posters\\beautifulmen.jpg"
     },
     {
-      "Identity": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\betterman.webp",
+      "Identity": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\betterman.webp",
       "SourceId": "OscarPartyAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Repos\\OscarPartyAPI\\wwwroot\\",
+      "ContentRoot": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\",
       "BasePath": "_content/OscarPartyAPI",
       "RelativePath": "assets/posters/betterman#[.{fingerprint}]?.webp",
       "AssetKind": "All",
@@ -626,10 +626,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\posters\\betterman.webp"
     },
     {
-      "Identity": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\blackbox.webp",
+      "Identity": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\blackbox.webp",
       "SourceId": "OscarPartyAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Repos\\OscarPartyAPI\\wwwroot\\",
+      "ContentRoot": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\",
       "BasePath": "_content/OscarPartyAPI",
       "RelativePath": "assets/posters/blackbox#[.{fingerprint}]?.webp",
       "AssetKind": "All",
@@ -647,10 +647,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\posters\\blackbox.webp"
     },
     {
-      "Identity": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\brutalist.webp",
+      "Identity": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\brutalist.webp",
       "SourceId": "OscarPartyAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Repos\\OscarPartyAPI\\wwwroot\\",
+      "ContentRoot": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\",
       "BasePath": "_content/OscarPartyAPI",
       "RelativePath": "assets/posters/brutalist#[.{fingerprint}]?.webp",
       "AssetKind": "All",
@@ -668,10 +668,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\posters\\brutalist.webp"
     },
     {
-      "Identity": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\candies.webp",
+      "Identity": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\candies.webp",
       "SourceId": "OscarPartyAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Repos\\OscarPartyAPI\\wwwroot\\",
+      "ContentRoot": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\",
       "BasePath": "_content/OscarPartyAPI",
       "RelativePath": "assets/posters/candies#[.{fingerprint}]?.webp",
       "AssetKind": "All",
@@ -689,10 +689,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\posters\\candies.webp"
     },
     {
-      "Identity": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\completeunknown.webp",
+      "Identity": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\completeunknown.webp",
       "SourceId": "OscarPartyAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Repos\\OscarPartyAPI\\wwwroot\\",
+      "ContentRoot": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\",
       "BasePath": "_content/OscarPartyAPI",
       "RelativePath": "assets/posters/completeunknown#[.{fingerprint}]?.webp",
       "AssetKind": "All",
@@ -710,10 +710,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\posters\\completeunknown.webp"
     },
     {
-      "Identity": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\conclave.webp",
+      "Identity": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\conclave.webp",
       "SourceId": "OscarPartyAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Repos\\OscarPartyAPI\\wwwroot\\",
+      "ContentRoot": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\",
       "BasePath": "_content/OscarPartyAPI",
       "RelativePath": "assets/posters/conclave#[.{fingerprint}]?.webp",
       "AssetKind": "All",
@@ -731,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\posters\\conclave.webp"
     },
     {
-      "Identity": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\cypress.jpeg",
+      "Identity": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\cypress.jpeg",
       "SourceId": "OscarPartyAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Repos\\OscarPartyAPI\\wwwroot\\",
+      "ContentRoot": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\",
       "BasePath": "_content/OscarPartyAPI",
       "RelativePath": "assets/posters/cypress#[.{fingerprint}]?.jpeg",
       "AssetKind": "All",
@@ -752,10 +752,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\posters\\cypress.jpeg"
     },
     {
-      "Identity": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\death.jpg",
+      "Identity": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\death.jpg",
       "SourceId": "OscarPartyAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Repos\\OscarPartyAPI\\wwwroot\\",
+      "ContentRoot": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\",
       "BasePath": "_content/OscarPartyAPI",
       "RelativePath": "assets/posters/death#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -773,10 +773,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\posters\\death.jpg"
     },
     {
-      "Identity": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\differentman.webp",
+      "Identity": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\differentman.webp",
       "SourceId": "OscarPartyAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Repos\\OscarPartyAPI\\wwwroot\\",
+      "ContentRoot": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\",
       "BasePath": "_content/OscarPartyAPI",
       "RelativePath": "assets/posters/differentman#[.{fingerprint}]?.webp",
       "AssetKind": "All",
@@ -794,10 +794,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\posters\\differentman.webp"
     },
     {
-      "Identity": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\dune.webp",
+      "Identity": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\dune.webp",
       "SourceId": "OscarPartyAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Repos\\OscarPartyAPI\\wwwroot\\",
+      "ContentRoot": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\",
       "BasePath": "_content/OscarPartyAPI",
       "RelativePath": "assets/posters/dune#[.{fingerprint}]?.webp",
       "AssetKind": "All",
@@ -815,10 +815,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\posters\\dune.webp"
     },
     {
-      "Identity": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\eltonjohn.jpeg",
+      "Identity": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\eltonjohn.jpeg",
       "SourceId": "OscarPartyAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Repos\\OscarPartyAPI\\wwwroot\\",
+      "ContentRoot": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\",
       "BasePath": "_content/OscarPartyAPI",
       "RelativePath": "assets/posters/eltonjohn#[.{fingerprint}]?.jpeg",
       "AssetKind": "All",
@@ -836,10 +836,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\posters\\eltonjohn.jpeg"
     },
     {
-      "Identity": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\flow.webp",
+      "Identity": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\flow.webp",
       "SourceId": "OscarPartyAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Repos\\OscarPartyAPI\\wwwroot\\",
+      "ContentRoot": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\",
       "BasePath": "_content/OscarPartyAPI",
       "RelativePath": "assets/posters/flow#[.{fingerprint}]?.webp",
       "AssetKind": "All",
@@ -857,10 +857,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\posters\\flow.webp"
     },
     {
-      "Identity": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\gladiator.webp",
+      "Identity": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\gladiator.webp",
       "SourceId": "OscarPartyAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Repos\\OscarPartyAPI\\wwwroot\\",
+      "ContentRoot": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\",
       "BasePath": "_content/OscarPartyAPI",
       "RelativePath": "assets/posters/gladiator#[.{fingerprint}]?.webp",
       "AssetKind": "All",
@@ -878,10 +878,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\posters\\gladiator.webp"
     },
     {
-      "Identity": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\insideout.webp",
+      "Identity": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\insideout.webp",
       "SourceId": "OscarPartyAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Repos\\OscarPartyAPI\\wwwroot\\",
+      "ContentRoot": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\",
       "BasePath": "_content/OscarPartyAPI",
       "RelativePath": "assets/posters/insideout#[.{fingerprint}]?.webp",
       "AssetKind": "All",
@@ -899,10 +899,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\posters\\insideout.webp"
     },
     {
-      "Identity": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\instrument.jpg",
+      "Identity": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\instrument.jpg",
       "SourceId": "OscarPartyAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Repos\\OscarPartyAPI\\wwwroot\\",
+      "ContentRoot": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\",
       "BasePath": "_content/OscarPartyAPI",
       "RelativePath": "assets/posters/instrument#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -920,10 +920,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\posters\\instrument.jpg"
     },
     {
-      "Identity": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\kingdomofapes.webp",
+      "Identity": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\kingdomofapes.webp",
       "SourceId": "OscarPartyAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Repos\\OscarPartyAPI\\wwwroot\\",
+      "ContentRoot": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\",
       "BasePath": "_content/OscarPartyAPI",
       "RelativePath": "assets/posters/kingdomofapes#[.{fingerprint}]?.webp",
       "AssetKind": "All",
@@ -941,10 +941,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\posters\\kingdomofapes.webp"
     },
     {
-      "Identity": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\lastranger.jpg",
+      "Identity": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\lastranger.jpg",
       "SourceId": "OscarPartyAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Repos\\OscarPartyAPI\\wwwroot\\",
+      "ContentRoot": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\",
       "BasePath": "_content/OscarPartyAPI",
       "RelativePath": "assets/posters/lastranger#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -962,10 +962,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\posters\\lastranger.jpg"
     },
     {
-      "Identity": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\maria.webp",
+      "Identity": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\maria.webp",
       "SourceId": "OscarPartyAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Repos\\OscarPartyAPI\\wwwroot\\",
+      "ContentRoot": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\",
       "BasePath": "_content/OscarPartyAPI",
       "RelativePath": "assets/posters/maria#[.{fingerprint}]?.webp",
       "AssetKind": "All",
@@ -983,10 +983,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\posters\\maria.webp"
     },
     {
-      "Identity": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\memoirofasnail.webp",
+      "Identity": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\memoirofasnail.webp",
       "SourceId": "OscarPartyAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Repos\\OscarPartyAPI\\wwwroot\\",
+      "ContentRoot": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\",
       "BasePath": "_content/OscarPartyAPI",
       "RelativePath": "assets/posters/memoirofasnail#[.{fingerprint}]?.webp",
       "AssetKind": "All",
@@ -1004,10 +1004,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\posters\\memoirofasnail.webp"
     },
     {
-      "Identity": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\needle.jpg",
+      "Identity": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\needle.jpg",
       "SourceId": "OscarPartyAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Repos\\OscarPartyAPI\\wwwroot\\",
+      "ContentRoot": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\",
       "BasePath": "_content/OscarPartyAPI",
       "RelativePath": "assets/posters/needle#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -1025,10 +1025,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\posters\\needle.jpg"
     },
     {
-      "Identity": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\nickelboys.webp",
+      "Identity": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\nickelboys.webp",
       "SourceId": "OscarPartyAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Repos\\OscarPartyAPI\\wwwroot\\",
+      "ContentRoot": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\",
       "BasePath": "_content/OscarPartyAPI",
       "RelativePath": "assets/posters/nickelboys#[.{fingerprint}]?.webp",
       "AssetKind": "All",
@@ -1046,10 +1046,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\posters\\nickelboys.webp"
     },
     {
-      "Identity": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\nootherland.jpg",
+      "Identity": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\nootherland.jpg",
       "SourceId": "OscarPartyAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Repos\\OscarPartyAPI\\wwwroot\\",
+      "ContentRoot": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\",
       "BasePath": "_content/OscarPartyAPI",
       "RelativePath": "assets/posters/nootherland#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -1067,10 +1067,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\posters\\nootherland.jpg"
     },
     {
-      "Identity": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\nosferatu.webp",
+      "Identity": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\nosferatu.webp",
       "SourceId": "OscarPartyAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Repos\\OscarPartyAPI\\wwwroot\\",
+      "ContentRoot": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\",
       "BasePath": "_content/OscarPartyAPI",
       "RelativePath": "assets/posters/nosferatu#[.{fingerprint}]?.webp",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\posters\\nosferatu.webp"
     },
     {
-      "Identity": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\notarobot.jpg",
+      "Identity": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\notarobot.jpg",
       "SourceId": "OscarPartyAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Repos\\OscarPartyAPI\\wwwroot\\",
+      "ContentRoot": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\",
       "BasePath": "_content/OscarPartyAPI",
       "RelativePath": "assets/posters/notarobot#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -1109,10 +1109,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\posters\\notarobot.jpg"
     },
     {
-      "Identity": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\orchestra.jpg",
+      "Identity": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\orchestra.jpg",
       "SourceId": "OscarPartyAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Repos\\OscarPartyAPI\\wwwroot\\",
+      "ContentRoot": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\",
       "BasePath": "_content/OscarPartyAPI",
       "RelativePath": "assets/posters/orchestra#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -1130,10 +1130,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\posters\\orchestra.jpg"
     },
     {
-      "Identity": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\perez.webp",
+      "Identity": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\perez.webp",
       "SourceId": "OscarPartyAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Repos\\OscarPartyAPI\\wwwroot\\",
+      "ContentRoot": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\",
       "BasePath": "_content/OscarPartyAPI",
       "RelativePath": "assets/posters/perez#[.{fingerprint}]?.webp",
       "AssetKind": "All",
@@ -1151,10 +1151,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\posters\\perez.webp"
     },
     {
-      "Identity": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\porcelain.jpg",
+      "Identity": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\porcelain.jpg",
       "SourceId": "OscarPartyAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Repos\\OscarPartyAPI\\wwwroot\\",
+      "ContentRoot": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\",
       "BasePath": "_content/OscarPartyAPI",
       "RelativePath": "assets/posters/porcelain#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -1172,10 +1172,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\posters\\porcelain.jpg"
     },
     {
-      "Identity": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\remainsilent.jpg",
+      "Identity": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\remainsilent.jpg",
       "SourceId": "OscarPartyAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Repos\\OscarPartyAPI\\wwwroot\\",
+      "ContentRoot": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\",
       "BasePath": "_content/OscarPartyAPI",
       "RelativePath": "assets/posters/remainsilent#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -1193,10 +1193,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\posters\\remainsilent.jpg"
     },
     {
-      "Identity": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\romulus.webp",
+      "Identity": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\romulus.webp",
       "SourceId": "OscarPartyAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Repos\\OscarPartyAPI\\wwwroot\\",
+      "ContentRoot": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\",
       "BasePath": "_content/OscarPartyAPI",
       "RelativePath": "assets/posters/romulus#[.{fingerprint}]?.webp",
       "AssetKind": "All",
@@ -1214,10 +1214,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\posters\\romulus.webp"
     },
     {
-      "Identity": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\sacredfig.jpg",
+      "Identity": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\sacredfig.jpg",
       "SourceId": "OscarPartyAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Repos\\OscarPartyAPI\\wwwroot\\",
+      "ContentRoot": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\",
       "BasePath": "_content/OscarPartyAPI",
       "RelativePath": "assets/posters/sacredfig#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -1235,10 +1235,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\posters\\sacredfig.jpg"
     },
     {
-      "Identity": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\september5.jpg",
+      "Identity": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\september5.jpg",
       "SourceId": "OscarPartyAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Repos\\OscarPartyAPI\\wwwroot\\",
+      "ContentRoot": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\",
       "BasePath": "_content/OscarPartyAPI",
       "RelativePath": "assets/posters/september5#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -1256,10 +1256,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\posters\\september5.jpg"
     },
     {
-      "Identity": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\singsing.webp",
+      "Identity": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\singsing.webp",
       "SourceId": "OscarPartyAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Repos\\OscarPartyAPI\\wwwroot\\",
+      "ContentRoot": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\",
       "BasePath": "_content/OscarPartyAPI",
       "RelativePath": "assets/posters/singsing#[.{fingerprint}]?.webp",
       "AssetKind": "All",
@@ -1277,10 +1277,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\posters\\singsing.webp"
     },
     {
-      "Identity": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\soundtrack.jpg",
+      "Identity": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\soundtrack.jpg",
       "SourceId": "OscarPartyAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Repos\\OscarPartyAPI\\wwwroot\\",
+      "ContentRoot": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\",
       "BasePath": "_content/OscarPartyAPI",
       "RelativePath": "assets/posters/soundtrack#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -1298,10 +1298,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\posters\\soundtrack.jpg"
     },
     {
-      "Identity": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\stillhere.webp",
+      "Identity": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\stillhere.webp",
       "SourceId": "OscarPartyAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Repos\\OscarPartyAPI\\wwwroot\\",
+      "ContentRoot": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\",
       "BasePath": "_content/OscarPartyAPI",
       "RelativePath": "assets/posters/stillhere#[.{fingerprint}]?.webp",
       "AssetKind": "All",
@@ -1319,10 +1319,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\posters\\stillhere.webp"
     },
     {
-      "Identity": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\substance.webp",
+      "Identity": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\substance.webp",
       "SourceId": "OscarPartyAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Repos\\OscarPartyAPI\\wwwroot\\",
+      "ContentRoot": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\",
       "BasePath": "_content/OscarPartyAPI",
       "RelativePath": "assets/posters/substance#[.{fingerprint}]?.webp",
       "AssetKind": "All",
@@ -1340,10 +1340,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\posters\\substance.webp"
     },
     {
-      "Identity": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\sugarcane.jpg",
+      "Identity": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\sugarcane.jpg",
       "SourceId": "OscarPartyAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Repos\\OscarPartyAPI\\wwwroot\\",
+      "ContentRoot": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\",
       "BasePath": "_content/OscarPartyAPI",
       "RelativePath": "assets/posters/sugarcane#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -1361,10 +1361,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\posters\\sugarcane.jpg"
     },
     {
-      "Identity": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\wallace.webp",
+      "Identity": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\wallace.webp",
       "SourceId": "OscarPartyAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Repos\\OscarPartyAPI\\wwwroot\\",
+      "ContentRoot": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\",
       "BasePath": "_content/OscarPartyAPI",
       "RelativePath": "assets/posters/wallace#[.{fingerprint}]?.webp",
       "AssetKind": "All",
@@ -1382,10 +1382,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\posters\\wallace.webp"
     },
     {
-      "Identity": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\wicked.webp",
+      "Identity": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\wicked.webp",
       "SourceId": "OscarPartyAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Repos\\OscarPartyAPI\\wwwroot\\",
+      "ContentRoot": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\",
       "BasePath": "_content/OscarPartyAPI",
       "RelativePath": "assets/posters/wicked#[.{fingerprint}]?.webp",
       "AssetKind": "All",
@@ -1403,10 +1403,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\posters\\wicked.webp"
     },
     {
-      "Identity": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\wildrobot.webp",
+      "Identity": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\wildrobot.webp",
       "SourceId": "OscarPartyAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Repos\\OscarPartyAPI\\wwwroot\\",
+      "ContentRoot": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\",
       "BasePath": "_content/OscarPartyAPI",
       "RelativePath": "assets/posters/wildrobot#[.{fingerprint}]?.webp",
       "AssetKind": "All",
@@ -1424,10 +1424,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\posters\\wildrobot.webp"
     },
     {
-      "Identity": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\wonder.jpg",
+      "Identity": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\wonder.jpg",
       "SourceId": "OscarPartyAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Repos\\OscarPartyAPI\\wwwroot\\",
+      "ContentRoot": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\",
       "BasePath": "_content/OscarPartyAPI",
       "RelativePath": "assets/posters/wonder#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -1445,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\posters\\wonder.jpg"
     },
     {
-      "Identity": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\yuck.jpg",
+      "Identity": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\yuck.jpg",
       "SourceId": "OscarPartyAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Repos\\OscarPartyAPI\\wwwroot\\",
+      "ContentRoot": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\",
       "BasePath": "_content/OscarPartyAPI",
       "RelativePath": "assets/posters/yuck#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -1466,10 +1466,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\posters\\yuck.jpg"
     },
     {
-      "Identity": "D:\\Repos\\OscarPartyAPI\\wwwroot\\favicon.ico",
+      "Identity": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\favicon.ico",
       "SourceId": "OscarPartyAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Repos\\OscarPartyAPI\\wwwroot\\",
+      "ContentRoot": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\",
       "BasePath": "_content/OscarPartyAPI",
       "RelativePath": "favicon#[.{fingerprint}]?.ico",
       "AssetKind": "All",
@@ -1487,10 +1487,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "D:\\Repos\\OscarPartyAPI\\wwwroot\\index.html",
+      "Identity": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\index.html",
       "SourceId": "OscarPartyAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Repos\\OscarPartyAPI\\wwwroot\\",
+      "ContentRoot": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\",
       "BasePath": "_content/OscarPartyAPI",
       "RelativePath": "index#[.{fingerprint}]?.html",
       "AssetKind": "All",
@@ -1508,10 +1508,10 @@
       "OriginalItemSpec": "wwwroot\\index.html"
     },
     {
-      "Identity": "D:\\Repos\\OscarPartyAPI\\wwwroot\\main-QILQFKP5.js",
+      "Identity": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\main-QILQFKP5.js",
       "SourceId": "OscarPartyAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Repos\\OscarPartyAPI\\wwwroot\\",
+      "ContentRoot": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\",
       "BasePath": "_content/OscarPartyAPI",
       "RelativePath": "main-QILQFKP5#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1529,10 +1529,10 @@
       "OriginalItemSpec": "wwwroot\\main-QILQFKP5.js"
     },
     {
-      "Identity": "D:\\Repos\\OscarPartyAPI\\wwwroot\\media\\Montserrat-VariableFont_wght-KEGAHBID.ttf",
+      "Identity": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\media\\Montserrat-VariableFont_wght-KEGAHBID.ttf",
       "SourceId": "OscarPartyAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Repos\\OscarPartyAPI\\wwwroot\\",
+      "ContentRoot": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\",
       "BasePath": "_content/OscarPartyAPI",
       "RelativePath": "media/Montserrat-VariableFont_wght-KEGAHBID#[.{fingerprint}]?.ttf",
       "AssetKind": "All",
@@ -1550,10 +1550,10 @@
       "OriginalItemSpec": "wwwroot\\media\\Montserrat-VariableFont_wght-KEGAHBID.ttf"
     },
     {
-      "Identity": "D:\\Repos\\OscarPartyAPI\\wwwroot\\polyfills-FFHMD2TL.js",
+      "Identity": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\polyfills-FFHMD2TL.js",
       "SourceId": "OscarPartyAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Repos\\OscarPartyAPI\\wwwroot\\",
+      "ContentRoot": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\",
       "BasePath": "_content/OscarPartyAPI",
       "RelativePath": "polyfills-FFHMD2TL#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1571,10 +1571,10 @@
       "OriginalItemSpec": "wwwroot\\polyfills-FFHMD2TL.js"
     },
     {
-      "Identity": "D:\\Repos\\OscarPartyAPI\\wwwroot\\styles-6ELTHERW.css",
+      "Identity": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\styles-6ELTHERW.css",
       "SourceId": "OscarPartyAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Repos\\OscarPartyAPI\\wwwroot\\",
+      "ContentRoot": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\",
       "BasePath": "_content/OscarPartyAPI",
       "RelativePath": "styles-6ELTHERW#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1595,7 +1595,7 @@
   "Endpoints": [
     {
       "Route": "assets/fonts/Montserrat-Italic-VariableFont_wght.4g53ai0lb1.ttf",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\fonts\\Montserrat-Italic-VariableFont_wght.ttf",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\fonts\\Montserrat-Italic-VariableFont_wght.ttf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1640,7 +1640,7 @@
     },
     {
       "Route": "assets/fonts/Montserrat-Italic-VariableFont_wght.ttf",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\fonts\\Montserrat-Italic-VariableFont_wght.ttf",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\fonts\\Montserrat-Italic-VariableFont_wght.ttf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1677,7 +1677,7 @@
     },
     {
       "Route": "assets/fonts/Montserrat-VariableFont_wght.ttf",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\fonts\\Montserrat-VariableFont_wght.ttf",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\fonts\\Montserrat-VariableFont_wght.ttf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1714,7 +1714,7 @@
     },
     {
       "Route": "assets/fonts/Montserrat-VariableFont_wght.tx639h9f9h.ttf",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\fonts\\Montserrat-VariableFont_wght.ttf",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\fonts\\Montserrat-VariableFont_wght.ttf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1759,7 +1759,7 @@
     },
     {
       "Route": "assets/fonts/OFL.319n5x12mn.txt",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\fonts\\OFL.txt",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\fonts\\OFL.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1804,7 +1804,7 @@
     },
     {
       "Route": "assets/fonts/OFL.txt",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\fonts\\OFL.txt",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\fonts\\OFL.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1841,7 +1841,7 @@
     },
     {
       "Route": "assets/fonts/README.9pj9feylkp.txt",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\fonts\\README.txt",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\fonts\\README.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1886,7 +1886,7 @@
     },
     {
       "Route": "assets/fonts/README.txt",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\fonts\\README.txt",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\fonts\\README.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1923,7 +1923,7 @@
     },
     {
       "Route": "assets/fonts/static/Montserrat-Black.ttf",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-Black.ttf",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-Black.ttf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1960,7 +1960,7 @@
     },
     {
       "Route": "assets/fonts/static/Montserrat-Black.yhj0pfmpwg.ttf",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-Black.ttf",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-Black.ttf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2005,7 +2005,7 @@
     },
     {
       "Route": "assets/fonts/static/Montserrat-BlackItalic.faw0vmgde3.ttf",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-BlackItalic.ttf",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-BlackItalic.ttf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2050,7 +2050,7 @@
     },
     {
       "Route": "assets/fonts/static/Montserrat-BlackItalic.ttf",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-BlackItalic.ttf",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-BlackItalic.ttf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2087,7 +2087,7 @@
     },
     {
       "Route": "assets/fonts/static/Montserrat-Bold.0f68wwysiu.ttf",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-Bold.ttf",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-Bold.ttf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2132,7 +2132,7 @@
     },
     {
       "Route": "assets/fonts/static/Montserrat-Bold.ttf",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-Bold.ttf",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-Bold.ttf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2169,7 +2169,7 @@
     },
     {
       "Route": "assets/fonts/static/Montserrat-BoldItalic.54vmr8m2r7.ttf",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-BoldItalic.ttf",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-BoldItalic.ttf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2214,7 +2214,7 @@
     },
     {
       "Route": "assets/fonts/static/Montserrat-BoldItalic.ttf",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-BoldItalic.ttf",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-BoldItalic.ttf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2251,7 +2251,7 @@
     },
     {
       "Route": "assets/fonts/static/Montserrat-ExtraBold.8xxo37h9d2.ttf",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-ExtraBold.ttf",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-ExtraBold.ttf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2296,7 +2296,7 @@
     },
     {
       "Route": "assets/fonts/static/Montserrat-ExtraBold.ttf",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-ExtraBold.ttf",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-ExtraBold.ttf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2333,7 +2333,7 @@
     },
     {
       "Route": "assets/fonts/static/Montserrat-ExtraBoldItalic.fh2dij0z1i.ttf",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-ExtraBoldItalic.ttf",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-ExtraBoldItalic.ttf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2378,7 +2378,7 @@
     },
     {
       "Route": "assets/fonts/static/Montserrat-ExtraBoldItalic.ttf",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-ExtraBoldItalic.ttf",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-ExtraBoldItalic.ttf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2415,7 +2415,7 @@
     },
     {
       "Route": "assets/fonts/static/Montserrat-ExtraLight.547lkdxsqo.ttf",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-ExtraLight.ttf",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-ExtraLight.ttf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2460,7 +2460,7 @@
     },
     {
       "Route": "assets/fonts/static/Montserrat-ExtraLight.ttf",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-ExtraLight.ttf",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-ExtraLight.ttf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2497,7 +2497,7 @@
     },
     {
       "Route": "assets/fonts/static/Montserrat-ExtraLightItalic.pptluvaswj.ttf",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-ExtraLightItalic.ttf",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-ExtraLightItalic.ttf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2542,7 +2542,7 @@
     },
     {
       "Route": "assets/fonts/static/Montserrat-ExtraLightItalic.ttf",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-ExtraLightItalic.ttf",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-ExtraLightItalic.ttf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2579,7 +2579,7 @@
     },
     {
       "Route": "assets/fonts/static/Montserrat-Italic.knmvhweokc.ttf",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-Italic.ttf",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-Italic.ttf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2624,7 +2624,7 @@
     },
     {
       "Route": "assets/fonts/static/Montserrat-Italic.ttf",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-Italic.ttf",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-Italic.ttf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2661,7 +2661,7 @@
     },
     {
       "Route": "assets/fonts/static/Montserrat-Light.01sei0cdnq.ttf",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-Light.ttf",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-Light.ttf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2706,7 +2706,7 @@
     },
     {
       "Route": "assets/fonts/static/Montserrat-Light.ttf",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-Light.ttf",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-Light.ttf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2743,7 +2743,7 @@
     },
     {
       "Route": "assets/fonts/static/Montserrat-LightItalic.gxus2zaoti.ttf",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-LightItalic.ttf",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-LightItalic.ttf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2788,7 +2788,7 @@
     },
     {
       "Route": "assets/fonts/static/Montserrat-LightItalic.ttf",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-LightItalic.ttf",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-LightItalic.ttf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2825,7 +2825,7 @@
     },
     {
       "Route": "assets/fonts/static/Montserrat-Medium.j8xlfg648r.ttf",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-Medium.ttf",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-Medium.ttf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2870,7 +2870,7 @@
     },
     {
       "Route": "assets/fonts/static/Montserrat-Medium.ttf",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-Medium.ttf",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-Medium.ttf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2907,7 +2907,7 @@
     },
     {
       "Route": "assets/fonts/static/Montserrat-MediumItalic.eofdaz5s62.ttf",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-MediumItalic.ttf",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-MediumItalic.ttf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2952,7 +2952,7 @@
     },
     {
       "Route": "assets/fonts/static/Montserrat-MediumItalic.ttf",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-MediumItalic.ttf",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-MediumItalic.ttf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2989,7 +2989,7 @@
     },
     {
       "Route": "assets/fonts/static/Montserrat-Regular.ttf",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-Regular.ttf",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-Regular.ttf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3026,7 +3026,7 @@
     },
     {
       "Route": "assets/fonts/static/Montserrat-Regular.x1juw6fwdo.ttf",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-Regular.ttf",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-Regular.ttf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3071,7 +3071,7 @@
     },
     {
       "Route": "assets/fonts/static/Montserrat-SemiBold.rppzjfcfyl.ttf",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-SemiBold.ttf",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-SemiBold.ttf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3116,7 +3116,7 @@
     },
     {
       "Route": "assets/fonts/static/Montserrat-SemiBold.ttf",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-SemiBold.ttf",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-SemiBold.ttf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3153,7 +3153,7 @@
     },
     {
       "Route": "assets/fonts/static/Montserrat-SemiBoldItalic.g76rw80qme.ttf",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-SemiBoldItalic.ttf",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-SemiBoldItalic.ttf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3198,7 +3198,7 @@
     },
     {
       "Route": "assets/fonts/static/Montserrat-SemiBoldItalic.ttf",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-SemiBoldItalic.ttf",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-SemiBoldItalic.ttf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3235,7 +3235,7 @@
     },
     {
       "Route": "assets/fonts/static/Montserrat-Thin.qadrd63oex.ttf",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-Thin.ttf",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-Thin.ttf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3280,7 +3280,7 @@
     },
     {
       "Route": "assets/fonts/static/Montserrat-Thin.ttf",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-Thin.ttf",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-Thin.ttf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3317,7 +3317,7 @@
     },
     {
       "Route": "assets/fonts/static/Montserrat-ThinItalic.bnbwgpe4u1.ttf",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-ThinItalic.ttf",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-ThinItalic.ttf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3362,7 +3362,7 @@
     },
     {
       "Route": "assets/fonts/static/Montserrat-ThinItalic.ttf",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-ThinItalic.ttf",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\fonts\\static\\Montserrat-ThinItalic.ttf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3399,7 +3399,7 @@
     },
     {
       "Route": "assets/posters/6888.mo4xjc8ypj.webp",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\6888.webp",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\6888.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3444,7 +3444,7 @@
     },
     {
       "Route": "assets/posters/6888.webp",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\6888.webp",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\6888.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3481,7 +3481,7 @@
     },
     {
       "Route": "assets/posters/anora.webp",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\anora.webp",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\anora.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3518,7 +3518,7 @@
     },
     {
       "Route": "assets/posters/anora.zrqcwtnrgj.webp",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\anora.webp",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\anora.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3563,7 +3563,7 @@
     },
     {
       "Route": "assets/posters/anuja.jpg",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\anuja.jpg",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\anuja.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3600,7 +3600,7 @@
     },
     {
       "Route": "assets/posters/anuja.lj3lnaxgop.jpg",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\anuja.jpg",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\anuja.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3645,7 +3645,7 @@
     },
     {
       "Route": "assets/posters/apprentice.svnjw3relm.webp",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\apprentice.webp",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\apprentice.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3690,7 +3690,7 @@
     },
     {
       "Route": "assets/posters/apprentice.webp",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\apprentice.webp",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\apprentice.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3727,7 +3727,7 @@
     },
     {
       "Route": "assets/posters/arealpain.c8diqhzw7f.webp",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\arealpain.webp",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\arealpain.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3772,7 +3772,7 @@
     },
     {
       "Route": "assets/posters/arealpain.webp",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\arealpain.webp",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\arealpain.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3809,7 +3809,7 @@
     },
     {
       "Route": "assets/posters/beautifulmen.35lws63yok.jpg",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\beautifulmen.jpg",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\beautifulmen.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3854,7 +3854,7 @@
     },
     {
       "Route": "assets/posters/beautifulmen.jpg",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\beautifulmen.jpg",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\beautifulmen.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3891,7 +3891,7 @@
     },
     {
       "Route": "assets/posters/betterman.gf86ibuus6.webp",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\betterman.webp",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\betterman.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3936,7 +3936,7 @@
     },
     {
       "Route": "assets/posters/betterman.webp",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\betterman.webp",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\betterman.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3973,7 +3973,7 @@
     },
     {
       "Route": "assets/posters/blackbox.l5n8ewyt7g.webp",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\blackbox.webp",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\blackbox.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4018,7 +4018,7 @@
     },
     {
       "Route": "assets/posters/blackbox.webp",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\blackbox.webp",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\blackbox.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4055,7 +4055,7 @@
     },
     {
       "Route": "assets/posters/brutalist.tmh80xnmkx.webp",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\brutalist.webp",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\brutalist.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4100,7 +4100,7 @@
     },
     {
       "Route": "assets/posters/brutalist.webp",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\brutalist.webp",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\brutalist.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4137,7 +4137,7 @@
     },
     {
       "Route": "assets/posters/candies.webp",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\candies.webp",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\candies.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4174,7 +4174,7 @@
     },
     {
       "Route": "assets/posters/candies.zgapbsbqo1.webp",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\candies.webp",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\candies.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4219,7 +4219,7 @@
     },
     {
       "Route": "assets/posters/completeunknown.webp",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\completeunknown.webp",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\completeunknown.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4256,7 +4256,7 @@
     },
     {
       "Route": "assets/posters/completeunknown.xrgwh0aezq.webp",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\completeunknown.webp",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\completeunknown.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4301,7 +4301,7 @@
     },
     {
       "Route": "assets/posters/conclave.jyderpv0sc.webp",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\conclave.webp",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\conclave.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4346,7 +4346,7 @@
     },
     {
       "Route": "assets/posters/conclave.webp",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\conclave.webp",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\conclave.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4383,7 +4383,7 @@
     },
     {
       "Route": "assets/posters/cypress.jnndamwk6m.jpeg",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\cypress.jpeg",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\cypress.jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4428,7 +4428,7 @@
     },
     {
       "Route": "assets/posters/cypress.jpeg",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\cypress.jpeg",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\cypress.jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4465,7 +4465,7 @@
     },
     {
       "Route": "assets/posters/death.200ta9msfv.jpg",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\death.jpg",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\death.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4510,7 +4510,7 @@
     },
     {
       "Route": "assets/posters/death.jpg",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\death.jpg",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\death.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4547,7 +4547,7 @@
     },
     {
       "Route": "assets/posters/differentman.ooho0pp81h.webp",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\differentman.webp",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\differentman.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4592,7 +4592,7 @@
     },
     {
       "Route": "assets/posters/differentman.webp",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\differentman.webp",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\differentman.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4629,7 +4629,7 @@
     },
     {
       "Route": "assets/posters/dune.ucwq0moni2.webp",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\dune.webp",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\dune.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4674,7 +4674,7 @@
     },
     {
       "Route": "assets/posters/dune.webp",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\dune.webp",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\dune.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4711,7 +4711,7 @@
     },
     {
       "Route": "assets/posters/eltonjohn.jpeg",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\eltonjohn.jpeg",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\eltonjohn.jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4748,7 +4748,7 @@
     },
     {
       "Route": "assets/posters/eltonjohn.vls5xbcy5l.jpeg",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\eltonjohn.jpeg",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\eltonjohn.jpeg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4793,7 +4793,7 @@
     },
     {
       "Route": "assets/posters/flow.webp",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\flow.webp",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\flow.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4830,7 +4830,7 @@
     },
     {
       "Route": "assets/posters/flow.wr5mg181pf.webp",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\flow.webp",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\flow.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4875,7 +4875,7 @@
     },
     {
       "Route": "assets/posters/gladiator.ci8fc1533k.webp",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\gladiator.webp",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\gladiator.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4920,7 +4920,7 @@
     },
     {
       "Route": "assets/posters/gladiator.webp",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\gladiator.webp",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\gladiator.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4957,7 +4957,7 @@
     },
     {
       "Route": "assets/posters/insideout.5pgfjqvz9t.webp",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\insideout.webp",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\insideout.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5002,7 +5002,7 @@
     },
     {
       "Route": "assets/posters/insideout.webp",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\insideout.webp",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\insideout.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5039,7 +5039,7 @@
     },
     {
       "Route": "assets/posters/instrument.jpg",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\instrument.jpg",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\instrument.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5076,7 +5076,7 @@
     },
     {
       "Route": "assets/posters/instrument.uhtqw80mv5.jpg",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\instrument.jpg",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\instrument.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5121,7 +5121,7 @@
     },
     {
       "Route": "assets/posters/kingdomofapes.webp",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\kingdomofapes.webp",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\kingdomofapes.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5158,7 +5158,7 @@
     },
     {
       "Route": "assets/posters/kingdomofapes.z2bu41yvtc.webp",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\kingdomofapes.webp",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\kingdomofapes.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5203,7 +5203,7 @@
     },
     {
       "Route": "assets/posters/lastranger.jpg",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\lastranger.jpg",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\lastranger.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5240,7 +5240,7 @@
     },
     {
       "Route": "assets/posters/lastranger.zkk96zw4t6.jpg",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\lastranger.jpg",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\lastranger.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5285,7 +5285,7 @@
     },
     {
       "Route": "assets/posters/maria.er4fjagv8v.webp",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\maria.webp",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\maria.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5330,7 +5330,7 @@
     },
     {
       "Route": "assets/posters/maria.webp",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\maria.webp",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\maria.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5367,7 +5367,7 @@
     },
     {
       "Route": "assets/posters/memoirofasnail.rz39tt2dod.webp",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\memoirofasnail.webp",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\memoirofasnail.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5412,7 +5412,7 @@
     },
     {
       "Route": "assets/posters/memoirofasnail.webp",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\memoirofasnail.webp",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\memoirofasnail.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5449,7 +5449,7 @@
     },
     {
       "Route": "assets/posters/needle.jpg",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\needle.jpg",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\needle.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5486,7 +5486,7 @@
     },
     {
       "Route": "assets/posters/needle.tjpjur008z.jpg",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\needle.jpg",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\needle.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5531,7 +5531,7 @@
     },
     {
       "Route": "assets/posters/nickelboys.jylj1lhmai.webp",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\nickelboys.webp",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\nickelboys.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5576,7 +5576,7 @@
     },
     {
       "Route": "assets/posters/nickelboys.webp",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\nickelboys.webp",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\nickelboys.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5613,7 +5613,7 @@
     },
     {
       "Route": "assets/posters/nootherland.jpg",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\nootherland.jpg",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\nootherland.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5650,7 +5650,7 @@
     },
     {
       "Route": "assets/posters/nootherland.xhw7x4s83s.jpg",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\nootherland.jpg",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\nootherland.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5695,7 +5695,7 @@
     },
     {
       "Route": "assets/posters/nosferatu.308vl5y9at.webp",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\nosferatu.webp",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\nosferatu.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5740,7 +5740,7 @@
     },
     {
       "Route": "assets/posters/nosferatu.webp",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\nosferatu.webp",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\nosferatu.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5777,7 +5777,7 @@
     },
     {
       "Route": "assets/posters/notarobot.h55v17x1tn.jpg",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\notarobot.jpg",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\notarobot.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5822,7 +5822,7 @@
     },
     {
       "Route": "assets/posters/notarobot.jpg",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\notarobot.jpg",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\notarobot.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5859,7 +5859,7 @@
     },
     {
       "Route": "assets/posters/orchestra.crcigmi6vf.jpg",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\orchestra.jpg",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\orchestra.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5904,7 +5904,7 @@
     },
     {
       "Route": "assets/posters/orchestra.jpg",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\orchestra.jpg",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\orchestra.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5941,7 +5941,7 @@
     },
     {
       "Route": "assets/posters/perez.g0cm7cnr42.webp",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\perez.webp",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\perez.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5986,7 +5986,7 @@
     },
     {
       "Route": "assets/posters/perez.webp",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\perez.webp",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\perez.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6023,7 +6023,7 @@
     },
     {
       "Route": "assets/posters/porcelain.jpg",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\porcelain.jpg",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\porcelain.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6060,7 +6060,7 @@
     },
     {
       "Route": "assets/posters/porcelain.zjlv178sq9.jpg",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\porcelain.jpg",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\porcelain.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6105,7 +6105,7 @@
     },
     {
       "Route": "assets/posters/remainsilent.jpg",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\remainsilent.jpg",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\remainsilent.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6142,7 +6142,7 @@
     },
     {
       "Route": "assets/posters/remainsilent.vv2w9mg82z.jpg",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\remainsilent.jpg",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\remainsilent.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6187,7 +6187,7 @@
     },
     {
       "Route": "assets/posters/romulus.75g2m2k3p6.webp",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\romulus.webp",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\romulus.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6232,7 +6232,7 @@
     },
     {
       "Route": "assets/posters/romulus.webp",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\romulus.webp",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\romulus.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6269,7 +6269,7 @@
     },
     {
       "Route": "assets/posters/sacredfig.gp5jeo6lsd.jpg",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\sacredfig.jpg",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\sacredfig.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6314,7 +6314,7 @@
     },
     {
       "Route": "assets/posters/sacredfig.jpg",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\sacredfig.jpg",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\sacredfig.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6351,7 +6351,7 @@
     },
     {
       "Route": "assets/posters/september5.jpg",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\september5.jpg",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\september5.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6388,7 +6388,7 @@
     },
     {
       "Route": "assets/posters/september5.v1vh60atej.jpg",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\september5.jpg",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\september5.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6433,7 +6433,7 @@
     },
     {
       "Route": "assets/posters/singsing.6hym05ii3g.webp",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\singsing.webp",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\singsing.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6478,7 +6478,7 @@
     },
     {
       "Route": "assets/posters/singsing.webp",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\singsing.webp",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\singsing.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6515,7 +6515,7 @@
     },
     {
       "Route": "assets/posters/soundtrack.jpg",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\soundtrack.jpg",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\soundtrack.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6552,7 +6552,7 @@
     },
     {
       "Route": "assets/posters/soundtrack.w7l5hp27p8.jpg",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\soundtrack.jpg",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\soundtrack.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6597,7 +6597,7 @@
     },
     {
       "Route": "assets/posters/stillhere.ofzp3nfxax.webp",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\stillhere.webp",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\stillhere.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6642,7 +6642,7 @@
     },
     {
       "Route": "assets/posters/stillhere.webp",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\stillhere.webp",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\stillhere.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6679,7 +6679,7 @@
     },
     {
       "Route": "assets/posters/substance.webp",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\substance.webp",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\substance.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6716,7 +6716,7 @@
     },
     {
       "Route": "assets/posters/substance.yjzachu1qc.webp",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\substance.webp",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\substance.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6761,7 +6761,7 @@
     },
     {
       "Route": "assets/posters/sugarcane.jpg",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\sugarcane.jpg",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\sugarcane.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6798,7 +6798,7 @@
     },
     {
       "Route": "assets/posters/sugarcane.kht96zn7ux.jpg",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\sugarcane.jpg",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\sugarcane.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6843,7 +6843,7 @@
     },
     {
       "Route": "assets/posters/wallace.webp",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\wallace.webp",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\wallace.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6880,7 +6880,7 @@
     },
     {
       "Route": "assets/posters/wallace.zj8ofk06pq.webp",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\wallace.webp",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\wallace.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6925,7 +6925,7 @@
     },
     {
       "Route": "assets/posters/wicked.lb51xq2jj2.webp",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\wicked.webp",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\wicked.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6970,7 +6970,7 @@
     },
     {
       "Route": "assets/posters/wicked.webp",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\wicked.webp",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\wicked.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7007,7 +7007,7 @@
     },
     {
       "Route": "assets/posters/wildrobot.fg7i2mq1ts.webp",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\wildrobot.webp",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\wildrobot.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7052,7 +7052,7 @@
     },
     {
       "Route": "assets/posters/wildrobot.webp",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\wildrobot.webp",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\wildrobot.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7089,7 +7089,7 @@
     },
     {
       "Route": "assets/posters/wonder.jpg",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\wonder.jpg",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\wonder.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7126,7 +7126,7 @@
     },
     {
       "Route": "assets/posters/wonder.oivs6ybki7.jpg",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\wonder.jpg",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\wonder.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7171,7 +7171,7 @@
     },
     {
       "Route": "assets/posters/yuck.jpg",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\yuck.jpg",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\yuck.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7208,7 +7208,7 @@
     },
     {
       "Route": "assets/posters/yuck.t10mw3loz3.jpg",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\assets\\posters\\yuck.jpg",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\yuck.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7253,7 +7253,7 @@
     },
     {
       "Route": "favicon.ico",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\favicon.ico",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7290,7 +7290,7 @@
     },
     {
       "Route": "favicon.vagikyz9qx.ico",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\favicon.ico",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7335,7 +7335,7 @@
     },
     {
       "Route": "index.html",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\index.html",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\index.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7372,7 +7372,7 @@
     },
     {
       "Route": "index.k2710ci6ws.html",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\index.html",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\index.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7417,7 +7417,7 @@
     },
     {
       "Route": "main-QILQFKP5.js",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\main-QILQFKP5.js",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\main-QILQFKP5.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7454,7 +7454,7 @@
     },
     {
       "Route": "main-QILQFKP5.z6pa2u8cr5.js",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\main-QILQFKP5.js",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\main-QILQFKP5.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7499,7 +7499,7 @@
     },
     {
       "Route": "media/Montserrat-VariableFont_wght-KEGAHBID.ttf",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\media\\Montserrat-VariableFont_wght-KEGAHBID.ttf",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\media\\Montserrat-VariableFont_wght-KEGAHBID.ttf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7536,7 +7536,7 @@
     },
     {
       "Route": "media/Montserrat-VariableFont_wght-KEGAHBID.tx639h9f9h.ttf",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\media\\Montserrat-VariableFont_wght-KEGAHBID.ttf",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\media\\Montserrat-VariableFont_wght-KEGAHBID.ttf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7581,7 +7581,7 @@
     },
     {
       "Route": "polyfills-FFHMD2TL.39tegmrjtp.js",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\polyfills-FFHMD2TL.js",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\polyfills-FFHMD2TL.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7626,7 +7626,7 @@
     },
     {
       "Route": "polyfills-FFHMD2TL.js",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\polyfills-FFHMD2TL.js",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\polyfills-FFHMD2TL.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7663,7 +7663,7 @@
     },
     {
       "Route": "styles-6ELTHERW.css",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\styles-6ELTHERW.css",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\styles-6ELTHERW.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7700,7 +7700,7 @@
     },
     {
       "Route": "styles-6ELTHERW.n3kmvllumg.css",
-      "AssetFile": "D:\\Repos\\OscarPartyAPI\\wwwroot\\styles-6ELTHERW.css",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\styles-6ELTHERW.css",
       "Selectors": [],
       "ResponseHeaders": [
         {

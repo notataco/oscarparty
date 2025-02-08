@@ -16,7 +16,7 @@ namespace OscarPartyAPI.Repositories
             _connectionString = connectionString;
         }
 
-        public async Task SaveNewUser(User user)
+        public async Task<User> SaveNewUser(User user)
         {
             using (var connection = new SqlConnection(_connectionString))
             {
@@ -32,6 +32,40 @@ namespace OscarPartyAPI.Repositories
                     await command.ExecuteNonQueryAsync();
                 }
             }
+
+            return user;
+        }
+
+        public async Task<User> CheckUser(User user)
+        {                    
+            using (var connection = new SqlConnection(_connectionString))
+            {
+                await connection.OpenAsync();
+
+                using (var command = new SqlCommand("User_Check", connection))
+                {
+                    command.CommandType = spCommand;
+
+                    command.Parameters.AddWithValue("Name", user.Name);
+                    command.Parameters.AddWithValue("PIN", user.PIN);
+
+                    var reader = await command.ExecuteReaderAsync();
+
+                    if (reader.Read())
+                    {
+                        var existingUser = new User()
+                        {
+                            UserID = reader.GetInt32(0),
+                            Name = reader.GetString(1),
+                            PIN = reader.GetInt32(2)
+                        };
+                        
+                        return existingUser;
+                    }
+                }
+            }
+
+            throw new ArgumentException("No user found");
         }
 
         public async Task<List<User>> GetAllUsers()
@@ -52,7 +86,7 @@ namespace OscarPartyAPI.Repositories
                     {
                         users.Add(new User
                         {
-                            ID = reader.GetInt32(0),
+                            UserID = reader.GetInt32(0),
                             Name = reader.GetString(1),
                             PIN = reader.GetInt32(2)
                         });
@@ -188,6 +222,36 @@ namespace OscarPartyAPI.Repositories
             }
 
             return nominees;
+        }
+
+        public async Task SubmitPicks(List<UserPick> picks)
+        {
+            DataTable pickTable = new DataTable();
+            pickTable.Columns.Add("UserID", typeof(int));
+            pickTable.Columns.Add("CategoryID", typeof(int));
+            pickTable.Columns.Add("MovieID", typeof(int));
+            pickTable.Columns.Add("ActorID", typeof(int));
+
+            foreach (var pick in picks)
+            {
+                pickTable.Rows.Add(pick.userID, pick.categoryID, pick.movieID, pick.actorID);
+            }
+
+            using (var connection = new SqlConnection(_connectionString))
+            {
+                await connection.OpenAsync();
+
+                using (var command = new SqlCommand("Pick_Insert", connection))
+                {
+                    command.CommandType = spCommand;
+
+                    SqlParameter tvpParam = command.Parameters.AddWithValue("@PickTable", pickTable);
+                    tvpParam.SqlDbType = SqlDbType.Structured;
+                    tvpParam.TypeName = "dbo.UserPicks";
+
+                    await command.ExecuteNonQueryAsync();
+                }
+            }
         }
     }
 }

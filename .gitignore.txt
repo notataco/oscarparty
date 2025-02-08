@@ -1,0 +1,28 @@
+# Ignore for .NET app
+OscarPartyAPI/bin/
+OscarPartyAPI/obj/
+OscarPartyAPI/.vs/
+OscarPartyAPI/*.user
+OscarPartyAPI/*.suo
+
+# Ignore for Angular app
+OscarSPA/node_modules/
+OscarSPA/dist/
+OscarSPA/.angular/cache/
+
+# Ignore environment files (common for both .NET and Angular)
+**/.env
+
+# Ignore for DB scripts (if applicable)
+OscarsDB/*.bak
+OscarsDB/*.mdf
+OscarsDB/*.ldf
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE-specific files (for VSCode, Rider, etc.)
+.vscode/
+.vs/
+.idea/

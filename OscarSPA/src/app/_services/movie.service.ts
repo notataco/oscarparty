@@ -1,9 +1,9 @@
 import { Injectable, OnInit } from '@angular/core';
 import { Category } from '../_models/category.model';
 import { Movie } from '../_models/movie.model';
-import { Actor } from '../_models/actor.model';
 import { Observable } from 'rxjs';
 import { HttpClient } from '@angular/common/http';
+import { UserPick } from '../_models/user-pick.model';
 
 @Injectable({
   providedIn: 'root'
@@ -22,5 +22,9 @@ export class MovieService {
 
   public getAllMovies(): Array<Movie> {
     return this.allMovies;
+  }
+
+  public submitPicks(picks: Array<UserPick>) {
+    return this._httpClient.put(`${this._api}/SubmitPicks`, picks);
   }
 }

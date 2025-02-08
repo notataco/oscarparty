@@ -5656,11 +5656,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Repos\\OscarPartyAPI\\OscarPartyAPI.csproj",
+      "projectUniqueName": "D:\\Repos\\Oscars\\OscarPartyAPI\\OscarPartyAPI.csproj",
       "projectName": "OscarPartyAPI",
-      "projectPath": "D:\\Repos\\OscarPartyAPI\\OscarPartyAPI.csproj",
+      "projectPath": "D:\\Repos\\Oscars\\OscarPartyAPI\\OscarPartyAPI.csproj",
       "packagesPath": "C:\\Users\\edwar\\.nuget\\packages\\",
-      "outputPath": "D:\\Repos\\OscarPartyAPI\\obj\\",
+      "outputPath": "D:\\Repos\\Oscars\\OscarPartyAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
