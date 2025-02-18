@@ -6,5 +6,5 @@ import { GraphComponent } from './home/graph/graph.component';
 export const routes: Routes = [
     { path: '', component: HomeComponent },
     { path: 'new-entry', component: NewEntryComponent },
-    { path: 'graph', component: GraphComponent }
+    { path: 'scoreboard', component: GraphComponent }
 ];
