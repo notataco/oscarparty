@@ -253,5 +253,73 @@ namespace OscarPartyAPI.Repositories
                 }
             }
         }
+
+        public async Task<List<User>> GetCurrentStandings()
+        {
+            var userStandings = new List<User>();
+
+            using (var connection = new SqlConnection(_connectionString))
+            {
+                await connection.OpenAsync();
+
+                using (var command = new SqlCommand("User_GetAll", connection))
+                {
+                    command.CommandType = spCommand;
+
+                    var reader = await command.ExecuteReaderAsync();
+
+                    while (reader.Read())
+                    {
+                        userStandings.Add(new User
+                        {
+                            UserID = reader.GetInt32(0),
+                            Name = reader.GetString(1),
+                            PIN = reader.GetInt32(2)
+                        });
+                    }
+                }
+
+                connection.Close();
+
+                foreach (var user in userStandings)
+                {
+                    await connection.OpenAsync();
+
+                    using (var command = new SqlCommand("User_GetScore", connection))
+                    {
+                        command.CommandType = spCommand;
+
+                        var reader = await command.ExecuteReaderAsync();
+
+                        while (reader.Read())
+                        {
+                            user.CurrentScore = reader.GetInt32("Score");
+                        }
+                    }
+
+                    connection.Close();
+                }
+            }
+
+            return userStandings;
+        }
+
+        public async Task InsertWinner(Winner winner)
+        {
+            using (var connection = new SqlConnection(_connectionString))
+            {
+                await connection.OpenAsync();
+
+                using (var command = new SqlCommand("Winner_Insert", connection))
+                {
+                    command.CommandType = spCommand;
+
+                    command.Parameters.AddWithValue("CategoryID", winner.CategoryID);
+                    command.Parameters.AddWithValue("MovieID", winner.WinningMovieID);
+
+                    await command.ExecuteNonQueryAsync();
+                }
+            }
+        }
     }
 }

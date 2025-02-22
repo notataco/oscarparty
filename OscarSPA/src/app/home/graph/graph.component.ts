@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { jqxChartModule, jqxChartComponent } from 'jqwidgets-ng/jqxchart';
+import { MovieService } from '../../_services/movie.service';
 
 @Component({
   selector: 'app-graph',
@@ -7,8 +8,10 @@ import { jqxChartModule, jqxChartComponent } from 'jqwidgets-ng/jqxchart';
   templateUrl: './graph.component.html',
   styleUrl: './graph.component.scss'
 })
-export class GraphComponent
+export class GraphComponent implements OnInit 
 {
+  constructor(private readonly _movieService: MovieService) { }
+
   public sampleData = [
     { Name: 'Keely', score: 6 },
     { Name: 'Will', score: 10 },
@@ -21,9 +24,7 @@ export class GraphComponent
   ];
 
   padding: any = { left: 20, top: 5, right: 20, bottom: 40 };
- 
   titlePadding: any = { left: 90, top: 0, right: 0, bottom: 10 };
-
   xAxis: any =
   {
     dataField: 'Name',
@@ -35,16 +36,8 @@ export class GraphComponent
   {
       minValue: 0,
       maxValue: 25,
-      tickMarks: {
-        visible: true,
-        interval: 1,
-        color: '#FFFFFF',
-      },
-      gridLines: {
-        visible: true,
-        interval: 1,
-        color: '#FFFFFF',
-      },
+      tickMarks: { visible: true, interval: 1, color: '#FFFFFF'},
+      gridLines: { visible: true, interval: 1, color: '#FFFFFF'},
       labels: { 
         visible: true, 
         color: '#FFFFFF',
@@ -55,16 +48,19 @@ export class GraphComponent
   };
 
   seriesGroups: any[] =
-  [
-      {
-          type: 'column',
-          orientation: 'vertical',
-          columnsGapPercent: 50,
-          series: [
-              { dataField: 'score', displayText: 'Points' }
-          ]
-      }
-  ];
+  [{
+      type: 'column',
+      orientation: 'vertical',
+      columnsGapPercent: 50,
+      series: [ { dataField: 'score', displayText: 'Points' } ]
+  }];
+
+  ngOnInit(): void 
+  {
+    this._movieService.getCurrentUserStandings().subscribe(data => {
+      
+    });
+  }
 
   getWidth(): any 
   {

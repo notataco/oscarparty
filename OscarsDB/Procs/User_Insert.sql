@@ -1,11 +1,10 @@
 USE [OscarParty]
 GO
 
-/*
-EXEC Category_GetAll
-*/
 
-CREATE PROCEDURE Category_GetAll
+CREATE PROCEDURE User_Insert
+    @Name VARCHAR(50),
+    @PIN INT
 AS 
 BEGIN
 

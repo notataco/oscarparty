@@ -6,5 +6,6 @@ CREATE TABLE [dbo].[Pick] (
     [UserID] INT NOT NULL,
     [CategoryID] INT NOT NULL,
     [MovieID] INT NULL,
-    [ActorID] INT NULL
+    [ActorID] INT NULL,
+    [IsCorrect] BIT NULL
 )

@@ -45,4 +45,20 @@ public class OscarPartyController : ControllerBase
 
         return Ok();
     }
+
+    [HttpGet("GetCurrentStandings")]
+    public async Task<ActionResult<List<User>>> GetCurrentStandings()
+    {
+        var standings = await _oscarPartyService.GetCurrentStandings();
+
+        return Ok(standings);
+    }
+
+    [HttpPut("InsertWinner")]
+    public async Task<IActionResult> InsertWinner(Winner winner)
+    {
+        await _oscarPartyService.InsertWinner(winner);
+
+        return Ok();
+    }
 }
