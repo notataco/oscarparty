@@ -76,7 +76,7 @@ namespace OscarPartyAPI.Services
 
         public async Task InsertWinner(Winner winner)
         {
-            await _oscarPartyRepository.InsertWinner();
+            await _oscarPartyRepository.InsertWinner(winner);
         }
     }
 }
