@@ -1,6 +1,7 @@
 ﻿using Microsoft.Data.SqlClient;
 using OscarPartyAPI._models;
 using System.Data;
+using System.Reflection;
 using System.Reflection.PortableExecutable;
 
 namespace OscarPartyAPI.Repositories
@@ -288,6 +289,8 @@ namespace OscarPartyAPI.Repositories
                     using (var command = new SqlCommand("User_GetScore", connection))
                     {
                         command.CommandType = spCommand;
+
+                        command.Parameters.AddWithValue("UserID", user.UserID);
 
                         var reader = await command.ExecuteReaderAsync();
 

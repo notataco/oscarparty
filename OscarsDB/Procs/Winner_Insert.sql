@@ -1,6 +1,8 @@
 USE [OscarParty]
 GO
 
+/* EXEC Winner_Insert 1, 1; */
+
 CREATE OR ALTER PROCEDURE Winner_Insert
     @CategoryID INT,
     @MovieID INT 
