@@ -116,8 +116,8 @@ namespace OscarPartyAPI.Repositories
                     {
                         categories.Add(new Category 
                         { 
-                            CategoryID = reader.GetInt32(0),
-                            Name = reader.GetString(1),
+                            CategoryID = reader.GetInt32("CategoryID"),
+                            Name = reader.GetString("Name"),
                             MoviePrimary = reader.GetBoolean(2),
                             MovieSecondary = reader.GetBoolean(3),
                             ActorPrimary = reader.GetBoolean(4),
