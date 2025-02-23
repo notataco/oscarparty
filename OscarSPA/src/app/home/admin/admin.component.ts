@@ -1,6 +1,7 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { MovieService } from '../../_services/movie.service';
 import { WinnerInfo } from '../../_models/winner.model';
+import { Category } from '../../_models/category.model';
 
 @Component({
   selector: 'app-admin',
@@ -8,8 +9,10 @@ import { WinnerInfo } from '../../_models/winner.model';
   templateUrl: './admin.component.html',
   styleUrl: './admin.component.scss'
 })
-export class AdminComponent 
+export class AdminComponent implements OnInit
 {
+  public movieData = new Array<Category>(); 
+
   public CategoryOptions = [
     { value: 1, display: "actor in a leading role"},
     { value: 2,	display: "actor in a supporting role"},
@@ -37,6 +40,12 @@ export class AdminComponent
   ]
 
   constructor(private readonly _movieService: MovieService) { }
+
+  ngOnInit(): void {
+    this._movieService.getCategories().subscribe(data => {
+      this.movieData = data;
+    })
+  }
 
   public submitCategoryWinner(winner: WinnerInfo)
   {
