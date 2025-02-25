@@ -307,8 +307,19 @@ namespace OscarPartyAPI.Repositories
             return userStandings;
         }
 
-        public async Task InsertWinner(Winner winner)
+        public async Task InsertWinner(List<Winner> winners)
         {
+            DataTable winnerTable = new DataTable();
+            winnerTable.Columns.Add("UserID", typeof(int));
+            winnerTable.Columns.Add("CategoryID", typeof(int));
+            winnerTable.Columns.Add("MovieID", typeof(int));
+            winnerTable.Columns.Add("ActorID", typeof(int));
+
+            foreach (var winner in winners)
+            {
+                winnerTable.Rows.Add(0, winner.CategoryID, winner.WinningMovieID, winner.ActorID);
+            }
+
             using (var connection = new SqlConnection(_connectionString))
             {
                 await connection.OpenAsync();
@@ -317,12 +328,43 @@ namespace OscarPartyAPI.Repositories
                 {
                     command.CommandType = spCommand;
 
-                    command.Parameters.AddWithValue("CategoryID", winner.CategoryID);
-                    command.Parameters.AddWithValue("MovieID", winner.WinningMovieID);
+                    SqlParameter tvpParam = command.Parameters.AddWithValue("@WinnerTable", winnerTable);
+                    tvpParam.SqlDbType = SqlDbType.Structured;
+                    tvpParam.TypeName = "dbo.UserPicks";
 
                     await command.ExecuteNonQueryAsync();
                 }
             }
+        }
+
+        public async Task<List<Winner>> GetWinners()
+        {
+            var winners = new List<Winner>();
+
+            using (var connection = new SqlConnection(_connectionString))
+            {
+                await connection.OpenAsync();
+
+                using (var command = new SqlCommand("Winner_GetWinners", connection))
+                {
+                    command.CommandType = spCommand;
+
+                    var reader = await command.ExecuteReaderAsync();
+
+                    while (reader.Read())
+                    {
+                        winners.Add(new Winner
+                        {
+                            WinnerID = reader.GetInt32(0),
+                            CategoryID = reader.GetInt32(1),
+                            WinningMovieID = reader.GetInt32(2),
+                            ActorID = reader.GetInt32(3)
+                        });
+                    }
+                }
+            }
+
+            return winners;
         }
     }
 }

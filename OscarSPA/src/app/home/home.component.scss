@@ -45,8 +45,34 @@
 .graph {
     width: 100%;
     //margin-top: 2rem;
-    height: 50vh;
+    // height: 50vh;
     //background-color: black;
+}
+
+.winners {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 200;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.winning {
+    &-category {
+        font-size: 1rem;
+    }
+
+    &-movie {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: black;
+        background-color: goldenrod;
+        font-size: 0.8rem;
+        font-weight: 300;
+    }
 }
 
 @media screen and (max-width: 800px) {

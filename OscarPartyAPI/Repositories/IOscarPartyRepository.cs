@@ -14,6 +14,7 @@ namespace OscarPartyAPI.Repositories
         Task<List<Nominee>> GetAllNominees();
         Task SubmitPicks(List<UserPick> picks);
         Task<List<User>> GetCurrentStandings();
-        Task InsertWinner(Winner winner);
+        Task InsertWinner(List<Winner> winner);
+        Task<List<Winner>> GetWinners();
     }
 }

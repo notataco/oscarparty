@@ -1,0 +1,55 @@
+@mixin selected-movie {
+    background-color: goldenrod;
+    color: black;
+    border-color: black;
+}
+
+.save-button {
+    position: sticky;
+    top: 0;
+    color: white;
+    text-align: center;
+    background-color: black;
+    border: 1px solid white;
+    padding: 2rem;
+}
+
+.category {
+    display: flex;
+    color: white;
+    flex-direction: column;
+    margin-bottom: 3rem;
+
+    &--title {
+        font-size: 1rem;
+        margin-top: 2rem;
+        font-weight: 300;
+    }
+}
+
+.movie {
+    cursor: pointer;
+    margin: 0.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    display: flex;
+    font-size: 1rem;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid white;
+    padding: 1rem;
+    transition: color 500ms ease-out,
+                background-color 500ms ease-out,
+                border-color 500ms ease-out;
+    &--text {
+
+        &-title {
+            font-weight: 200;
+        }
+
+    }
+}
+
+.selected {
+    @include selected-movie;
+}

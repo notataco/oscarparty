@@ -5,9 +5,8 @@ GO
 EXEC User_Check 'Will', 1327
 */
 
-CREATE OR ALTER PROCEDURE User_Check
-    @Name VARCHAR(36),
-    @PIN INT
+CREATE OR ALTER PROCEDURE Winner_GetAll
+
 AS 
 BEGIN
 

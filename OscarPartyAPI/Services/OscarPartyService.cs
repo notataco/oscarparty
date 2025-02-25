@@ -74,9 +74,16 @@ namespace OscarPartyAPI.Services
             return standings;   
         }
 
-        public async Task InsertWinner(Winner winner)
+        public async Task InsertWinner(List<Winner> winner)
         {
             await _oscarPartyRepository.InsertWinner(winner);
+        }
+
+        public async Task<List<Winner>> GetWinners()
+        {
+            var winners = await _oscarPartyRepository.GetWinners();
+
+            return winners;
         }
     }
 }

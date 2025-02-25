@@ -178,6 +178,122 @@
           }
         }
       }
+    },
+    "/api/OscarParty/GetCurrentStandings": {
+      "get": {
+        "tags": [
+          "OscarParty"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/User"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/User"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/User"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/OscarParty/SubmitWinners": {
+      "put": {
+        "tags": [
+          "OscarParty"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/Winner"
+                }
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/Winner"
+                }
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/Winner"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/OscarParty/GetWinningMovies": {
+      "get": {
+        "tags": [
+          "OscarParty"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/User"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/User"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/User"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
     }
   },
   "components": {
@@ -297,6 +413,17 @@
           "pin": {
             "type": "integer",
             "format": "int32"
+          },
+          "hasEntries": {
+            "type": "boolean"
+          },
+          "isAdmin": {
+            "type": "boolean",
+            "readOnly": true
+          },
+          "currentScore": {
+            "type": "integer",
+            "format": "int32"
           }
         },
         "additionalProperties": false
@@ -323,6 +450,30 @@
           "actorID": {
             "type": "integer",
             "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Winner": {
+        "type": "object",
+        "properties": {
+          "winnerID": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "categoryID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "winningMovieID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "actorID": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
           }
         },
         "additionalProperties": false

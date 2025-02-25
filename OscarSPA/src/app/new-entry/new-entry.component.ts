@@ -5,6 +5,7 @@ import { Movie } from '../_models/movie.model';
 import { Actor } from '../_models/actor.model';
 import { CommonModule, TitleCasePipe, UpperCasePipe } from '@angular/common';
 import { UserPick } from '../_models/user-pick.model';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-new-entry',
@@ -26,7 +27,10 @@ export class NewEntryComponent implements OnInit {
 
   userID: number = 1;
 
-  constructor(private readonly _movieService: MovieService) { }
+  constructor(
+    private readonly _movieService: MovieService,
+    private readonly _router: Router
+  ) { }
 
   ngOnInit(): void {
     this.setPictureHeight();
@@ -42,7 +46,7 @@ export class NewEntryComponent implements OnInit {
 
   public getMoviePath(actor: Actor): string {
     let movie = this.allMovies.find(movie => movie.movieID === actor.movieID);
-
+    
     return movie!.posterURL;
   }
 
@@ -80,9 +84,13 @@ export class NewEntryComponent implements OnInit {
   public submitPicks(): void {
     this._movieService.submitPicks(this.picks).subscribe({
       next: res => {
-
+        console.log(res);
       }
     });
+  }
+
+  public onGoBack(): void {
+    this._router.navigate(['/']);
   }
 
   private setPictureHeight(): void {

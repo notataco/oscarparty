@@ -34,8 +34,15 @@ export class MovieService {
     return this._httpClient.get<Array<User>>(`${this._api}/GetCurrentStandings`);
   }
 
-  public enterCategoryWinner(winnerInfo: WinnerInfo)
-  {
+  public enterCategoryWinner(winnerInfo: WinnerInfo) {
     return this._httpClient.put(`${this._api}/InsertWinner`, winnerInfo);
+  }
+
+  public submitWinners(picks: Array<WinnerInfo>) {
+    return this._httpClient.put(`${this._api}/SubmitWinners`, picks);
+  }
+
+  public getWinners() {
+    return this._httpClient.get<Array<WinnerInfo>>(`${this._api}/GetWinningMovies`);
   }
 }

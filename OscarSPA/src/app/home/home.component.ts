@@ -5,6 +5,10 @@ import { LoginDialogComponent } from './login-dialog/login-dialog.component';
 import { User } from '../_models/user.model';
 import { UserService } from '../_services/user.service';
 import { GraphComponent } from "./graph/graph.component";
+import { WinnerInfo } from '../_models/winner.model';
+import { MovieService } from '../_services/movie.service';
+import { Category } from '../_models/category.model';
+import { Movie } from '../_models/movie.model';
 
 @Component({
   selector: 'app-home',
@@ -15,13 +19,28 @@ import { GraphComponent } from "./graph/graph.component";
 })
 export class HomeComponent {
   user?: User;
+  winners = new Array<WinnerInfo>();
+  categories: Array<Category> = new Array<Category>();
   
   constructor(
     private _router: Router, 
     private readonly _matDialog: MatDialog,
-    private readonly _userService: UserService
+    private readonly _userService: UserService,
+    private readonly _movieService: MovieService
   ) { 
     this.user = _userService.getUser();
+
+    this._movieService.getWinners().subscribe({
+      next: res => {
+        this.winners = res;
+      }
+    });
+
+    this._movieService.getCategories().subscribe({
+      next: res => {
+        this.categories = res;
+      }
+    });
   }
 
   public login() {
@@ -50,9 +69,56 @@ export class HomeComponent {
 
   public logout() {
     this._userService.logout();
+    this.user = this._userService.getUser();
   }
 
   public newEntry() {
     this._router.navigate(['/new-entry']);
+  }
+
+  public updateWinners() {
+    this._router.navigate(['/admin']);
+  }
+
+  public winningCategory(winner: WinnerInfo): string {
+    var cat = this.categories.find(cat => cat.categoryID === winner.categoryID);
+
+    if (cat) {
+      return cat.name;
+    } else {
+      return '';
+    }
+  }
+
+  public winningMovie(winner: WinnerInfo): string {
+    var winningTitle = '';
+
+    var cat = this.categories.find(cat => cat.categoryID === winner.categoryID);
+    
+    if (cat) {
+      var movie = cat.movies.find(movie => movie.movieID === winner.winningMovieID);
+      
+      if (movie) {
+        winningTitle = movie.title;
+      }
+    }
+
+    return winningTitle;
+  }
+
+  public winningMoviePoster(winner: WinnerInfo): string {
+    var winningTitle = '';
+
+    var cat = this.categories.find(cat => cat.categoryID === winner.categoryID);
+    
+    if (cat) {
+      var movie = cat.movies.find(movie => movie.movieID === winner.winningMovieID);
+      
+      if (movie) {
+        winningTitle = movie.posterURL;
+      }
+    }
+
+    return winningTitle;
   }
 }

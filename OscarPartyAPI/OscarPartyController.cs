@@ -54,11 +54,19 @@ public class OscarPartyController : ControllerBase
         return Ok(standings);
     }
 
-    [HttpPut("InsertWinner")]
-    public async Task<IActionResult> InsertWinner(Winner winner)
+    [HttpPut("SubmitWinners")]
+    public async Task<IActionResult> InsertWinner(List<Winner> winners)
     {
-        await _oscarPartyService.InsertWinner(winner);
+        await _oscarPartyService.InsertWinner(winners);
 
         return Ok();
+    }
+
+    [HttpGet("GetWinningMovies")]
+    public async Task<ActionResult<List<User>>> GetWinningMovies()
+    {
+        var standings = await _oscarPartyService.GetWinners();
+
+        return Ok(standings);
     }
 }

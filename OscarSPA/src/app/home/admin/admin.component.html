@@ -1,4 +1,25 @@
 <div class="d-flex justify-content-center">
-    <!-- add dropdown for category + movie options and use entered options for input  -->
-    <!-- <button (click)="submitCategoryWinner()"></button> -->
+    <div (click)="submitWinners()" class="save-button">
+        Save
+    </div>
+    @for (category of movieData; track category.name) {
+        <div class="category">
+            <div class="category--title">
+                {{ category.name | uppercase }}
+            </div>
+            @for (movie of category.movies; track movie.title) {
+                <div [ngClass]="checkIfSelected(category, movie) ? 'movie selected' : 'movie'" (click)="selectMovie(movie, category)">
+                    <div class="movie--text">
+                        <div class="movie--text-title">
+                            {{ movie.title | titlecase }}
+                        </div>
+                        <div class="movie--text-subtitle">
+
+                        </div>
+                    </div>
+                    <img [src]="movie.posterURL" alt="{{ movie.title }}" [height]="pictureHeight">
+                </div>
+            }
+        </div>
+    }
 </div>
