@@ -85,5 +85,12 @@ namespace OscarPartyAPI.Services
 
             return winners;
         }
+
+        public async Task<List<UserPick>> GetUserPicks(int userID)
+        {
+            var picks = await _oscarPartyRepository.GetUserPicks(userID);
+
+            return picks;
+        }
     }
 }

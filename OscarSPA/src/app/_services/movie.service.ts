@@ -45,4 +45,8 @@ export class MovieService {
   public getWinners() {
     return this._httpClient.get<Array<WinnerInfo>>(`${this._api}/GetWinningMovies`);
   }
+
+  public getUserPicks(userID: number) {
+    return this._httpClient.get<Array<UserPick>>(`${this._api}/GetUserPicks/${userID}`);
+  }
 }

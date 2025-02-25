@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { LoginDialogComponent } from './login-dialog/login-dialog.component';
@@ -9,6 +9,7 @@ import { WinnerInfo } from '../_models/winner.model';
 import { MovieService } from '../_services/movie.service';
 import { Category } from '../_models/category.model';
 import { Movie } from '../_models/movie.model';
+import { UserPick } from '../_models/user-pick.model';
 
 @Component({
   selector: 'app-home',
@@ -17,10 +18,11 @@ import { Movie } from '../_models/movie.model';
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'
 })
-export class HomeComponent {
+export class HomeComponent implements OnInit {
   user?: User;
   winners = new Array<WinnerInfo>();
   categories: Array<Category> = new Array<Category>();
+  userPicks: Array<UserPick> = new Array<UserPick>();
   
   constructor(
     private _router: Router, 
@@ -41,6 +43,17 @@ export class HomeComponent {
         this.categories = res;
       }
     });
+  }
+
+  ngOnInit(): void {
+      if (this.user) {
+        console.log(this.user);
+        this._movieService.getUserPicks(this.user.userID).subscribe({
+          next: res => {
+            this.userPicks = res;
+          }
+        });
+      }
   }
 
   public login() {

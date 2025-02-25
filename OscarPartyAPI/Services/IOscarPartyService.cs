@@ -12,5 +12,6 @@ namespace OscarPartyAPI.Services
         Task<List<User>> GetCurrentStandings();
         Task InsertWinner(List<Winner> winner);
         Task<List<Winner>> GetWinners();
+        Task<List<UserPick>> GetUserPicks(int userID);
     }
 }

@@ -72,6 +72,15 @@
         background-color: goldenrod;
         font-size: 0.8rem;
         font-weight: 300;
+
+        &--title {
+            padding-left: 1rem;
+            padding-right: 1rem;
+        }
+
+        &--poster {
+            display: flex;
+        }
     }
 }
 

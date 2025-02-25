@@ -69,4 +69,12 @@ public class OscarPartyController : ControllerBase
 
         return Ok(standings);
     }
+
+    [HttpGet("GetUserPicks/{userID}")]
+    public async Task<ActionResult<List<User>>> GetWinningMovies([FromRoute] int userID)
+    {
+        var picks = await _oscarPartyService.GetUserPicks(userID);
+
+        return Ok(picks);
+    }
 }

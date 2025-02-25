@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "D:\\Repos\\Oscars\\OscarPartyAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8E3AA43E-7D80-4498-8F97-0CEE0499ED79}|OscarPartyAPI.csproj|d:\\repos\\oscars\\oscarpartyapi\\repositories\\oscarpartyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E3AA43E-7D80-4498-8F97-0CEE0499ED79}|OscarPartyAPI.csproj|solutionrelative:repositories\\oscarpartyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8E3AA43E-7D80-4498-8F97-0CEE0499ED79}|OscarPartyAPI.csproj|d:\\repos\\oscars\\oscarpartyapi\\oscarpartycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8E3AA43E-7D80-4498-8F97-0CEE0499ED79}|OscarPartyAPI.csproj|solutionrelative:oscarpartycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E3AA43E-7D80-4498-8F97-0CEE0499ED79}|OscarPartyAPI.csproj|d:\\repos\\oscars\\oscarpartyapi\\repositories\\oscarpartyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E3AA43E-7D80-4498-8F97-0CEE0499ED79}|OscarPartyAPI.csproj|solutionrelative:repositories\\oscarpartyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8E3AA43E-7D80-4498-8F97-0CEE0499ED79}|OscarPartyAPI.csproj|d:\\repos\\oscars\\oscarpartyapi\\services\\oscarpartyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8E3AA43E-7D80-4498-8F97-0CEE0499ED79}|OscarPartyAPI.csproj|solutionrelative:services\\oscarpartyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8E3AA43E-7D80-4498-8F97-0CEE0499ED79}|OscarPartyAPI.csproj|d:\\repos\\oscars\\oscarpartyapi\\services\\ioscarpartyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E3AA43E-7D80-4498-8F97-0CEE0499ED79}|OscarPartyAPI.csproj|solutionrelative:services\\ioscarpartyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8E3AA43E-7D80-4498-8F97-0CEE0499ED79}|OscarPartyAPI.csproj|d:\\repos\\oscars\\oscarpartyapi\\repositories\\ioscarpartyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8E3AA43E-7D80-4498-8F97-0CEE0499ED79}|OscarPartyAPI.csproj|solutionrelative:repositories\\ioscarpartyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E3AA43E-7D80-4498-8F97-0CEE0499ED79}|OscarPartyAPI.csproj|d:\\repos\\oscars\\oscarpartyapi\\services\\ioscarpartyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E3AA43E-7D80-4498-8F97-0CEE0499ED79}|OscarPartyAPI.csproj|solutionrelative:services\\ioscarpartyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8E3AA43E-7D80-4498-8F97-0CEE0499ED79}|OscarPartyAPI.csproj|d:\\repos\\oscars\\oscarpartyapi\\_models\\user.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
@@ -50,31 +50,30 @@
               "RelativeToolTip": "_models\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T23:50:39.68Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-24T23:50:39.68Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "OscarPartyRepository.cs",
               "DocumentMoniker": "D:\\Repos\\Oscars\\OscarPartyAPI\\Repositories\\OscarPartyRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\OscarPartyRepository.cs",
               "ToolTip": "D:\\Repos\\Oscars\\OscarPartyAPI\\Repositories\\OscarPartyRepository.cs",
               "RelativeToolTip": "Repositories\\OscarPartyRepository.cs",
-              "ViewState": "AgIAACUBAAAAAAAAAAAmwDgBAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-04T03:53:17.194Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "IOscarPartyService.cs",
               "DocumentMoniker": "D:\\Repos\\Oscars\\OscarPartyAPI\\Services\\IOscarPartyService.cs",
               "RelativeDocumentMoniker": "Services\\IOscarPartyService.cs",
               "ToolTip": "D:\\Repos\\Oscars\\OscarPartyAPI\\Services\\IOscarPartyService.cs",
               "RelativeToolTip": "Services\\IOscarPartyService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-04T03:53:18.824Z",
               "EditorCaption": ""
@@ -87,33 +86,33 @@
               "RelativeDocumentMoniker": "Services\\OscarPartyService.cs",
               "ToolTip": "D:\\Repos\\Oscars\\OscarPartyAPI\\Services\\OscarPartyService.cs",
               "RelativeToolTip": "Services\\OscarPartyService.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAA0wE4AAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA0wCUAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-04T03:53:20.575Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "OscarPartyController.cs",
               "DocumentMoniker": "D:\\Repos\\Oscars\\OscarPartyAPI\\OscarPartyController.cs",
               "RelativeDocumentMoniker": "OscarPartyController.cs",
               "ToolTip": "D:\\Repos\\Oscars\\OscarPartyAPI\\OscarPartyController.cs",
               "RelativeToolTip": "OscarPartyController.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAkwDsAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAcwBgAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-04T04:02:58.743Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "IOscarPartyRepository.cs",
               "DocumentMoniker": "D:\\Repos\\Oscars\\OscarPartyAPI\\Repositories\\IOscarPartyRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\IOscarPartyRepository.cs",
               "ToolTip": "D:\\Repos\\Oscars\\OscarPartyAPI\\Repositories\\IOscarPartyRepository.cs",
               "RelativeToolTip": "Repositories\\IOscarPartyRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-04T03:53:16.002Z",
               "EditorCaption": ""

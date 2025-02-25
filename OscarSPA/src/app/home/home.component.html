@@ -1,6 +1,6 @@
 <div class="home-container">
     @if (user) {
-        @if (!user.isAdmin) {
+        @if (user.isAdmin) {
             <div (click)="updateWinners()" class="button">
                 Winner Control
             </div>

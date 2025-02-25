@@ -366,5 +366,38 @@ namespace OscarPartyAPI.Repositories
 
             return winners;
         }
+
+        public async Task<List<UserPick>> GetUserPicks(int userID)
+        {
+            var userPicks = new List<UserPick>();
+
+            using (var connection = new SqlConnection(_connectionString))
+            {
+                await connection.OpenAsync();
+
+                using (var command = new SqlCommand("Pick_GetByUserID", connection))
+                {
+                    command.CommandType = spCommand;
+
+                    command.Parameters.AddWithValue("@UserId", userID);
+
+                    var reader = await command.ExecuteReaderAsync();
+
+                    while (reader.Read())
+                    {
+                        var userPick = new UserPick()
+                        {
+                            categoryID = reader.GetInt32(0),
+                            movieID = reader.GetInt32(1),
+                            actorID = reader.GetInt32(2)
+                        };
+
+                        userPicks.Add(userPick);
+                    }
+                }
+            }
+
+            return userPicks;
+        }
     }
 }
