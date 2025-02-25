@@ -4,6 +4,8 @@ import { Movie } from '../_models/movie.model';
 import { Observable } from 'rxjs';
 import { HttpClient } from '@angular/common/http';
 import { UserPick } from '../_models/user-pick.model';
+import { User } from '../_models/user.model';
+import { WinnerInfo } from '../_models/winner.model';
 
 @Injectable({
   providedIn: 'root'
@@ -26,5 +28,14 @@ export class MovieService {
 
   public submitPicks(picks: Array<UserPick>) {
     return this._httpClient.put(`${this._api}/SubmitPicks`, picks);
+  }
+
+  public getCurrentUserStandings() {
+    return this._httpClient.get<Array<User>>(`${this._api}/GetCurrentStandings`);
+  }
+
+  public enterCategoryWinner(winnerInfo: WinnerInfo)
+  {
+    return this._httpClient.put(`${this._api}/InsertWinner`, winnerInfo);
   }
 }

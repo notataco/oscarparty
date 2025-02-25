@@ -4,11 +4,12 @@ import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { LoginDialogComponent } from './login-dialog/login-dialog.component';
 import { User } from '../_models/user.model';
 import { UserService } from '../_services/user.service';
+import { GraphComponent } from "./graph/graph.component";
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [MatDialogModule],
+  imports: [MatDialogModule, GraphComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'
 })

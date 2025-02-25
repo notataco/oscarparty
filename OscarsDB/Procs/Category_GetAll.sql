@@ -5,7 +5,7 @@ GO
 EXEC Category_GetAll
 */
 
-CREATE PROCEDURE Category_GetAll
+CREATE OR ALTER PROCEDURE Category_GetAll
 AS 
 BEGIN
 

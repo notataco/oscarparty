@@ -2,7 +2,7 @@ USE [OscarParty]
 GO
 
 /*
-EXEC Pick_Insert
+EXEC Pick_Insert 
 */
 
 CREATE OR ALTER PROCEDURE Pick_Insert

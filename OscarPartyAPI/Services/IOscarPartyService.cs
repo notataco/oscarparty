@@ -9,5 +9,7 @@ namespace OscarPartyAPI.Services
         Task<List<User>> GetAllUsers();
         Task<List<Category>> GetAllCategories();
         Task SubmitPicks(List<UserPick> picks);
+        Task<List<User>> GetCurrentStandings();
+        Task InsertWinner(Winner winner);
     }
 }

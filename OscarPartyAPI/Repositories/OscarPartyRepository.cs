@@ -1,6 +1,7 @@
 ﻿using Microsoft.Data.SqlClient;
 using OscarPartyAPI._models;
 using System.Data;
+using System.Reflection;
 using System.Reflection.PortableExecutable;
 
 namespace OscarPartyAPI.Repositories
@@ -115,8 +116,8 @@ namespace OscarPartyAPI.Repositories
                     {
                         categories.Add(new Category 
                         { 
-                            CategoryID = reader.GetInt32(0),
-                            Name = reader.GetString(1),
+                            CategoryID = reader.GetInt32("CategoryID"),
+                            Name = reader.GetString("Name"),
                             MoviePrimary = reader.GetBoolean(2),
                             MovieSecondary = reader.GetBoolean(3),
                             ActorPrimary = reader.GetBoolean(4),
@@ -248,6 +249,76 @@ namespace OscarPartyAPI.Repositories
                     SqlParameter tvpParam = command.Parameters.AddWithValue("@PickTable", pickTable);
                     tvpParam.SqlDbType = SqlDbType.Structured;
                     tvpParam.TypeName = "dbo.UserPicks";
+
+                    await command.ExecuteNonQueryAsync();
+                }
+            }
+        }
+
+        public async Task<List<User>> GetCurrentStandings()
+        {
+            var userStandings = new List<User>();
+
+            using (var connection = new SqlConnection(_connectionString))
+            {
+                await connection.OpenAsync();
+
+                using (var command = new SqlCommand("User_GetAll", connection))
+                {
+                    command.CommandType = spCommand;
+
+                    var reader = await command.ExecuteReaderAsync();
+
+                    while (reader.Read())
+                    {
+                        userStandings.Add(new User
+                        {
+                            UserID = reader.GetInt32(0),
+                            Name = reader.GetString(1),
+                            PIN = reader.GetInt32(2)
+                        });
+                    }
+                }
+
+                connection.Close();
+
+                foreach (var user in userStandings)
+                {
+                    await connection.OpenAsync();
+
+                    using (var command = new SqlCommand("User_GetScore", connection))
+                    {
+                        command.CommandType = spCommand;
+
+                        command.Parameters.AddWithValue("UserID", user.UserID);
+
+                        var reader = await command.ExecuteReaderAsync();
+
+                        while (reader.Read())
+                        {
+                            user.CurrentScore = reader.GetInt32("Score");
+                        }
+                    }
+
+                    connection.Close();
+                }
+            }
+
+            return userStandings;
+        }
+
+        public async Task InsertWinner(Winner winner)
+        {
+            using (var connection = new SqlConnection(_connectionString))
+            {
+                await connection.OpenAsync();
+
+                using (var command = new SqlCommand("Winner_Insert", connection))
+                {
+                    command.CommandType = spCommand;
+
+                    command.Parameters.AddWithValue("CategoryID", winner.CategoryID);
+                    command.Parameters.AddWithValue("MovieID", winner.WinningMovieID);
 
                     await command.ExecuteNonQueryAsync();
                 }

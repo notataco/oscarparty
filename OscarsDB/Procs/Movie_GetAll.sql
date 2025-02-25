@@ -5,15 +5,16 @@ GO
 EXEC Movie_GetAll
 */
 
-CREATE PROCEDURE Movie_GetAll
+CREATE OR ALTER PROCEDURE Movie_GetAll
 AS 
 BEGIN
 
     SELECT 
-        [UserID],
-        [Name],
-        [PIN]
-    FROM [dbo].[User]
+        MovieID,
+        Title,
+        Country,
+		PosterURL
+    FROM dbo.Movie
 
 END
 GO
