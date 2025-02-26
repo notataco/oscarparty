@@ -225,6 +225,35 @@ namespace OscarPartyAPI.Repositories
             return nominees;
         }
 
+        public async Task<List<Song>> GetAllSongs()
+        {
+            var songs = new List<Song>();
+
+            using (var connection = new SqlConnection(_connectionString))
+            {
+                await connection.OpenAsync();
+
+                using (var command = new SqlCommand("Song_GetAll", connection))
+                {
+                    command.CommandType = spCommand;
+
+                    var reader = await command.ExecuteReaderAsync();
+
+                    while (reader.Read())
+                    {
+                        songs.Add(new Song
+                        {
+                            SongID = reader.GetInt32(0),
+                            SongName = reader.GetString(1),
+                            MovieID = reader.GetInt32(2)
+                        });
+                    }
+                }
+            }
+
+            return songs;
+        }
+
         public async Task SubmitPicks(List<UserPick> picks)
         {
             DataTable pickTable = new DataTable();

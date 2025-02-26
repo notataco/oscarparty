@@ -57,6 +57,26 @@ export class NewEntryComponent implements OnInit {
     return movie!.posterURL;
   }
 
+  public getActor(category: Category, movie: Movie): string {
+    let actor = category.actors.find(actor => actor.movieID === movie.movieID);
+
+    if (actor) {
+      return actor.firstName + ' ' + actor.lastName;
+    }
+
+    return '';
+  }
+
+  public getSong(category: Category, movie: Movie): string {
+    let song = category.songs.find(song => song.movieID === movie.movieID);
+
+    if (song) {
+      return song.songName;
+    }
+
+    return '';
+  }
+
   public selectMovie(movie: Movie, category: Category): void {
     var existingPick = this.picks.find(pick => pick.categoryID === category.categoryID);
 

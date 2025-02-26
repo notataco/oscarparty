@@ -12,6 +12,7 @@ namespace OscarPartyAPI.Repositories
         Task<List<Movie>> GetAllMovies();
         Task<List<Actor>> GetAllActors();
         Task<List<Nominee>> GetAllNominees();
+        Task<List<Song>> GetAllSongs();
         Task SubmitPicks(List<UserPick> picks);
         Task<List<User>> GetCurrentStandings();
         Task InsertWinner(List<Winner> winner);

@@ -62,6 +62,8 @@ INSERT INTO [dbo].[Movie] (
     ('alien: romulus', '../../assets/posters/romulus.webp', null),
     ('better man', '../../assets/posters/betterman.webp', null),
     ('kingdom of the planet of the apes', '../../assets/posters/kingdomofapes.webp', null),
-    ('september 5', '../../assets/posters/september5.jpg', null)
+    ('september 5', '../../assets/posters/september5.jpg', null),
+    -- yes, this is stupid, but unfortunately is needed for song category
+    ('emilia pérez', '../../assets/posters/perez.webp', 'france')
 
 SELECT * FROM dbo.Movie

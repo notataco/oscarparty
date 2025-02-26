@@ -2,7 +2,7 @@ USE [OscarParty]
 GO
 
 /*
-EXEC User_Check 'Will', 1327
+EXEC User_Check 'alex', 3333
 */
 
 CREATE OR ALTER PROCEDURE User_Check
@@ -11,7 +11,7 @@ CREATE OR ALTER PROCEDURE User_Check
 AS 
 BEGIN
 
-    SELECT
+    SELECT DISTINCT
         [u].[UserID],
         [Name],
         [PIN],

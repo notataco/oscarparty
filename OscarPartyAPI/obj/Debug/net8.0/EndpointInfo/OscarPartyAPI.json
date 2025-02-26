@@ -398,6 +398,13 @@
             },
             "nullable": true
           },
+          "songs": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Song"
+            },
+            "nullable": true
+          },
           "moviePrimary": {
             "type": "boolean"
           },
@@ -443,6 +450,24 @@
           "posterURL": {
             "type": "string",
             "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Song": {
+        "type": "object",
+        "properties": {
+          "songID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "songName": {
+            "type": "string",
+            "nullable": true
+          },
+          "movieID": {
+            "type": "integer",
+            "format": "int32"
           }
         },
         "additionalProperties": false

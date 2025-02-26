@@ -6,6 +6,7 @@
         public string Name { get; set; } = "";
         public List<Movie> Movies { get; set; } = new List<Movie>();
         public List<Actor> Actors { get; set; } = new List<Actor>();
+        public List<Song> Songs { get; set; } = new List<Song>();
         public bool MoviePrimary { get; set; }
         public bool MovieSecondary { get; set; }
         public bool ActorPrimary { get; set; }

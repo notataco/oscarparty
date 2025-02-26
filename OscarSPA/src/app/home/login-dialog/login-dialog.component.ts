@@ -34,14 +34,21 @@ export class LoginDialogComponent {
         next: res => {
           this._userService.setUser(res);
           this.dialogRef.close(res);
+        },
+        error: error => {
+          this.error = true;
+          this.errorMessage = 'Cannot find user';
         }
       });
     } else {
       this._userService.signup(user).subscribe({
         next: res => {
-          console.log(res);
           this._userService.setUser(res);
           this.dialogRef.close(res);
+        },
+        error: error => {
+          this.error = true;
+          this.errorMessage = 'User already exists';
         }
       });
     }

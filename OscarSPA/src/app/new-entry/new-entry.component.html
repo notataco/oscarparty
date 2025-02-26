@@ -10,12 +10,35 @@
             @for (movie of category.movies; track movie.title) {
                 <div [ngClass]="checkIfSelected(category, movie) ? 'movie selected' : 'movie'" (click)="selectMovie(movie, category)">
                     <div class="movie--text">
+                    @if (category.moviePrimary) {
                         <div class="movie--text-title">
                             {{ movie.title | titlecase }}
                         </div>
-                        <div class="movie--text-subtitle">
-
+                    }
+                    @if (category.actorPrimary) {
+                        <div class="movie--text-title">
+                            {{ getActor(category, movie) | uppercase }}
                         </div>
+                        <div class="movie--text-subtitle">
+                            {{ movie.title | titlecase }}
+                        </div>
+                    }
+                    @if (category.countryPrimary) {
+                        <div class="movie--text-title">
+                            {{ movie.country | uppercase }}
+                        </div>
+                        <div class="movie--text-subtitle">
+                            {{ movie.title | titlecase }}
+                        </div>
+                    }
+                    @if (category.songPrimary) {
+                        <div class="movie--text-title">
+                            {{ getSong(category, movie) | uppercase }}
+                        </div>
+                        <div class="movie--text-subtitle">
+                            {{ movie.title | titlecase }}
+                        </div>
+                    }
                     </div>
                     <img [src]="movie.posterURL" alt="{{ movie.title }}" [height]="pictureHeight">
                 </div>
