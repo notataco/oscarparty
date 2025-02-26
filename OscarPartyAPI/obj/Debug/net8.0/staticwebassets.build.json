@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Dq30UZwkVY5L/IBnhG+GfeXWoQXZkKQBIAOgh7Zq8Bo=",
+  "Hash": "kS8dl4uK4fm0bAE/rPVGyjAq5Rlf8hLUn5WjoPO23zM=",
   "Source": "OscarPartyAPI",
   "BasePath": "_content/OscarPartyAPI",
   "Mode": "Default",
@@ -500,6 +500,27 @@
       "OriginalItemSpec": "wwwroot\\assets\\posters\\6888.webp"
     },
     {
+      "Identity": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\a_lien.jpg",
+      "SourceId": "OscarPartyAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\",
+      "BasePath": "_content/OscarPartyAPI",
+      "RelativePath": "assets/posters/a_lien#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mk6klex7wi",
+      "Integrity": "uqQ1MfuKY0DTtaSMFjRzbGIFMpyavKMB+W+8mUfyGD4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\posters\\a_lien.jpg"
+    },
+    {
       "Identity": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\anora.webp",
       "SourceId": "OscarPartyAPI",
       "SourceType": "Discovered",
@@ -876,6 +897,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\posters\\gladiator.webp"
+    },
+    {
+      "Identity": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\incident.jpg",
+      "SourceId": "OscarPartyAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\",
+      "BasePath": "_content/OscarPartyAPI",
+      "RelativePath": "assets/posters/incident#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "s3t038qzyn",
+      "Integrity": "WPba2tUxFXAMvWUcJaPKwAyGgAoR64r6X+lofL3yAEE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\posters\\incident.jpg"
     },
     {
       "Identity": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\insideout.webp",
@@ -1382,6 +1424,27 @@
       "OriginalItemSpec": "wwwroot\\assets\\posters\\wallace.webp"
     },
     {
+      "Identity": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\warden.jpg",
+      "SourceId": "OscarPartyAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\",
+      "BasePath": "_content/OscarPartyAPI",
+      "RelativePath": "assets/posters/warden#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "h9p5c64nsk",
+      "Integrity": "24zIRcewndSFTnrJbSHNieiviNouY6JMdZUoeXkGCUM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\posters\\warden.jpg"
+    },
+    {
       "Identity": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\wicked.webp",
       "SourceId": "OscarPartyAPI",
       "SourceType": "Discovered",
@@ -1501,19 +1564,19 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "k2710ci6ws",
-      "Integrity": "DCrlhZmeMlFWrWh3yUx4EmM80LfAD4K3ndy8IpgmqQo=",
+      "Fingerprint": "7yvs28jpdf",
+      "Integrity": "v2IYGW21V+1mT4TXhRI3qhTdhMFVYrNya+GTQ5X1JnA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
     },
     {
-      "Identity": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\main-QILQFKP5.js",
+      "Identity": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\main-VB3K6MLX.js",
       "SourceId": "OscarPartyAPI",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\",
       "BasePath": "_content/OscarPartyAPI",
-      "RelativePath": "main-QILQFKP5#[.{fingerprint}]?.js",
+      "RelativePath": "main-VB3K6MLX#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1522,11 +1585,11 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "z6pa2u8cr5",
-      "Integrity": "C5hMTOzF4blrvaDIar2kIPUmu8RFIEc4UBbAeBIM9s4=",
+      "Fingerprint": "m9uf1a3yzi",
+      "Integrity": "BgDUkQio5hOa5yfJoY1x0zN+LS7Z1lfPyJNFr3VDAYM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\main-QILQFKP5.js"
+      "OriginalItemSpec": "wwwroot\\main-VB3K6MLX.js"
     },
     {
       "Identity": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\media\\Montserrat-VariableFont_wght-KEGAHBID.ttf",
@@ -1571,12 +1634,12 @@
       "OriginalItemSpec": "wwwroot\\polyfills-FFHMD2TL.js"
     },
     {
-      "Identity": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\styles-6ELTHERW.css",
+      "Identity": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\styles-ZQOJ4CV7.css",
       "SourceId": "OscarPartyAPI",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\",
       "BasePath": "_content/OscarPartyAPI",
-      "RelativePath": "styles-6ELTHERW#[.{fingerprint}]?.css",
+      "RelativePath": "styles-ZQOJ4CV7#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1585,11 +1648,11 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "n3kmvllumg",
-      "Integrity": "Q9IH7sPV6iJYFklZviH3NQvwCKtO6AKIWkh5aZtnPCY=",
+      "Fingerprint": "t34n8xhsym",
+      "Integrity": "ibClMwbXotRF+jL9+xhR9tCXh14aymmneX1O6j4lEkA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\styles-6ELTHERW.css"
+      "OriginalItemSpec": "wwwroot\\styles-ZQOJ4CV7.css"
     }
   ],
   "Endpoints": [
@@ -3480,6 +3543,88 @@
       ]
     },
     {
+      "Route": "assets/posters/a_lien.jpg",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\a_lien.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "249275"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uqQ1MfuKY0DTtaSMFjRzbGIFMpyavKMB+W+8mUfyGD4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Feb 2025 02:41:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-uqQ1MfuKY0DTtaSMFjRzbGIFMpyavKMB+W+8mUfyGD4="
+        }
+      ]
+    },
+    {
+      "Route": "assets/posters/a_lien.mk6klex7wi.jpg",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\a_lien.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "249275"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uqQ1MfuKY0DTtaSMFjRzbGIFMpyavKMB+W+8mUfyGD4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Feb 2025 02:41:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mk6klex7wi"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/posters/a_lien.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-uqQ1MfuKY0DTtaSMFjRzbGIFMpyavKMB+W+8mUfyGD4="
+        }
+      ]
+    },
+    {
       "Route": "assets/posters/anora.webp",
       "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\anora.webp",
       "Selectors": [],
@@ -4952,6 +5097,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-1Bji5eksazwU7wUwWGg/tp7oHkb22YPpuv9PlOwFZ3I="
+        }
+      ]
+    },
+    {
+      "Route": "assets/posters/incident.jpg",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\incident.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "333098"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WPba2tUxFXAMvWUcJaPKwAyGgAoR64r6X+lofL3yAEE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Feb 2025 02:41:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WPba2tUxFXAMvWUcJaPKwAyGgAoR64r6X+lofL3yAEE="
+        }
+      ]
+    },
+    {
+      "Route": "assets/posters/incident.s3t038qzyn.jpg",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\incident.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "333098"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WPba2tUxFXAMvWUcJaPKwAyGgAoR64r6X+lofL3yAEE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Feb 2025 02:41:27 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "s3t038qzyn"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/posters/incident.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WPba2tUxFXAMvWUcJaPKwAyGgAoR64r6X+lofL3yAEE="
         }
       ]
     },
@@ -6924,6 +7151,88 @@
       ]
     },
     {
+      "Route": "assets/posters/warden.h9p5c64nsk.jpg",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\warden.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "158653"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"24zIRcewndSFTnrJbSHNieiviNouY6JMdZUoeXkGCUM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Feb 2025 02:41:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "h9p5c64nsk"
+        },
+        {
+          "Name": "label",
+          "Value": "assets/posters/warden.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-24zIRcewndSFTnrJbSHNieiviNouY6JMdZUoeXkGCUM="
+        }
+      ]
+    },
+    {
+      "Route": "assets/posters/warden.jpg",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\warden.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "158653"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"24zIRcewndSFTnrJbSHNieiviNouY6JMdZUoeXkGCUM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Feb 2025 02:41:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-24zIRcewndSFTnrJbSHNieiviNouY6JMdZUoeXkGCUM="
+        }
+      ]
+    },
+    {
       "Route": "assets/posters/wicked.lb51xq2jj2.webp",
       "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\wicked.webp",
       "Selectors": [],
@@ -7334,6 +7643,51 @@
       ]
     },
     {
+      "Route": "index.7yvs28jpdf.html",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23710"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"v2IYGW21V+1mT4TXhRI3qhTdhMFVYrNya+GTQ5X1JnA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Feb 2025 03:58:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7yvs28jpdf"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-v2IYGW21V+1mT4TXhRI3qhTdhMFVYrNya+GTQ5X1JnA="
+        }
+      ]
+    },
+    {
       "Route": "index.html",
       "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\index.html",
       "Selectors": [],
@@ -7344,7 +7698,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "790"
+          "Value": "23710"
         },
         {
           "Name": "Content-Type",
@@ -7352,11 +7706,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"DCrlhZmeMlFWrWh3yUx4EmM80LfAD4K3ndy8IpgmqQo=\""
+          "Value": "\"v2IYGW21V+1mT4TXhRI3qhTdhMFVYrNya+GTQ5X1JnA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 30 Jan 2025 05:34:22 GMT"
+          "Value": "Wed, 26 Feb 2025 03:58:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7366,13 +7720,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-DCrlhZmeMlFWrWh3yUx4EmM80LfAD4K3ndy8IpgmqQo="
+          "Value": "sha256-v2IYGW21V+1mT4TXhRI3qhTdhMFVYrNya+GTQ5X1JnA="
         }
       ]
     },
     {
-      "Route": "index.k2710ci6ws.html",
-      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\index.html",
+      "Route": "main-VB3K6MLX.js",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\main-VB3K6MLX.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7381,52 +7735,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "790"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"DCrlhZmeMlFWrWh3yUx4EmM80LfAD4K3ndy8IpgmqQo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 30 Jan 2025 05:34:22 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "k2710ci6ws"
-        },
-        {
-          "Name": "label",
-          "Value": "index.html"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-DCrlhZmeMlFWrWh3yUx4EmM80LfAD4K3ndy8IpgmqQo="
-        }
-      ]
-    },
-    {
-      "Route": "main-QILQFKP5.js",
-      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\main-QILQFKP5.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "221830"
+          "Value": "877815"
         },
         {
           "Name": "Content-Type",
@@ -7434,11 +7743,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"C5hMTOzF4blrvaDIar2kIPUmu8RFIEc4UBbAeBIM9s4=\""
+          "Value": "\"BgDUkQio5hOa5yfJoY1x0zN+LS7Z1lfPyJNFr3VDAYM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 30 Jan 2025 05:34:22 GMT"
+          "Value": "Wed, 26 Feb 2025 03:58:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7448,13 +7757,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-C5hMTOzF4blrvaDIar2kIPUmu8RFIEc4UBbAeBIM9s4="
+          "Value": "sha256-BgDUkQio5hOa5yfJoY1x0zN+LS7Z1lfPyJNFr3VDAYM="
         }
       ]
     },
     {
-      "Route": "main-QILQFKP5.z6pa2u8cr5.js",
-      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\main-QILQFKP5.js",
+      "Route": "main-VB3K6MLX.m9uf1a3yzi.js",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\main-VB3K6MLX.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7463,7 +7772,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "221830"
+          "Value": "877815"
         },
         {
           "Name": "Content-Type",
@@ -7471,11 +7780,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"C5hMTOzF4blrvaDIar2kIPUmu8RFIEc4UBbAeBIM9s4=\""
+          "Value": "\"BgDUkQio5hOa5yfJoY1x0zN+LS7Z1lfPyJNFr3VDAYM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 30 Jan 2025 05:34:22 GMT"
+          "Value": "Wed, 26 Feb 2025 03:58:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7485,15 +7794,15 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "z6pa2u8cr5"
+          "Value": "m9uf1a3yzi"
         },
         {
           "Name": "label",
-          "Value": "main-QILQFKP5.js"
+          "Value": "main-VB3K6MLX.js"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-C5hMTOzF4blrvaDIar2kIPUmu8RFIEc4UBbAeBIM9s4="
+          "Value": "sha256-BgDUkQio5hOa5yfJoY1x0zN+LS7Z1lfPyJNFr3VDAYM="
         }
       ]
     },
@@ -7520,7 +7829,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 30 Jan 2025 05:34:22 GMT"
+          "Value": "Wed, 26 Feb 2025 03:58:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7557,7 +7866,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 30 Jan 2025 05:34:22 GMT"
+          "Value": "Wed, 26 Feb 2025 03:58:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7602,7 +7911,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 30 Jan 2025 05:34:22 GMT"
+          "Value": "Wed, 26 Feb 2025 03:58:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7647,7 +7956,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 30 Jan 2025 05:34:22 GMT"
+          "Value": "Wed, 26 Feb 2025 03:58:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7662,8 +7971,8 @@
       ]
     },
     {
-      "Route": "styles-6ELTHERW.css",
-      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\styles-6ELTHERW.css",
+      "Route": "styles-ZQOJ4CV7.css",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\styles-ZQOJ4CV7.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7672,7 +7981,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "173"
+          "Value": "7299"
         },
         {
           "Name": "Content-Type",
@@ -7680,11 +7989,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Q9IH7sPV6iJYFklZviH3NQvwCKtO6AKIWkh5aZtnPCY=\""
+          "Value": "\"ibClMwbXotRF+jL9+xhR9tCXh14aymmneX1O6j4lEkA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 30 Jan 2025 05:34:22 GMT"
+          "Value": "Wed, 26 Feb 2025 03:58:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7694,13 +8003,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Q9IH7sPV6iJYFklZviH3NQvwCKtO6AKIWkh5aZtnPCY="
+          "Value": "sha256-ibClMwbXotRF+jL9+xhR9tCXh14aymmneX1O6j4lEkA="
         }
       ]
     },
     {
-      "Route": "styles-6ELTHERW.n3kmvllumg.css",
-      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\styles-6ELTHERW.css",
+      "Route": "styles-ZQOJ4CV7.t34n8xhsym.css",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\styles-ZQOJ4CV7.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7709,7 +8018,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "173"
+          "Value": "7299"
         },
         {
           "Name": "Content-Type",
@@ -7717,11 +8026,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Q9IH7sPV6iJYFklZviH3NQvwCKtO6AKIWkh5aZtnPCY=\""
+          "Value": "\"ibClMwbXotRF+jL9+xhR9tCXh14aymmneX1O6j4lEkA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 30 Jan 2025 05:34:22 GMT"
+          "Value": "Wed, 26 Feb 2025 03:58:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7731,15 +8040,15 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "n3kmvllumg"
+          "Value": "t34n8xhsym"
         },
         {
           "Name": "label",
-          "Value": "styles-6ELTHERW.css"
+          "Value": "styles-ZQOJ4CV7.css"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Q9IH7sPV6iJYFklZviH3NQvwCKtO6AKIWkh5aZtnPCY="
+          "Value": "sha256-ibClMwbXotRF+jL9+xhR9tCXh14aymmneX1O6j4lEkA="
         }
       ]
     }
