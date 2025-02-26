@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "kS8dl4uK4fm0bAE/rPVGyjAq5Rlf8hLUn5WjoPO23zM=",
+  "Hash": "2LtuhzsPrw6s/D88DhrYNoa7/J/U4t6PYZ6UtBONGBw=",
   "Source": "OscarPartyAPI",
   "BasePath": "_content/OscarPartyAPI",
   "Mode": "Default",
@@ -1564,19 +1564,19 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "7yvs28jpdf",
-      "Integrity": "v2IYGW21V+1mT4TXhRI3qhTdhMFVYrNya+GTQ5X1JnA=",
+      "Fingerprint": "0ezyhu5x83",
+      "Integrity": "WJ+eWq0y28j0aBSXEWQdHZ4Ge9RyMkscE/Pe96rbTd4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
     },
     {
-      "Identity": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\main-VB3K6MLX.js",
+      "Identity": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\main-PGQ3D4LJ.js",
       "SourceId": "OscarPartyAPI",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\",
       "BasePath": "_content/OscarPartyAPI",
-      "RelativePath": "main-VB3K6MLX#[.{fingerprint}]?.js",
+      "RelativePath": "main-PGQ3D4LJ#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1585,11 +1585,11 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "m9uf1a3yzi",
-      "Integrity": "BgDUkQio5hOa5yfJoY1x0zN+LS7Z1lfPyJNFr3VDAYM=",
+      "Fingerprint": "bxpg8i5j4v",
+      "Integrity": "P4eCwYQg7a58l8Xc9NEz6A86yipW5dDQUchvq9cWbFU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\main-VB3K6MLX.js"
+      "OriginalItemSpec": "wwwroot\\main-PGQ3D4LJ.js"
     },
     {
       "Identity": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\media\\Montserrat-VariableFont_wght-KEGAHBID.ttf",
@@ -7643,7 +7643,7 @@
       ]
     },
     {
-      "Route": "index.7yvs28jpdf.html",
+      "Route": "index.0ezyhu5x83.html",
       "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\index.html",
       "Selectors": [],
       "ResponseHeaders": [
@@ -7661,11 +7661,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"v2IYGW21V+1mT4TXhRI3qhTdhMFVYrNya+GTQ5X1JnA=\""
+          "Value": "\"WJ+eWq0y28j0aBSXEWQdHZ4Ge9RyMkscE/Pe96rbTd4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Feb 2025 03:58:31 GMT"
+          "Value": "Wed, 26 Feb 2025 04:21:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7675,7 +7675,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "7yvs28jpdf"
+          "Value": "0ezyhu5x83"
         },
         {
           "Name": "label",
@@ -7683,7 +7683,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-v2IYGW21V+1mT4TXhRI3qhTdhMFVYrNya+GTQ5X1JnA="
+          "Value": "sha256-WJ+eWq0y28j0aBSXEWQdHZ4Ge9RyMkscE/Pe96rbTd4="
         }
       ]
     },
@@ -7706,11 +7706,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"v2IYGW21V+1mT4TXhRI3qhTdhMFVYrNya+GTQ5X1JnA=\""
+          "Value": "\"WJ+eWq0y28j0aBSXEWQdHZ4Ge9RyMkscE/Pe96rbTd4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Feb 2025 03:58:31 GMT"
+          "Value": "Wed, 26 Feb 2025 04:21:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7720,13 +7720,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-v2IYGW21V+1mT4TXhRI3qhTdhMFVYrNya+GTQ5X1JnA="
+          "Value": "sha256-WJ+eWq0y28j0aBSXEWQdHZ4Ge9RyMkscE/Pe96rbTd4="
         }
       ]
     },
     {
-      "Route": "main-VB3K6MLX.js",
-      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\main-VB3K6MLX.js",
+      "Route": "main-PGQ3D4LJ.bxpg8i5j4v.js",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\main-PGQ3D4LJ.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7735,7 +7735,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "877815"
+          "Value": "877855"
         },
         {
           "Name": "Content-Type",
@@ -7743,48 +7743,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"BgDUkQio5hOa5yfJoY1x0zN+LS7Z1lfPyJNFr3VDAYM=\""
+          "Value": "\"P4eCwYQg7a58l8Xc9NEz6A86yipW5dDQUchvq9cWbFU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Feb 2025 03:58:31 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-BgDUkQio5hOa5yfJoY1x0zN+LS7Z1lfPyJNFr3VDAYM="
-        }
-      ]
-    },
-    {
-      "Route": "main-VB3K6MLX.m9uf1a3yzi.js",
-      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\main-VB3K6MLX.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "877815"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"BgDUkQio5hOa5yfJoY1x0zN+LS7Z1lfPyJNFr3VDAYM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 26 Feb 2025 03:58:31 GMT"
+          "Value": "Wed, 26 Feb 2025 04:21:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7794,15 +7757,52 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "m9uf1a3yzi"
+          "Value": "bxpg8i5j4v"
         },
         {
           "Name": "label",
-          "Value": "main-VB3K6MLX.js"
+          "Value": "main-PGQ3D4LJ.js"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-BgDUkQio5hOa5yfJoY1x0zN+LS7Z1lfPyJNFr3VDAYM="
+          "Value": "sha256-P4eCwYQg7a58l8Xc9NEz6A86yipW5dDQUchvq9cWbFU="
+        }
+      ]
+    },
+    {
+      "Route": "main-PGQ3D4LJ.js",
+      "AssetFile": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\main-PGQ3D4LJ.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "877855"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"P4eCwYQg7a58l8Xc9NEz6A86yipW5dDQUchvq9cWbFU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Feb 2025 04:21:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-P4eCwYQg7a58l8Xc9NEz6A86yipW5dDQUchvq9cWbFU="
         }
       ]
     },
@@ -7829,7 +7829,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Feb 2025 03:58:31 GMT"
+          "Value": "Wed, 26 Feb 2025 04:21:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7866,7 +7866,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Feb 2025 03:58:31 GMT"
+          "Value": "Wed, 26 Feb 2025 04:21:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7911,7 +7911,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Feb 2025 03:58:31 GMT"
+          "Value": "Wed, 26 Feb 2025 04:21:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7956,7 +7956,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Feb 2025 03:58:31 GMT"
+          "Value": "Wed, 26 Feb 2025 04:21:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7993,7 +7993,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Feb 2025 03:58:31 GMT"
+          "Value": "Wed, 26 Feb 2025 04:21:24 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8030,7 +8030,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Feb 2025 03:58:31 GMT"
+          "Value": "Wed, 26 Feb 2025 04:21:24 GMT"
         },
         {
           "Name": "Cache-Control",
