@@ -2,7 +2,7 @@ USE [OscarParty]
 GO
 
 
-CREATE PROCEDURE User_Insert
+CREATE OR ALTER PROCEDURE User_Insert
     @Name VARCHAR(50),
     @PIN INT
 AS 

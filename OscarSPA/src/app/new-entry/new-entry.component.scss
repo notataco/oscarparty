@@ -9,8 +9,27 @@
     border-color: black;
 }
 
+.category {
+    display: flex;
+    color: white;
+    flex-direction: column;
+    margin-bottom: 3rem;
+
+    &--title {
+        font-size: 3rem;
+        margin-top: 2rem;
+        font-weight: 300;
+    }
+}
+
 .entry-container {
     padding: 3rem;
+}
+
+.back-button {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-bottom: -1rem;
 }
 
 .category {
@@ -41,16 +60,15 @@
                 background-color 500ms ease-out,
                 border-color 500ms ease-out;
 
-    &:hover {
-        @include selected-movie;
-    }
-
     &--text {
 
         &-title {
             font-weight: 200;
         }
 
+        &-subtitle {
+            font-weight: 200;
+        }
     }
 }
 
@@ -68,10 +86,6 @@
     transition: color 500ms ease-out,
                 background-color 500ms ease-out,
                 border-color 500ms ease-out;
-
-    &:hover {
-        @include selected-movie;
-    }
 }
 
 @media screen and (max-width: 800px) {

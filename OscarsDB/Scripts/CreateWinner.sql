@@ -7,3 +7,5 @@ CREATE TABLE [dbo].[Winner] (
     [WinningMovieID] INT NOT NULL,
     [ActorID] INT NULL
 )
+
+SELECT * FROM [dbo].[Winner]

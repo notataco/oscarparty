@@ -31,6 +31,7 @@ export class UserService {
 
   public setUser(user: User): void {
     this.user = user;
+    console.log(user);
 
     // User caching for page reload
     localStorage.setItem('user', JSON.stringify(this.user));
@@ -42,5 +43,6 @@ export class UserService {
 
   public logout(): void {
     this.user = undefined;
+    localStorage.clear();
   }
 }

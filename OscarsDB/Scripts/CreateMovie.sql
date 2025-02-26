@@ -44,8 +44,8 @@ INSERT INTO [dbo].[Movie] (
     ('soundtrack to a coup d''etat', '../../assets/posters/soundtrack.jpg', null),
     ('sugarcane', '../../assets/posters/sugarcane.jpg', null),
     ('death by number', '../../assets/posters/death.jpg', null),
-    ('i am ready, warden', 'url', null), -- missing poster
-    ('incident', 'url', null), -- missing poster
+    ('i am ready, warden', '../../assets/posters/warden.jpg', null), -- missing poster
+    ('incident', '../../assets/posters/incident.jpg', null), -- missing poster
     ('instruments of a beating heart', '../../assets/posters/instrument.jpg', null),
     ('the only girl in the orchestra', '../../assets/posters/orchestra.jpg', null),
     ('the girl with the needle', '../../assets/posters/needle.jpg', 'denmark'),
@@ -54,7 +54,7 @@ INSERT INTO [dbo].[Movie] (
     ('the six triple eight', '../../assets/posters/6888.webp', null),
     ('elton john: never too late', '../../assets/posters/eltonjohn.jpeg', null),
     ('nickel boys', '../../assets/posters/nickelboys.webp', null),
-    ('a lien', 'url', null), -- missing poster
+    ('a lien', '../../assets/posters/a_lien.jpg', null), -- missing poster
     ('anuja', '../../assets/posters/anuja.jpg', null),
     ('i''m not a robot', '../../assets/posters/notarobot.jpg', null),
     ('the last ranger', '../../assets/posters/lastranger.jpg', null),
@@ -62,6 +62,8 @@ INSERT INTO [dbo].[Movie] (
     ('alien: romulus', '../../assets/posters/romulus.webp', null),
     ('better man', '../../assets/posters/betterman.webp', null),
     ('kingdom of the planet of the apes', '../../assets/posters/kingdomofapes.webp', null),
-    ('september 5', '../../assets/posters/september5.jpg', null)
+    ('september 5', '../../assets/posters/september5.jpg', null),
+    -- yes, this is stupid, but unfortunately is needed for song category
+    ('emilia pérez', '../../assets/posters/perez.webp', 'france')
 
 SELECT * FROM dbo.Movie

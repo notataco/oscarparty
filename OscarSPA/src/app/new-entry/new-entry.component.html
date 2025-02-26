@@ -1,4 +1,7 @@
 <div class="entry-container">
+    <div class="back-button">
+        <svg (click)="onGoBack()" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M400-80 0-480l400-400 71 71-329 329 329 329-71 71Z"/></svg>
+    </div>
     @for (category of categories; track category.name) {
         <div class="category">
             <div class="category--title">
@@ -7,19 +10,49 @@
             @for (movie of category.movies; track movie.title) {
                 <div [ngClass]="checkIfSelected(category, movie) ? 'movie selected' : 'movie'" (click)="selectMovie(movie, category)">
                     <div class="movie--text">
+                    @if (category.moviePrimary) {
                         <div class="movie--text-title">
                             {{ movie.title | titlecase }}
                         </div>
-                        <div class="movie--text-subtitle">
-
+                    }
+                    @if (category.actorPrimary) {
+                        <div class="movie--text-title">
+                            {{ getActor(category, movie) | uppercase }}
                         </div>
+                        <div class="movie--text-subtitle">
+                            {{ movie.title | titlecase }}
+                        </div>
+                    }
+                    @if (category.countryPrimary) {
+                        <div class="movie--text-title">
+                            {{ movie.country | uppercase }}
+                        </div>
+                        <div class="movie--text-subtitle">
+                            {{ movie.title | titlecase }}
+                        </div>
+                    }
+                    @if (category.songPrimary) {
+                        <div class="movie--text-title">
+                            {{ getSong(category, movie) | uppercase }}
+                        </div>
+                        <div class="movie--text-subtitle">
+                            {{ movie.title | titlecase }}
+                        </div>
+                    }
                     </div>
                     <img [src]="movie.posterURL" alt="{{ movie.title }}" [height]="pictureHeight">
                 </div>
             }
         </div>
     }
-    <div class="submit-button" (click)="submitPicks()">
-        SUBMIT
-    </div>
+    @if (notEnoughPicks) {
+        <div class="error-message">
+            YOU ARE MISSING PICKS!
+        </div>
+    }
+    @if (notSubmitted) {
+        <div class="submit-button" (click)="submitPicks()">
+            SUBMIT
+        </div>
+    }
 </div>

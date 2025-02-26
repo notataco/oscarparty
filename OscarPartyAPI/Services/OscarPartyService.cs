@@ -50,6 +50,7 @@ namespace OscarPartyAPI.Services
             var movies = await _oscarPartyRepository.GetAllMovies();
             var actors = await _oscarPartyRepository.GetAllActors();
             var nominees = await _oscarPartyRepository.GetAllNominees();
+            var songs = await _oscarPartyRepository.GetAllSongs();
 
             foreach (var nominee in nominees)
             {
@@ -57,6 +58,7 @@ namespace OscarPartyAPI.Services
 
                 category.Movies.Add(movies.Where(movie => movie.MovieID == nominee.MovieID).FirstOrDefault());
                 category.Actors.Add(actors.Where(actor => actor.ActorID == nominee.ActorID).FirstOrDefault());
+                category.Songs.Add(songs.Where(song => song.MovieID == nominee.MovieID).FirstOrDefault());
             }
 
             return categories;
@@ -74,9 +76,23 @@ namespace OscarPartyAPI.Services
             return standings;   
         }
 
-        public async Task InsertWinner(Winner winner)
+        public async Task InsertWinner(List<Winner> winner)
         {
             await _oscarPartyRepository.InsertWinner(winner);
+        }
+
+        public async Task<List<Winner>> GetWinners()
+        {
+            var winners = await _oscarPartyRepository.GetWinners();
+
+            return winners;
+        }
+
+        public async Task<List<UserPick>> GetUserPicks(int userID)
+        {
+            var picks = await _oscarPartyRepository.GetUserPicks(userID);
+
+            return picks;
         }
     }
 }

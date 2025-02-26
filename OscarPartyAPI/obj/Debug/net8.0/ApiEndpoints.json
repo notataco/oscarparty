@@ -21,6 +21,72 @@
   },
   {
     "ContainingType": "OscarPartyController",
+    "Method": "GetCurrentStandings",
+    "RelativePath": "api/OscarParty/GetCurrentStandings",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[OscarPartyAPI._models.User, OscarPartyAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OscarPartyController",
+    "Method": "GetWinningMovies",
+    "RelativePath": "api/OscarParty/GetUserPicks/{userID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[OscarPartyAPI._models.User, OscarPartyAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OscarPartyController",
+    "Method": "GetWinningMovies",
+    "RelativePath": "api/OscarParty/GetWinningMovies",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[OscarPartyAPI._models.User, OscarPartyAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "OscarPartyController",
     "Method": "Login",
     "RelativePath": "api/OscarParty/Login",
     "HttpMethod": "POST",
@@ -82,6 +148,22 @@
       {
         "Name": "picks",
         "Type": "System.Collections.Generic.List\u00601[[OscarPartyAPI._models.UserPick, OscarPartyAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OscarPartyController",
+    "Method": "InsertWinner",
+    "RelativePath": "api/OscarParty/SubmitWinners",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "winners",
+        "Type": "System.Collections.Generic.List\u00601[[OscarPartyAPI._models.Winner, OscarPartyAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "IsRequired": true
       }
     ],

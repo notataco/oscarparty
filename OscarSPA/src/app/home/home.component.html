@@ -1,5 +1,10 @@
 <div class="home-container">
     @if (user) {
+        @if (  user.isAdmin) {
+            <div (click)="updateWinners()" class="button">
+                Winner Control
+            </div>
+        }
         <div class="sign-up">
             <div class="button">
                 <div class="button--icon">
@@ -7,12 +12,14 @@
                 </div>
                 <div class="button--text" (click)="logout()">LOGOUT</div>
             </div>
-            <div class="button">
-                <div class="button--icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M440-440H200v-80h240v-240h80v240h240v80H520v240h-80v-240Z"/></svg>
+            @if (userPicks.length == 0) {
+                <div class="button">
+                    <div class="button--icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M440-440H200v-80h240v-240h80v240h240v80H520v240h-80v-240Z"/></svg>
+                    </div>
+                    <div class="button--text" (click)="newEntry()">ADD NEW ENTRY</div>
                 </div>
-                <div class="button--text" (click)="newEntry()">ADD NEW ENTRY</div>
-            </div>
+            }
         </div>
     } @else {
         <div class="sign-up">
@@ -33,4 +40,17 @@
     <div class="graph">
         <app-graph></app-graph>
     </div>
+    @for (winner of winners; track winner.winnerID) {
+        <div class="winners">
+            <div class="winning-category">{{ winningCategory(winner) }}</div>
+            <div [ngClass]="checkIfCorrect(winner) ? 'winning-movie correct' : 'winning-movie'">
+                <div class="winning-movie--title">
+                    {{ winningMovie(winner) }}
+                </div>
+                <div class="winning-movie--poster">
+                    <img [src]="winningMoviePoster(winner)" alt="{{ winningMovie(winner) }}" height="75px">
+                </div>
+            </div>
+        </div>
+    }
 </div>

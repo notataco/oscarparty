@@ -93,7 +93,7 @@ INSERT INTO [dbo].[Nominees] (
     (16, 9, null, null),
     (16, 39, null, null),
     (16, 3, null, null),
-    (16, 9, null, null),
+    (16, 51, null, null),
     (16, 40, null, null),
     (17, 6, null, null),
     (17, 1, null, null),
@@ -137,3 +137,4 @@ INSERT INTO [dbo].[Nominees] (
     (23, 10, null, null)
 
     
+SELECT * FROM dbo.Nominees
