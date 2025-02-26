@@ -6,3 +6,5 @@ CREATE TABLE [dbo].[User] (
     [Name] VARCHAR(36) NOT NULL,
     [PIN] INT NOT NULL
 )
+
+SELECT * FROM [dbo].[User]

@@ -44,8 +44,8 @@ INSERT INTO [dbo].[Movie] (
     ('soundtrack to a coup d''etat', '../../assets/posters/soundtrack.jpg', null),
     ('sugarcane', '../../assets/posters/sugarcane.jpg', null),
     ('death by number', '../../assets/posters/death.jpg', null),
-    ('i am ready, warden', 'url', null), -- missing poster
-    ('incident', 'url', null), -- missing poster
+    ('i am ready, warden', '../../assets/posters/warden.jpg', null), -- missing poster
+    ('incident', '../../assets/posters/incident.jpg', null), -- missing poster
     ('instruments of a beating heart', '../../assets/posters/instrument.jpg', null),
     ('the only girl in the orchestra', '../../assets/posters/orchestra.jpg', null),
     ('the girl with the needle', '../../assets/posters/needle.jpg', 'denmark'),
@@ -54,7 +54,7 @@ INSERT INTO [dbo].[Movie] (
     ('the six triple eight', '../../assets/posters/6888.webp', null),
     ('elton john: never too late', '../../assets/posters/eltonjohn.jpeg', null),
     ('nickel boys', '../../assets/posters/nickelboys.webp', null),
-    ('a lien', 'url', null), -- missing poster
+    ('a lien', '../../assets/posters/a_lien.jpg', null), -- missing poster
     ('anuja', '../../assets/posters/anuja.jpg', null),
     ('i''m not a robot', '../../assets/posters/notarobot.jpg', null),
     ('the last ranger', '../../assets/posters/lastranger.jpg', null),

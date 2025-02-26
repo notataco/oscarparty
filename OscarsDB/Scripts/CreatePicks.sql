@@ -9,3 +9,5 @@ CREATE TABLE [dbo].[Pick] (
     [ActorID] INT NULL,
     [IsCorrect] BIT NULL
 )
+
+SELECT * FROM dbo.Pick

@@ -32,14 +32,15 @@ export class LoginDialogComponent {
     if (this.data.isLogin) {
       this._userService.login(user).subscribe({
         next: res => {
-          this._userService.setUser(user);
+          this._userService.setUser(res);
           this.dialogRef.close(res);
         }
       });
     } else {
       this._userService.signup(user).subscribe({
         next: res => {
-          this._userService.setUser(user);
+          console.log(res);
+          this._userService.setUser(res);
           this.dialogRef.close(res);
         }
       });

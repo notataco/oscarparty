@@ -137,3 +137,4 @@ INSERT INTO [dbo].[Nominees] (
     (23, 10, null, null)
 
     
+SELECT * FROM dbo.Nominees

@@ -60,10 +60,6 @@
                 background-color 500ms ease-out,
                 border-color 500ms ease-out;
 
-    &:hover {
-        @include selected-movie;
-    }
-
     &--text {
 
         &-title {
@@ -87,10 +83,6 @@
     transition: color 500ms ease-out,
                 background-color 500ms ease-out,
                 border-color 500ms ease-out;
-
-    &:hover {
-        @include selected-movie;
-    }
 }
 
 @media screen and (max-width: 800px) {

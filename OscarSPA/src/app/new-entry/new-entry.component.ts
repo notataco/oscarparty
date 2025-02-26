@@ -6,6 +6,7 @@ import { Actor } from '../_models/actor.model';
 import { CommonModule, TitleCasePipe, UpperCasePipe } from '@angular/common';
 import { UserPick } from '../_models/user-pick.model';
 import { Router } from '@angular/router';
+import { UserService } from '../_services/user.service';
 
 @Component({
   selector: 'app-new-entry',
@@ -26,18 +27,24 @@ export class NewEntryComponent implements OnInit {
   picks: Array<UserPick> = new Array<UserPick>();
 
   userID: number = 1;
+  notEnoughPicks: boolean = false;
+  notSubmitted: boolean = true;
 
   constructor(
     private readonly _movieService: MovieService,
+    private readonly _userService: UserService,
     private readonly _router: Router
   ) { }
 
   ngOnInit(): void {
+    this.userID = this._userService.getUser().userID;
+
     this.setPictureHeight();
 
     this._movieService.getCategories().subscribe({
       next: res => {
         this.categories = res;
+        console.log(this.categories);
       }
     });
 
@@ -82,9 +89,16 @@ export class NewEntryComponent implements OnInit {
   }
 
   public submitPicks(): void {
+    this.notSubmitted = false;
+    if (this.picks.length !== this.categories.length) {
+      this.notEnoughPicks = true;
+      this.notSubmitted = true;
+      return;
+    }
+
     this._movieService.submitPicks(this.picks).subscribe({
       next: res => {
-        console.log(res);
+        this._router.navigate(['']);
       }
     });
   }

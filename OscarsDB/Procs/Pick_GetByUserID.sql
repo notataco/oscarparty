@@ -2,7 +2,7 @@ USE [OscarParty]
 GO
 
 /*
-EXEC Pick_Insert 
+EXEC Pick_GetByUserID 1
 */
 
 CREATE OR ALTER PROCEDURE Pick_GetByUserID
@@ -14,7 +14,7 @@ BEGIN
         CategoryID,
         MovieID,
         ActorID
-    FROM [dbo].[UserPick]
+    FROM [dbo].[Pick]
     WHERE UserID = @UserID
 
 END

@@ -20,7 +20,7 @@ BEGIN
             ELSE 0
         END AS ExistingEntry
     FROM [dbo].[User] AS u
-    LEFT JOIN dbo.UserPick AS up ON up.UserID = u.UserID
+    LEFT JOIN dbo.Pick AS up ON up.UserID = u.UserID
     WHERE   [Name] = @Name
     AND     [PIN] = @PIN
 

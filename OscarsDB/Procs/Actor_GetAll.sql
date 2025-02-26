@@ -5,7 +5,7 @@ GO
 EXEC Actor_GetAll
 */
 
-CREATE PROCEDURE Actor_GetAll
+CREATE OR ALTER PROCEDURE Actor_GetAll
 AS 
 BEGIN
 

@@ -10,7 +10,7 @@ CREATE OR ALTER PROCEDURE Pick_Insert
 AS 
 BEGIN
 
-    INSERT INTO [dbo].[UserPick] (
+    INSERT INTO [dbo].[Pick] (
         [UserID],
         [CategoryID],
         [MovieID],

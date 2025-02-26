@@ -22,7 +22,14 @@
             }
         </div>
     }
-    <div class="submit-button" (click)="submitPicks()">
-        SUBMIT
-    </div>
+    @if (notEnoughPicks) {
+        <div class="error-message">
+            YOU ARE MISSING PICKS!
+        </div>
+    }
+    @if (notSubmitted) {
+        <div class="submit-button" (click)="submitPicks()">
+            SUBMIT
+        </div>
+    }
 </div>

@@ -10,11 +10,12 @@ import { MovieService } from '../_services/movie.service';
 import { Category } from '../_models/category.model';
 import { Movie } from '../_models/movie.model';
 import { UserPick } from '../_models/user-pick.model';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [MatDialogModule, GraphComponent],
+  imports: [MatDialogModule, GraphComponent, CommonModule],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'
 })
@@ -47,7 +48,6 @@ export class HomeComponent implements OnInit {
 
   ngOnInit(): void {
       if (this.user) {
-        console.log(this.user);
         this._movieService.getUserPicks(this.user.userID).subscribe({
           next: res => {
             this.userPicks = res;
@@ -64,6 +64,12 @@ export class HomeComponent implements OnInit {
     dialog.afterClosed().subscribe(res => {
       if (res) {
         this.user = res;
+
+        this._movieService.getUserPicks(this.user!.userID).subscribe({
+          next: res => {
+            this.userPicks = res;
+          }
+        });
       }
     });
   }
@@ -83,6 +89,8 @@ export class HomeComponent implements OnInit {
   public logout() {
     this._userService.logout();
     this.user = this._userService.getUser();
+
+    this.userPicks = new Array<UserPick>();
   }
 
   public newEntry() {
@@ -133,5 +141,19 @@ export class HomeComponent implements OnInit {
     }
 
     return winningTitle;
+  }
+
+  public checkIfCorrect(winner: WinnerInfo): boolean {
+    let pick = this.userPicks.find(pick => pick.categoryID === winner.categoryID);
+
+    if (pick) {
+      if (pick?.movieID === winner.winningMovieID) {
+        return true;
+      } else {
+        return false;
+      }
+    }
+    
+    return false;
   }
 }

@@ -5,7 +5,7 @@ GO
 EXEC Nominee_GetAll
 */
 
-CREATE PROCEDURE Nominee_GetAll
+CREATE OR ALTER PROCEDURE Nominee_GetAll
 AS 
 BEGIN
 
