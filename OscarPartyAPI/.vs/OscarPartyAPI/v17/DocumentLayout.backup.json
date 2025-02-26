@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\Repos\\Oscars\\OscarPartyAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8E3AA43E-7D80-4498-8F97-0CEE0499ED79}|OscarPartyAPI.csproj|d:\\repos\\oscars\\oscarpartyapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E3AA43E-7D80-4498-8F97-0CEE0499ED79}|OscarPartyAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8E3AA43E-7D80-4498-8F97-0CEE0499ED79}|OscarPartyAPI.csproj|d:\\repos\\oscars\\oscarpartyapi\\services\\oscarpartyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8E3AA43E-7D80-4498-8F97-0CEE0499ED79}|OscarPartyAPI.csproj|solutionrelative:services\\oscarpartyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -38,11 +42,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Repos\\Oscars\\OscarPartyAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Repos\\Oscars\\OscarPartyAPI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAADwvx4AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T04:17:39.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Category.cs",
               "DocumentMoniker": "D:\\Repos\\Oscars\\OscarPartyAPI\\_models\\Category.cs",
               "RelativeDocumentMoniker": "_models\\Category.cs",
@@ -54,7 +71,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "OscarPartyRepository.cs",
               "DocumentMoniker": "D:\\Repos\\Oscars\\OscarPartyAPI\\Repositories\\OscarPartyRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\OscarPartyRepository.cs",
@@ -66,7 +83,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "IOscarPartyService.cs",
               "DocumentMoniker": "D:\\Repos\\Oscars\\OscarPartyAPI\\Services\\IOscarPartyService.cs",
               "RelativeDocumentMoniker": "Services\\IOscarPartyService.cs",
@@ -78,7 +95,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "OscarPartyService.cs",
               "DocumentMoniker": "D:\\Repos\\Oscars\\OscarPartyAPI\\Services\\OscarPartyService.cs",
               "RelativeDocumentMoniker": "Services\\OscarPartyService.cs",
@@ -91,7 +108,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "OscarPartyController.cs",
               "DocumentMoniker": "D:\\Repos\\Oscars\\OscarPartyAPI\\OscarPartyController.cs",
               "RelativeDocumentMoniker": "OscarPartyController.cs",
@@ -103,7 +120,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "IOscarPartyRepository.cs",
               "DocumentMoniker": "D:\\Repos\\Oscars\\OscarPartyAPI\\Repositories\\IOscarPartyRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\IOscarPartyRepository.cs",
@@ -115,7 +132,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "UserPick.cs",
               "DocumentMoniker": "D:\\Repos\\Oscars\\OscarPartyAPI\\_models\\UserPick.cs",
               "RelativeDocumentMoniker": "_models\\UserPick.cs",

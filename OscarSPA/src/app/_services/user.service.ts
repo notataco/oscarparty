@@ -7,8 +7,8 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class UserService {
-  // _api = 'https://crab-heroic-gorilla.ngrok-free.app/api/OscarParty';
-  _api = 'https://localhost:7118/api/OscarParty';
+  _api = 'https://crab-heroic-gorilla.ngrok-free.app/api/OscarParty';
+  // _api = 'https://localhost:7118/api/OscarParty';
   
   user?: User;
 

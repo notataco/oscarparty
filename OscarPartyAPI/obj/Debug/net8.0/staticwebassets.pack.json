@@ -93,6 +93,10 @@
       "PackagePath": "staticwebassets\\assets\\posters\\6888.webp"
     },
     {
+      "Id": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\a_lien.jpg",
+      "PackagePath": "staticwebassets\\assets\\posters\\a_lien.jpg"
+    },
+    {
       "Id": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\anora.webp",
       "PackagePath": "staticwebassets\\assets\\posters\\anora.webp"
     },
@@ -163,6 +167,10 @@
     {
       "Id": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\gladiator.webp",
       "PackagePath": "staticwebassets\\assets\\posters\\gladiator.webp"
+    },
+    {
+      "Id": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\incident.jpg",
+      "PackagePath": "staticwebassets\\assets\\posters\\incident.jpg"
     },
     {
       "Id": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\insideout.webp",
@@ -261,6 +269,10 @@
       "PackagePath": "staticwebassets\\assets\\posters\\wallace.webp"
     },
     {
+      "Id": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\warden.jpg",
+      "PackagePath": "staticwebassets\\assets\\posters\\warden.jpg"
+    },
+    {
       "Id": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\assets\\posters\\wicked.webp",
       "PackagePath": "staticwebassets\\assets\\posters\\wicked.webp"
     },
@@ -285,8 +297,8 @@
       "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\main-QILQFKP5.js",
-      "PackagePath": "staticwebassets\\main-QILQFKP5.js"
+      "Id": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\main-VB3K6MLX.js",
+      "PackagePath": "staticwebassets\\main-VB3K6MLX.js"
     },
     {
       "Id": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\media\\Montserrat-VariableFont_wght-KEGAHBID.ttf",
@@ -297,8 +309,8 @@
       "PackagePath": "staticwebassets\\polyfills-FFHMD2TL.js"
     },
     {
-      "Id": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\styles-6ELTHERW.css",
-      "PackagePath": "staticwebassets\\styles-6ELTHERW.css"
+      "Id": "D:\\Repos\\Oscars\\OscarPartyAPI\\wwwroot\\styles-ZQOJ4CV7.css",
+      "PackagePath": "staticwebassets\\styles-ZQOJ4CV7.css"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.OscarPartyAPI.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
