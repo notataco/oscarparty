@@ -1,6 +1,6 @@
 import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 import { MovieService } from '../../_services/movie.service';
-import { Chart, registerables } from 'chart.js';
+import { Chart, ChartData, registerables } from 'chart.js';
 
 Chart.register(...registerables);
 
@@ -21,9 +21,19 @@ export class GraphComponent implements OnInit
 
   ngOnInit(): void 
   {
+    const datasets: ChartData <'bar', {key: string, value: number} []> = {
+      datasets: [{
+        data: this.sampleData,
+        parsing: {
+          xAxisKey: 'key',
+          yAxisKey: 'value'
+        },
+      }],
+    };
+    
     this._movieService.getCurrentUserStandings().subscribe(data => {
       data.forEach(user => {
-       this.sampleData.push({Name: user.name, score: user.currentScore}); 
+       this.sampleData.push({key: user.name, value: user.currentScore}); 
       });
     });
 
@@ -33,7 +43,7 @@ export class GraphComponent implements OnInit
         datasets: [{
           axis: 'y',
           label: ' ',
-          data: this.sampleData,
+          datasets,
           fill: false,
           backgroundColor: [
             'rgba(255, 215, 64, 0.2)',
@@ -45,10 +55,6 @@ export class GraphComponent implements OnInit
         }]
       },
       options: {
-        parsing: {
-          xAxisKey: 'Name',
-          yAxisKey: 'score'
-        },
         responsive: true,
         indexAxis: 'y',
         plugins: {
