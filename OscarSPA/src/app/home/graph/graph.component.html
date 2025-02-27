@@ -1,17 +1,5 @@
 <div class="d-flex justify-content-center chart-formatting">
-    <jqxChart 
-        [width]="getWidth()" 
-        [height]="500"
-        [title]="'Oscars Leaderboard'"
-        [description]="' '"
-        [padding]="padding"
-        [titlePadding]="titlePadding"
-        [showLegend]="false" 
-        [enableAnimations]="true" 
-        [source]="sampleData" 
-        [xAxis]="xAxis"
-        [valueAxis]="valueAxis"
-        [seriesGroups]="seriesGroups"
-        [backgroundColor]="'#2e3338'">
-    </jqxChart> 
+    <!-- <div style="width: 800px;"><canvas id="acquisitions"></canvas></div>
+    <script type="module" src="acquisitions.js"></script> -->
+    <canvas id="playerScoreBoard">{{ chart }}</canvas> 
 </div>

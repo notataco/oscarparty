@@ -387,7 +387,7 @@ namespace OscarPartyAPI.Repositories
                             WinnerID = reader.GetInt32(0),
                             CategoryID = reader.GetInt32(1),
                             WinningMovieID = reader.GetInt32(2),
-                            ActorID = reader.GetInt32(3)
+                            ActorID = reader.IsDBNull(3) ? null : reader.GetInt32(3)
                         });
                     }
                 }

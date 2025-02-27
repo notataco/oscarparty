@@ -1,17 +1,23 @@
 import { Component, OnInit, ViewEncapsulation } from '@angular/core';
-import { jqxChartModule } from 'jqwidgets-ng/jqxchart';
 import { MovieService } from '../../_services/movie.service';
+import { Chart, registerables } from 'chart.js';
+
+Chart.register(...registerables);
 
 @Component({
   selector: 'app-graph',
-  imports: [jqxChartModule],
+  imports: [],
   templateUrl: './graph.component.html',
-  styleUrl: './graph.component.scss',
-  encapsulation: ViewEncapsulation.None
+  styleUrl: './graph.component.scss'
 })
 export class GraphComponent implements OnInit 
 {
- public sampleData: any[] = []; 
+  public sampleData: any[] = []; 
+  public users: any[] = [];
+  public scores: any[] = [];
+  public config: any;
+
+  public chart: any;
 
   constructor(private readonly _movieService: MovieService) { }
 
@@ -20,63 +26,57 @@ export class GraphComponent implements OnInit
     this._movieService.getCurrentUserStandings().subscribe(data => {
       data.forEach(user => {
        this.sampleData.push({Name: user.name, score: user.currentScore});
+
+       this.users.push(user.name);
+       this.scores.push(user.currentScore);
       });
     });
 
-    console.log(this.sampleData);
-  }
-
-//  public sampleData = [
-//     { Name: 'Keely', score: 6 },
-//     { Name: 'Will', score: 10 },
-//     { Name: 'Jake', score: 8 },
-//     { Name: 'Miles', score: 1 },
-//     { Name: 'Alexa', score: 4 },
-//     { Name: 'Emily', score: 7 },
-//     { Name: 'Katie', score: 2 },
-//     { Name: 'Kaelyn', score: 6 },
-//   ];
-
-  padding: any = { left: 20, top: 5, right: 20, bottom: 40 };
-  titlePadding: any = { left: 90, top: 0, right: 0, bottom: 10 };
-  xAxis: any =
-  {
-    dataField: 'Name',
-    showGridLines: false,
-    labels: { angle: 90 },
-    axisSize: 'auto'
-  };
-
-  valueAxis: any =
-  {
-      minValue: 0,
-      maxValue: 25,
-      flip: true,
-      tickMarks: { visible: true, interval: 1, color: '#FFFFFF'},
-      gridLines: { visible: true, interval: 1, color: '#FFFFFF'},
-      labels: { 
-        visible: true, 
-        color: '#FFFFFF',
-        formatFunction: (value: number) => {
-          return value;
+    this.config = {
+      type: 'bar',
+      data: {
+        labels: this.users,
+        datasets: [{
+          axis: 'y',
+          label: ' ',
+          data: this.scores,
+          fill: false,
+          backgroundColor: [
+            'rgba(255, 215, 64, 0.2)',
+          ],
+          borderColor: [
+            'rgb(255, 215, 0)',
+          ],
+          borderWidth: 1
+        }]
+      },
+      options: {
+        responsive: true,
+        indexAxis: 'y',
+        plugins: {
+          title: {
+            display: true,
+            text: 'Oscars Scoreboard',
           }
-       }
-  };
+        }
+      },
+      scales: {
+        x: {
+          min: 0,
+          max: 26,
+          ticks: {
+            stepSize: 1
+          }
+        }
+      }
+    };
 
-  seriesGroups: any[] =
-  [{
-      type: 'column',
-      orientation: 'horizontal',
-      columnsGapPercent: 25,
-      series: [ { dataField: 'score', displayText: 'Points', fillColor: '#d4af37' } ]
-  }];
+    console.log(this.users, this.scores);
 
-  getWidth(): any 
-  {
-    if (document.body.offsetWidth < 850) {
-        return '90%';
-    }
+    this.chart = new Chart('playerScoreBoard', this.config);
 
-    return 850;
+    console.log(this.chart);
+
   }
+
 }
