@@ -13,8 +13,6 @@ Chart.register(...registerables);
 export class GraphComponent implements OnInit 
 {
   public sampleData: any[] = []; 
-  public users: any[] = [];
-  public scores: any[] = [];
   public config: any;
 
   public chart: any;
@@ -25,21 +23,17 @@ export class GraphComponent implements OnInit
   {
     this._movieService.getCurrentUserStandings().subscribe(data => {
       data.forEach(user => {
-       this.sampleData.push({Name: user.name, score: user.currentScore});
-
-       this.users.push(user.name);
-       this.scores.push(user.currentScore);
+       this.sampleData.push({Name: user.name, score: user.currentScore}); 
       });
     });
 
     this.config = {
       type: 'bar',
       data: {
-        labels: this.users,
         datasets: [{
           axis: 'y',
           label: ' ',
-          data: this.scores,
+          data: this.sampleData,
           fill: false,
           backgroundColor: [
             'rgba(255, 215, 64, 0.2)',
@@ -51,6 +45,10 @@ export class GraphComponent implements OnInit
         }]
       },
       options: {
+        parsing: {
+          xAxisKey: 'Name',
+          yAxisKey: 'score'
+        },
         responsive: true,
         indexAxis: 'y',
         plugins: {
@@ -71,12 +69,9 @@ export class GraphComponent implements OnInit
       }
     };
 
-    console.log(this.users, this.scores);
-
     this.chart = new Chart('playerScoreBoard', this.config);
 
-    console.log(this.chart);
-
+    console.log(this.sampleData);
   }
 
 }
