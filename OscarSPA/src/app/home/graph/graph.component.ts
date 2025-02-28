@@ -26,24 +26,17 @@ export class GraphComponent implements OnInit
     console.log(this.sampleData);
   }
 
-//  public sampleData = [
-//     { Name: 'Keely', score: 6 },
-//     { Name: 'Will', score: 10 },
-//     { Name: 'Jake', score: 8 },
-//     { Name: 'Miles', score: 1 },
-//     { Name: 'Alexa', score: 4 },
-//     { Name: 'Emily', score: 7 },
-//     { Name: 'Katie', score: 2 },
-//     { Name: 'Kaelyn', score: 6 },
-//   ];
-
   padding: any = { left: 20, top: 5, right: 20, bottom: 40 };
   titlePadding: any = { left: 90, top: 0, right: 0, bottom: 10 };
   xAxis: any =
   {
     dataField: 'Name',
     showGridLines: false,
-    labels: { angle: 90 },
+    labels: { 
+      angle: 90,
+      color: '#FFFFFF',
+      stroke: '#FFFFFF'
+     },
     axisSize: 'auto'
   };
 
@@ -57,6 +50,7 @@ export class GraphComponent implements OnInit
       labels: { 
         visible: true, 
         color: '#FFFFFF',
+        
         formatFunction: (value: number) => {
           return value;
           }

@@ -40,17 +40,40 @@
     <div class="graph">
         <app-graph></app-graph>
     </div>
-    @for (winner of winners; track winner.winnerID) {
-        <div class="winners">
-            <div class="winning-category">{{ winningCategory(winner) }}</div>
-            <div [ngClass]="checkIfCorrect(winner) ? 'winning-movie correct' : 'winning-movie'">
-                <div class="winning-movie--title">
-                    {{ winningMovie(winner) }}
-                </div>
-                <div class="winning-movie--poster">
-                    <img [src]="winningMoviePoster(winner)" alt="{{ winningMovie(winner) }}" height="75px">
+    <div class="toggle">
+        <mat-button-toggle-group [(ngModel)]="pickType" (ngModelChange)="updatedSelection($event)" [hideSingleSelectionIndicator]="true">
+            <mat-button-toggle value="winners">Winners</mat-button-toggle>
+            <mat-button-toggle value="picks">My Picks</mat-button-toggle>
+        </mat-button-toggle-group>
+    </div>
+    @if(pickType === "winners") {
+        @for (winner of winners; track winner.winnerID) {
+            <div class="winners">
+                <div class="winning-category">{{ winningCategory(winner.categoryID) }}</div>
+                <div [ngClass]="checkIfCorrect(winner) ? 'winning-movie correct' : 'winning-movie'">
+                    <div class="winning-movie--title">
+                        {{ winningMovie(winner) }}
+                    </div>
+                    <div class="winning-movie--poster">
+                        <img [src]="winningMoviePoster(winner)" alt="{{ winningMovie(winner) }}" height="75px">
+                    </div>
                 </div>
             </div>
-        </div>
+        }
+    }
+    @if(pickType === "picks") {
+        @for (pick of userPicks; track pick.pickID) {
+            <div class="winners">
+                <div class="winning-category">{{ winningCategory(pick.categoryID) }}</div>
+                <div class="winning-movie">
+                    <div class="winning-movie--title">
+                        {{ userPickMovie(pick) }}
+                    </div>
+                    <div class="winning-movie--poster">
+                        <img [src]="userPickMoviePoster(pick)" alt="{{ userPickMovie(pick) }}" height="75px">
+                    </div>
+                </div>
+            </div>
+        }
     }
 </div>

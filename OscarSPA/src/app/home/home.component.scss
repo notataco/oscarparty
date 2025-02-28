@@ -98,3 +98,20 @@
         }
     }
 }
+
+.toggle {
+    display: flex; 
+    justify-content: center;
+}
+
+::ng-deep {
+    .mat-button-toggle-appearance-standard.mat-button-toggle-checked {
+        background-color: goldenrod !important;
+        color: black !important;
+    }
+
+    .mat-button-toggle-appearance-standard {
+        background-color: black !important;
+        color: white !important;
+    }
+}
