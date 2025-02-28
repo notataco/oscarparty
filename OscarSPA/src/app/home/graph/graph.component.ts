@@ -20,17 +20,26 @@ export class GraphComponent implements OnInit
   ngOnInit(): void 
   {
     this._movieService.getCurrentUserStandings().subscribe(data => {
-      console.log(data);
       data.forEach(user => {
        this.sampleData.push({Name: user.name, score: user.currentScore});
       });
     });
 
     this._movieService.getWinners().subscribe(data => {
+      console.log(data);
+      data.forEach(winner => {
+        if(!this.movieData.find(m => m.movieID = winner.winningMovieID))
+        {
+          this.movieData.push(winner);
+        }
+        else 
+        {
 
+        }
+      });
     });
 
-    console.log(this.sampleData);
+    console.log("Scores:" , this.sampleData);
   }
 
   padding: any = { left: 20, top: 5, right: 20, bottom: 40 };
