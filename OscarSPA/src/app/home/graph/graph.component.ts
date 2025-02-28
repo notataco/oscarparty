@@ -24,7 +24,7 @@ export class GraphComponent implements OnInit
        this.sampleData.push({Name: user.name, score: user.currentScore});
       });
     });
-    
+
     console.log("Scores:" , this.sampleData);
   }
 
@@ -69,11 +69,11 @@ export class GraphComponent implements OnInit
 
   getWidth(): any 
   {
-    if (document.body.offsetWidth < 850) {
-        return '90%';
-    }
+    // if (document.body.offsetWidth < 850) {
+    //     return '100%';
+    // }
 
-    return 850;
+    // return 850;
   }
 
   onTabSelect(event: any): void {

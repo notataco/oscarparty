@@ -39,7 +39,7 @@ export class HomeComponent implements OnInit {
 
     this._movieService.getWinners().subscribe({
       next: res => {
-        this.winners = res;
+        this.winners = res.sort((a, b) => b.categoryID - a.categoryID);
       }
     });
 
