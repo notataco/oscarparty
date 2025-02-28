@@ -24,21 +24,7 @@ export class GraphComponent implements OnInit
        this.sampleData.push({Name: user.name, score: user.currentScore});
       });
     });
-
-    this._movieService.getWinners().subscribe(data => {
-      console.log(data);
-      data.forEach(winner => {
-        if(!this.movieData.find(m => m.movieID = winner.winningMovieID))
-        {
-          this.movieData.push(winner);
-        }
-        else 
-        {
-
-        }
-      });
-    });
-
+    
     console.log("Scores:" , this.sampleData);
   }
 

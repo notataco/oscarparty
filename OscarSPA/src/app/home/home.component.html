@@ -46,7 +46,9 @@
     <div class="toggle">
         <mat-button-toggle-group [(ngModel)]="pickType" (ngModelChange)="updatedSelection($event)" [hideSingleSelectionIndicator]="true">
             <mat-button-toggle value="winners">Winners</mat-button-toggle>
-            <mat-button-toggle value="picks">My Picks</mat-button-toggle>
+            @if(user){
+                <mat-button-toggle value="picks">My Picks</mat-button-toggle>
+            }
         </mat-button-toggle-group>
     </div>
     @if(pickType === "winners") {

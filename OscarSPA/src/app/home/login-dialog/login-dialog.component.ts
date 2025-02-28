@@ -43,7 +43,7 @@ export class LoginDialogComponent {
       return;
     }
 
-    if(user.pin != this.confirmPin)
+    if(!this.data.isLogin && (user.pin != this.confirmPin))
     {
       this.error = true;
       this.errorMessage = 'PINs do not match';
