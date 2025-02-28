@@ -29,6 +29,13 @@ export class LoginDialogComponent {
     user.name = this.username;
     user.pin = this.pin;
 
+    if(/[^a-zA-Z0-9\s]/.test(user.name))
+    {
+      this.error = true;
+      this.errorMessage = 'No special characters';
+      return;
+    }
+
     if(user.name.length <= 0 || user.pin < 4)
     {
       this.error = true;
