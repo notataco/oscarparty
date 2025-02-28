@@ -1,17 +1,19 @@
 import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 import { jqxChartModule } from 'jqwidgets-ng/jqxchart';
 import { MovieService } from '../../_services/movie.service';
+import { jqxTabsModule } from 'jqwidgets-ng/jqxtabs';
 
 @Component({
   selector: 'app-graph',
-  imports: [jqxChartModule],
+  imports: [jqxChartModule, jqxTabsModule],
   templateUrl: './graph.component.html',
   styleUrl: './graph.component.scss',
   encapsulation: ViewEncapsulation.None
 })
 export class GraphComponent implements OnInit 
 {
- public sampleData: any[] = []; 
+  public sampleData: any[] = []; 
+  public movieData: any[] = []; 
 
   constructor(private readonly _movieService: MovieService) { }
 
@@ -22,20 +24,9 @@ export class GraphComponent implements OnInit
        this.sampleData.push({Name: user.name, score: user.currentScore});
       });
     });
-
-    console.log(this.sampleData);
+    
+    console.log("Scores:" , this.sampleData);
   }
-
-//  public sampleData = [
-//     { Name: 'Keely', score: 6 },
-//     { Name: 'Will', score: 10 },
-//     { Name: 'Jake', score: 8 },
-//     { Name: 'Miles', score: 1 },
-//     { Name: 'Alexa', score: 4 },
-//     { Name: 'Emily', score: 7 },
-//     { Name: 'Katie', score: 2 },
-//     { Name: 'Kaelyn', score: 6 },
-//   ];
 
   padding: any = { left: 20, top: 5, right: 20, bottom: 40 };
   titlePadding: any = { left: 90, top: 0, right: 0, bottom: 10 };
@@ -43,7 +34,11 @@ export class GraphComponent implements OnInit
   {
     dataField: 'Name',
     showGridLines: false,
-    labels: { angle: 90 },
+    labels: { 
+      angle: 90,
+      color: '#FFFFFF',
+      stroke: '#FFFFFF'
+     },
     axisSize: 'auto'
   };
 
@@ -57,6 +52,7 @@ export class GraphComponent implements OnInit
       labels: { 
         visible: true, 
         color: '#FFFFFF',
+        
         formatFunction: (value: number) => {
           return value;
           }
@@ -78,5 +74,10 @@ export class GraphComponent implements OnInit
     }
 
     return 850;
+  }
+
+  onTabSelect(event: any): void {
+    let selectedTab = event.args.index;
+    console.log('Selected Tab Index:', selectedTab);
   }
 }

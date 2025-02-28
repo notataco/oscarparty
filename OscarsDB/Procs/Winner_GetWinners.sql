@@ -2,7 +2,7 @@ USE [OscarParty]
 GO
 
 /*
-EXEC User_Check 'Will', 1327
+EXEC Winner_GetWinners
 */
 
 CREATE OR ALTER PROCEDURE Winner_GetWinners

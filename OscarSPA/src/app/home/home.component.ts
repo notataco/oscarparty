@@ -10,12 +10,14 @@ import { MovieService } from '../_services/movie.service';
 import { Category } from '../_models/category.model';
 import { Movie } from '../_models/movie.model';
 import { UserPick } from '../_models/user-pick.model';
+import {MatButtonToggleModule} from '@angular/material/button-toggle';
 import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [MatDialogModule, GraphComponent, CommonModule],
+  imports: [MatDialogModule, GraphComponent, CommonModule, MatButtonToggleModule, FormsModule],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'
 })
@@ -24,6 +26,8 @@ export class HomeComponent implements OnInit {
   winners = new Array<WinnerInfo>();
   categories: Array<Category> = new Array<Category>();
   userPicks: Array<UserPick> = new Array<UserPick>();
+
+  pickType: any = "winners";
   
   constructor(
     private _router: Router, 
@@ -47,13 +51,13 @@ export class HomeComponent implements OnInit {
   }
 
   ngOnInit(): void {
-      if (this.user) {
-        this._movieService.getUserPicks(this.user.userID).subscribe({
-          next: res => {
-            this.userPicks = res;
-          }
-        });
-      }
+    if (this.user) {
+      this._movieService.getUserPicks(this.user.userID).subscribe({
+        next: res => {
+          this.userPicks = res;
+        }
+      });
+    }
   }
 
   public login() {
@@ -101,8 +105,8 @@ export class HomeComponent implements OnInit {
     this._router.navigate(['/admin']);
   }
 
-  public winningCategory(winner: WinnerInfo): string {
-    var cat = this.categories.find(cat => cat.categoryID === winner.categoryID);
+  public winningCategory(categoryID: number): string {
+    var cat = this.categories.find(cat => cat.categoryID === categoryID);
 
     if (cat) {
       return cat.name;
@@ -155,5 +159,44 @@ export class HomeComponent implements OnInit {
     }
     
     return false;
+  }
+
+  public userPickMovie(userPick: UserPick): string
+  {
+    var winningTitle = '';
+
+    var cat = this.categories.find(cat => cat.categoryID === userPick.categoryID);
+    
+    if (cat) {
+      var movie = cat.movies.find(movie => movie.movieID === userPick.movieID);
+      
+      if (movie) {
+        winningTitle = movie.title;
+      }
+    }
+
+    return winningTitle;
+  }
+
+  public userPickMoviePoster(userPick: UserPick): string
+  {
+    var winningTitle = '';
+
+    var cat = this.categories.find(cat => cat.categoryID === userPick.categoryID);
+    
+    if (cat) {
+      var movie = cat.movies.find(movie => movie.movieID === userPick.movieID);
+      
+      if (movie) {
+        winningTitle = movie.posterURL;
+      }
+    }
+
+    return winningTitle;
+  }
+
+  public updatedSelection(value: any) 
+  {
+    console.log(this.pickType, value);
   }
 }

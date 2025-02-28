@@ -73,7 +73,7 @@ namespace OscarPartyAPI.Services
         {
             var standings = await _oscarPartyRepository.GetCurrentStandings();
 
-            return standings;   
+            return standings.OrderByDescending(x => x.CurrentScore).ToList();   
         }
 
         public async Task InsertWinner(List<Winner> winner)

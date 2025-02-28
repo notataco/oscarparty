@@ -29,6 +29,8 @@ builder.Services.AddCors(options =>
             policy.WithOrigins(
                 "http://localhost:7118",
                 "https://localhost:7118",
+                "http://localhost:4200",
+                "https://localhost:4200",
                 "https://crab-heroic-gorilla.ngrok-free.app"
             )
             .AllowAnyHeader()

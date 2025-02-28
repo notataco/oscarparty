@@ -29,6 +29,27 @@ export class LoginDialogComponent {
     user.name = this.username;
     user.pin = this.pin;
 
+    if(/[^a-zA-Z0-9\s]/.test(user.name))
+    {
+      this.error = true;
+      this.errorMessage = 'No special characters';
+      return;
+    }
+
+    if(user.name.length <= 0 || user.pin < 4)
+    {
+      this.error = true;
+      this.errorMessage = 'Please fill out all fields';
+      return;
+    }
+
+    if(!this.data.isLogin && (user.pin != this.confirmPin))
+    {
+      this.error = true;
+      this.errorMessage = 'PINs do not match';
+      return;
+    }
+
     if (this.data.isLogin) {
       this._userService.login(user).subscribe({
         next: res => {
