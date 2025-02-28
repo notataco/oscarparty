@@ -20,6 +20,7 @@ export class GraphComponent implements OnInit
   ngOnInit(): void 
   {
     this._movieService.getCurrentUserStandings().subscribe(data => {
+      console.log(data);
       data.forEach(user => {
        this.sampleData.push({Name: user.name, score: user.currentScore});
       });
