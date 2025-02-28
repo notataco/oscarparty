@@ -1,8 +1,15 @@
+<style type="text/css">
+    .jqx-chart-axis-text, .jqx-chart-label-text, .jqx-chart-legend-text, .jqx-chart-axis-description, .jqx-chart-title-text, .jqx-chart-title-description
+    {
+        fill: #ffffff;
+        color: #ffffff;
+    }
+</style>
 <div class="d-flex justify-content-center chart-formatting">
     <jqxChart 
         [width]="getWidth()" 
         [height]="500"
-        [title]="'Oscars Leaderboard'"
+        [title]="''"
         [description]="' '"
         [padding]="padding"
         [titlePadding]="titlePadding"
@@ -15,3 +22,41 @@
         [backgroundColor]="'#2e3338'">
     </jqxChart> 
 </div>
+<!-- <jqxTabs #tabs (select)="onTabSelect($event)">
+    <ul>
+      <li>Players</li>
+      <li>Movies</li>
+    </ul>
+    <div>
+      <jqxChart #userScore
+        [width]="getWidth()" 
+        [height]="500"
+        [title]="''"
+        [description]="' '"
+        [padding]="padding"
+        [showLegend]="false" 
+        [enableAnimations]="true" 
+        [source]="sampleData" 
+        [xAxis]="xAxis"
+        [valueAxis]="valueAxis"
+        [seriesGroups]="seriesGroups"
+        [backgroundColor]="'#2e3338'">
+      </jqxChart>
+    </div>
+    <div>
+      <jqxChart #movieScore
+        [width]="getWidth()" 
+        [height]="500"
+        [title]="''"
+        [description]="' '"
+        [padding]="padding"
+        [showLegend]="false" 
+        [enableAnimations]="true" 
+        [source]="movieData" 
+        [xAxis]="xAxis"
+        [valueAxis]="valueAxis"
+        [seriesGroups]="seriesGroups"
+        [backgroundColor]="'#2e3338'">
+      </jqxChart>
+    </div>
+</jqxTabs> -->

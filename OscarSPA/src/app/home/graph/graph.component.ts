@@ -1,17 +1,19 @@
 import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 import { jqxChartModule } from 'jqwidgets-ng/jqxchart';
 import { MovieService } from '../../_services/movie.service';
+import { jqxTabsModule } from 'jqwidgets-ng/jqxtabs';
 
 @Component({
   selector: 'app-graph',
-  imports: [jqxChartModule],
+  imports: [jqxChartModule, jqxTabsModule],
   templateUrl: './graph.component.html',
   styleUrl: './graph.component.scss',
   encapsulation: ViewEncapsulation.None
 })
 export class GraphComponent implements OnInit 
 {
- public sampleData: any[] = []; 
+  public sampleData: any[] = []; 
+  public movieData: any[] = []; 
 
   constructor(private readonly _movieService: MovieService) { }
 
@@ -21,6 +23,10 @@ export class GraphComponent implements OnInit
       data.forEach(user => {
        this.sampleData.push({Name: user.name, score: user.currentScore});
       });
+    });
+
+    this._movieService.getWinners().subscribe(data => {
+
     });
 
     console.log(this.sampleData);
@@ -72,5 +78,10 @@ export class GraphComponent implements OnInit
     }
 
     return 850;
+  }
+
+  onTabSelect(event: any): void {
+    let selectedTab = event.args.index;
+    console.log('Selected Tab Index:', selectedTab);
   }
 }
