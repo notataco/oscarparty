@@ -37,12 +37,6 @@ export class HomeComponent implements OnInit {
   ) { 
     this.user = _userService.getUser();
 
-    this._movieService.getWinners().subscribe({
-      next: res => {
-        this.winners = res.sort((a, b) => b.categoryID - a.categoryID);
-      }
-    });
-
     this._movieService.getCategories().subscribe({
       next: res => {
         this.categories = res;
@@ -51,13 +45,24 @@ export class HomeComponent implements OnInit {
   }
 
   ngOnInit(): void {
-    if (this.user) {
-      this._movieService.getUserPicks(this.user.userID).subscribe({
-        next: res => {
-          this.userPicks = res;
+    this._movieService.getWinners().subscribe({
+      next: res => {
+        this.winners = res.sort((a, b) => b.categoryID - a.categoryID);
+
+        if (this.winners.length === 0) {
+          this.pickType = 'picks';
         }
-      });
-    }
+
+        if (this.user) {
+          this._movieService.getUserPicks(this.user.userID).subscribe({
+            next: res => {
+              this.userPicks = res;
+              this.reorderPicks(this.winners, this.userPicks);
+            }
+          });
+        }
+      }
+    });    
   }
 
   public login() {
@@ -198,5 +203,30 @@ export class HomeComponent implements OnInit {
   public updatedSelection(value: any) 
   {
     console.log(this.pickType, value);
+  }
+
+  private reorderPicks(winners: Array<WinnerInfo>, picks: Array<UserPick>): void {
+    const winnersLength = winners.length;
+
+    const pickMap = new Map<number, UserPick>();
+    picks.forEach(pick => pickMap.set(pick.categoryID, pick));
+
+    let reorderedPicks: Array<UserPick> = new Array<UserPick>();
+    for (let i = 0; i < winnersLength; i++) {
+      let winningID = winners[i].categoryID;
+      let pick = pickMap.get(winningID);
+
+      if (pick) {
+        reorderedPicks.push(pick);
+      }
+    }
+
+    picks.forEach(pick => {
+      if (!winners.some(winner => winner.categoryID === pick.categoryID)) {
+        reorderedPicks.push(pick);
+      }
+    });
+
+    this.userPicks = reorderedPicks;
   }
 }

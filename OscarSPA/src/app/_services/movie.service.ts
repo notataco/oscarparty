@@ -11,8 +11,8 @@ import { WinnerInfo } from '../_models/winner.model';
   providedIn: 'root'
 })
 export class MovieService {
-  _api = 'https://crab-heroic-gorilla.ngrok-free.app/api/OscarParty';
-  // _api = 'https://localhost:7118/api/OscarParty';
+  // _api = 'https://crab-heroic-gorilla.ngrok-free.app/api/OscarParty';
+  _api = 'https://localhost:7118/api/OscarParty';
 
   allMovies: Array<Movie> = new Array<Movie>();
 
