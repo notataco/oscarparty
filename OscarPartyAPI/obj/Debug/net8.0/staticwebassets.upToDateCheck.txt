@@ -72,7 +72,7 @@ wwwroot\assets\posters\wonder.jpg
 wwwroot\assets\posters\yuck.jpg
 wwwroot\favicon.ico
 wwwroot\index.html
-wwwroot\main-PGQ3D4LJ.js
+wwwroot\main-LXFZ4A2R.js
 wwwroot\media\Montserrat-VariableFont_wght-KEGAHBID.ttf
 wwwroot\polyfills-FFHMD2TL.js
 wwwroot\styles-ZQOJ4CV7.css

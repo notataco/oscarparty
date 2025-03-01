@@ -1326,29 +1326,29 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>0ezyhu5x83</Fingerprint>
-      <Integrity>WJ+eWq0y28j0aBSXEWQdHZ4Ge9RyMkscE/Pe96rbTd4=</Integrity>
+      <Fingerprint>layo1znkrn</Fingerprint>
+      <Integrity>nUCOrIdcs9dWwxydPp1bHSRZdgKE+GolTScYDbtSva0=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\main-PGQ3D4LJ.js'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\main-LXFZ4A2R.js'))">
       <SourceType>Package</SourceType>
       <SourceId>OscarPartyAPI</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/OscarPartyAPI</BasePath>
-      <RelativePath>main-PGQ3D4LJ.js</RelativePath>
+      <RelativePath>main-LXFZ4A2R.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>bxpg8i5j4v</Fingerprint>
-      <Integrity>P4eCwYQg7a58l8Xc9NEz6A86yipW5dDQUchvq9cWbFU=</Integrity>
+      <Fingerprint>rj3nzeyv72</Fingerprint>
+      <Integrity>SbOQJ4cMxHCq+Xzmvr8/zcZBcU3V0lPFM8wbp4Vlo7A=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\main-PGQ3D4LJ.js'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\main-LXFZ4A2R.js'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\media\Montserrat-VariableFont_wght-KEGAHBID.ttf'))">
       <SourceType>Package</SourceType>
@@ -1398,8 +1398,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>t34n8xhsym</Fingerprint>
-      <Integrity>ibClMwbXotRF+jL9+xhR9tCXh14aymmneX1O6j4lEkA=</Integrity>
+      <Fingerprint>cwe3n4wunx</Fingerprint>
+      <Integrity>LPWCPQBzSmZ7u1dvSqt5LCv5tcV0v44Y4qfGpnu1rxc=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\styles-ZQOJ4CV7.css'))</OriginalItemSpec>
