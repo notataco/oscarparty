@@ -51,6 +51,7 @@ INSERT INTO dbo.Category (
     ('sound', 1, 0, 0, 0, 0, 0, 0, 0),
     ('visual effects', 1, 0, 0, 0, 0, 0, 0, 0),
     ('writing (adapted screenplay)', 1, 0, 0, 0, 0, 0, 0, 0),
-    ('writing (original screenplay)', 1, 0, 0, 0, 0, 0, 0, 0)
+    ('writing (original screenplay)', 1, 0, 0, 0, 0, 0, 0, 0),
+	('casting', 1, 0, 0, 0, 0, 0, 0, 0)
 
 SELECT * FROM dbo.Category
