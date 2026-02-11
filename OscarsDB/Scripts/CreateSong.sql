@@ -11,10 +11,10 @@ INSERT INTO [dbo].[Song] (
     SongName,
     MovieID
 ) VALUES
-    ('el mal', 9),
-    ('the journey', 39),
-    ('like a bird', 3),
-    ('mi camino', 51),
-    ('never too late', 40)
+    ('Dear Me', 47),
+    ('Golden', 15),
+    ('I Lied To You', 6),
+    ('Sweet Dreams Of Joy', 48),
+    ('Train Dreams', 23)
 
 SELECT * FROM dbo.Song
