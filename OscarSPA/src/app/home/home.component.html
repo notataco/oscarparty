@@ -1,6 +1,6 @@
 <div class="home-container">
     @if (user) {
-        @if (  user.isAdmin) {
+        @if (user.isAdmin) {
             <div (click)="updateWinners()" class="button">
                 Winner Control
             </div>
@@ -13,11 +13,11 @@
                 <div class="button--text" (click)="logout()">LOGOUT</div>
             </div>
             @if (userPicks.length == 0) {
-                <div class="button">
+                <div class="button" (click)="newEntry()">
                     <div class="button--icon">
                         <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M440-440H200v-80h240v-240h80v240h240v80H520v240h-80v-240Z"/></svg>
                     </div>
-                    <div class="button--text" (click)="newEntry()">ADD NEW ENTRY</div>
+                    <div class="button--text">ADD NEW ENTRY</div>
                 </div>
             }
         </div>
