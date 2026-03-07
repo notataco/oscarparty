@@ -24,7 +24,7 @@ INSERT INTO [dbo].[Actor] (
     (4, 'Benicio', 'Del Toro', 'Sensei Sergio St. Carlos'),
     (5, 'Jacob', 'Elordi', 'The Creature'),
     (6, 'Delroy', 'Lindo', 'Delta Slim'),
-    (4, 'Sean', 'Penn', 'Col. Steven J. Lockjaw'),
+    (51, 'Sean', 'Penn', 'Col. Steven J. Lockjaw'),
     (7, 'Stellan', 'Skarsgård', 'Gustav Borg'),
 	--
     (8, 'Jessie', 'Buckley', 'Agnes'),
@@ -33,7 +33,7 @@ INSERT INTO [dbo].[Actor] (
     (7, 'Renate', 'Reinsve', 'Nora Borg'),
     (11, 'Emma', 'Stone', 'Michelle'),
 	--
-    (7, 'Elle', 'Fanning', 'Rachel Kemp'),
+    (52, 'Elle', 'Fanning', 'Rachel Kemp'),
     (7, 'Inga', 'Ibsdotter Lilleaas', 'Agnes Borg Pettersen'),
     (12, 'Amy', 'Madigan', 'Gladys'),
     (6, 'Wunmi', 'Mosaku', 'Annie'),
