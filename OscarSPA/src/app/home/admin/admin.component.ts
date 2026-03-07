@@ -7,6 +7,7 @@ import { UserService } from '../../_services/user.service';
 import { CommonModule, TitleCasePipe, UpperCasePipe } from '@angular/common';
 import { Movie } from '../../_models/movie.model';
 import { UserPick } from '../../_models/user-pick.model';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-admin',
@@ -24,7 +25,8 @@ export class AdminComponent implements OnInit {
 
   constructor(
     private readonly _movieService: MovieService,
-    private readonly _userService: UserService
+    private readonly _userService: UserService,
+    private readonly _router: Router
   ) {
     this.user = this._userService.getUser();
   }
@@ -97,6 +99,8 @@ export class AdminComponent implements OnInit {
     });
 
     this._movieService.submitWinners(winners).subscribe(res => {});
+
+    this._router.navigate(['']);
   }
   
 }

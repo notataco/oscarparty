@@ -12,6 +12,9 @@
     background-color: black;
     border: 1px solid white;
     padding: 2rem;
+    :hover {
+        cursor: pointer;
+    }
 }
 
 .category {
