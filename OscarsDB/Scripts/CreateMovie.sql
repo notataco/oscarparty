@@ -24,8 +24,8 @@ INSERT INTO [dbo].[Movie] (
 	('If I Had Legs I''d Kick You', '../../assets/movieposters/if-i-had-legs-id-kick-you.jpg', null),
 	('Song Sung Blue', '../../assets/movieposters/song-sung-blue.jpg', null),
 	('Bugonia', '../../assets/movieposters/bugonia.jpg', null),
-	('Weapons', '../../assets/movieposters/blue-moon.jpg', null),
-	('Arco', '../../assets/movieposters/weapons.jpg', null),
+	('Weapons', '../../assets/movieposters/weapons.jpg', null),
+	('Arco', '../../assets/movieposters/arco.jpg', null),
 	('Elio', '../../assets/movieposters/elio.jpg', null),
 	('KPOP Demon Hunters', '../../assets/movieposters/kpop-demon-hunters.webp', null),
 	('Little Amélie or the Character of Rain', '../../assets/movieposters/Little-Amélie-or-the-Character-of-Rain.jpg', null),
@@ -44,7 +44,7 @@ INSERT INTO [dbo].[Movie] (
 	('The Perfect Neighbor', '../../assets/movieposters/the-perfect-neighbor.jpg', null),
 	('All the Empty Rooms', '../../assets/movieposters/all-the-empty-rooms.jpg', null),
 	('Armed Only with a Camera: The Life and Death of Brent Renaud', '../../assets/movieposters/Armed-Only-with-a-Camera-The-Life-and-Death-of-Brent-Renaud.jpg', null),
-	('Children No More: "Were and Are Gone"', '../../movieposters/Children-No-More-Were-and-Are-Gone.jpg', null),
+	('Children No More: "Were and Are Gone"', '../../assets/movieposters/Children-No-More-Were-and-Are-Gone.jpg', null),
 	('The Devil Is Busy', '../../assets/movieposters/the-devil-is-busy.jpg', null),
 	('Perfectly a Strangeness', '../../assets/movieposters/Perfectly-a-strangeness.jpg', null),
 	('F1', '../../assets/movieposters/f1.jpg', null),
@@ -64,6 +64,6 @@ INSERT INTO [dbo].[Movie] (
 	('Jurassic World Rebirth', '../../assets/movieposters/jurassic-world-rebirth.jpg', null),
 	('The Lost Bus', '../../assets/movieposters/the-lost-bus.jpg', null),
 	('One Battle After Another', '../../assets/movieposters/one-battle-after-another.jpg', null),
-	('Sentimental Value', '../../assets/movieposters/sentimental-value.jpg', 'Norway'),;
+	('Sentimental Value', '../../assets/movieposters/sentimental-value.jpg', 'Norway');
 
 SELECT * FROM dbo.Movie
