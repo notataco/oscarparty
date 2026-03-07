@@ -11,7 +11,7 @@
                 <div [ngClass]="checkIfSelected(category, movie) ? 'movie selected' : 'movie'" (click)="selectMovie(movie, category)">
                     <div class="movie--text">
                         <div class="movie--text-title">
-                            {{ movie.title | titlecase }}
+                            {{ movie.title | titlecase }}, {{ movie.movieID}}
                         </div>
                         <div class="movie--text-subtitle">
 
