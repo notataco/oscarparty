@@ -66,8 +66,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>9pj9feylkp</Fingerprint>
-      <Integrity>/ZJ/RVOxzqpT+HIOGNMz1UtWFvyM+zBfsgf14JYLhEQ=</Integrity>
+      <Fingerprint>ony486q47i</Fingerprint>
+      <Integrity>dAgglLWl2WFfKqPf1z7QCM1CMDkQqV+AL4NwrlDewgo=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\fonts\README.txt'))</OriginalItemSpec>
@@ -396,905 +396,923 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\fonts\static\Montserrat-ThinItalic.ttf'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\posters\6888.webp'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\oscars.png'))">
       <SourceType>Package</SourceType>
       <SourceId>OscarPartyAPI</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/OscarPartyAPI</BasePath>
-      <RelativePath>assets/posters/6888.webp</RelativePath>
+      <RelativePath>assets/images/oscars.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>mo4xjc8ypj</Fingerprint>
-      <Integrity>9jiws5h/KpEtqs04qpzrog8+n4BTtvbOLOFE/2zMfDA=</Integrity>
+      <Fingerprint>caabrx2dor</Fingerprint>
+      <Integrity>LHipy0woIFruRpOp36ZTIYuDsClxMrMHjW++g07NKKU=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\posters\6888.webp'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\images\oscars.png'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\posters\anora.webp'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\movieposters\a-friend-of-dorothy.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>OscarPartyAPI</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/OscarPartyAPI</BasePath>
-      <RelativePath>assets/posters/anora.webp</RelativePath>
+      <RelativePath>assets/movieposters/a-friend-of-dorothy.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>zrqcwtnrgj</Fingerprint>
-      <Integrity>cQmnpW1wkgbzeMowqjJWqMW7u01IoEbDGI+KnBg85Js=</Integrity>
+      <Fingerprint>xvwxtq9lpy</Fingerprint>
+      <Integrity>Qyao6MiHevrTqQQyVwcYITJbuRtQdg5YDtgw7DBulOE=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\posters\anora.webp'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\movieposters\a-friend-of-dorothy.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\posters\anuja.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\movieposters\all-the-empty-rooms.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>OscarPartyAPI</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/OscarPartyAPI</BasePath>
-      <RelativePath>assets/posters/anuja.jpg</RelativePath>
+      <RelativePath>assets/movieposters/all-the-empty-rooms.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>lj3lnaxgop</Fingerprint>
-      <Integrity>MfQX8BXcRnQNqz5z0XM+eqMNp/YvcIWmd3q5DAHnD0c=</Integrity>
+      <Fingerprint>5x0w3z8lid</Fingerprint>
+      <Integrity>VyQek7hjnkCX5f0cJHBmu0u34gDsP2J0qEEkvH1Y66Q=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\posters\anuja.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\movieposters\all-the-empty-rooms.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\posters\apprentice.webp'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\movieposters\arco.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>OscarPartyAPI</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/OscarPartyAPI</BasePath>
-      <RelativePath>assets/posters/apprentice.webp</RelativePath>
+      <RelativePath>assets/movieposters/arco.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>svnjw3relm</Fingerprint>
-      <Integrity>WMRy5/FT0JWjb/KqTOQO5d2KA03a3D+6ozOCivJ/W3Q=</Integrity>
+      <Fingerprint>ugogbnsjx5</Fingerprint>
+      <Integrity>Ivmb/gQT7VO1Nl0vwgMF2NAGe2p3cvVNqzUaYQxfP84=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\posters\apprentice.webp'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\movieposters\arco.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\posters\arealpain.webp'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\movieposters\Armed-Only-with-a-Camera-The-Life-and-Death-of-Brent-Renaud.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>OscarPartyAPI</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/OscarPartyAPI</BasePath>
-      <RelativePath>assets/posters/arealpain.webp</RelativePath>
+      <RelativePath>assets/movieposters/Armed-Only-with-a-Camera-The-Life-and-Death-of-Brent-Renaud.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>c8diqhzw7f</Fingerprint>
-      <Integrity>hH65p7Nio4CVBksBOkweSldSU2ROPZwfBnX4CSeik6Q=</Integrity>
+      <Fingerprint>4tfhxptygu</Fingerprint>
+      <Integrity>uIB6+RwHuwya+9xuUdgGVlxe+m6kQPkQdwNgrNW0Nfw=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\posters\arealpain.webp'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\movieposters\Armed-Only-with-a-Camera-The-Life-and-Death-of-Brent-Renaud.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\posters\a_lien.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\movieposters\avatar-fire-and-ash.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>OscarPartyAPI</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/OscarPartyAPI</BasePath>
-      <RelativePath>assets/posters/a_lien.jpg</RelativePath>
+      <RelativePath>assets/movieposters/avatar-fire-and-ash.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>mk6klex7wi</Fingerprint>
-      <Integrity>uqQ1MfuKY0DTtaSMFjRzbGIFMpyavKMB+W+8mUfyGD4=</Integrity>
+      <Fingerprint>5tdf5j9jpi</Fingerprint>
+      <Integrity>V2tzPOI1WVPZSrKug0AWnRcPQLo5Byc5BkW128Fc3fM=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\posters\a_lien.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\movieposters\avatar-fire-and-ash.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\posters\beautifulmen.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\movieposters\blue-moon.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>OscarPartyAPI</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/OscarPartyAPI</BasePath>
-      <RelativePath>assets/posters/beautifulmen.jpg</RelativePath>
+      <RelativePath>assets/movieposters/blue-moon.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>35lws63yok</Fingerprint>
-      <Integrity>+ahBGgIu7qj7FAAzhgPeW1xcwKWvcf7rGDmdUUgyh1o=</Integrity>
+      <Fingerprint>zzr66ue74k</Fingerprint>
+      <Integrity>wY4XNN7XdgrsFB47+3lMWDm9A8dV1t02Wp3cK+FeqsA=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\posters\beautifulmen.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\movieposters\blue-moon.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\posters\betterman.webp'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\movieposters\bugonia.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>OscarPartyAPI</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/OscarPartyAPI</BasePath>
-      <RelativePath>assets/posters/betterman.webp</RelativePath>
+      <RelativePath>assets/movieposters/bugonia.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>gf86ibuus6</Fingerprint>
-      <Integrity>1NGlp9tMuYrww8WGSyj8o0NDe+vqTc2k/DZQ5Y+WHaU=</Integrity>
+      <Fingerprint>l9dt0gvgba</Fingerprint>
+      <Integrity>aRgpbc5vUCYDIjqdG9EsPlxqY3LhrJ4oph9/WDYHKSc=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\posters\betterman.webp'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\movieposters\bugonia.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\posters\blackbox.webp'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\movieposters\butchers-stain.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>OscarPartyAPI</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/OscarPartyAPI</BasePath>
-      <RelativePath>assets/posters/blackbox.webp</RelativePath>
+      <RelativePath>assets/movieposters/butchers-stain.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>l5n8ewyt7g</Fingerprint>
-      <Integrity>OdXF+xTqQ6MHVTwCwxKeFui/wxlzDciLQlirG96pK00=</Integrity>
+      <Fingerprint>h1h9tf24mp</Fingerprint>
+      <Integrity>hbdu/SVm2+kH/PFvXNSae+UA6XvBdQVoHWbnpAtxidw=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\posters\blackbox.webp'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\movieposters\butchers-stain.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\posters\brutalist.webp'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\movieposters\butterfly.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>OscarPartyAPI</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/OscarPartyAPI</BasePath>
-      <RelativePath>assets/posters/brutalist.webp</RelativePath>
+      <RelativePath>assets/movieposters/butterfly.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>tmh80xnmkx</Fingerprint>
-      <Integrity>RR+RMISeJblSQ4xxe3iKTdW3gITG38+mMMwAoeSMiQs=</Integrity>
+      <Fingerprint>lf77rfebxs</Fingerprint>
+      <Integrity>n6dm9BWMn17iP5hs0aX9vGOE95kKfFzRA8M26em5ZBE=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\posters\brutalist.webp'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\movieposters\butterfly.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\posters\candies.webp'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\movieposters\Children-No-More-Were-and-Are-Gone.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>OscarPartyAPI</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/OscarPartyAPI</BasePath>
-      <RelativePath>assets/posters/candies.webp</RelativePath>
+      <RelativePath>assets/movieposters/Children-No-More-Were-and-Are-Gone.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>zgapbsbqo1</Fingerprint>
-      <Integrity>vfN1EiEdbMeJ6OSKMtnfi+EcjUzVHWSkerLkb0J6P0A=</Integrity>
+      <Fingerprint>y70t2pd76k</Fingerprint>
+      <Integrity>ooPANoB40/T5FonnosMFrZj8apHSYb+VgRBI4YbePLs=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\posters\candies.webp'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\movieposters\Children-No-More-Were-and-Are-Gone.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\posters\completeunknown.webp'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\movieposters\come-see-me-in-the-good-light.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>OscarPartyAPI</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/OscarPartyAPI</BasePath>
-      <RelativePath>assets/posters/completeunknown.webp</RelativePath>
+      <RelativePath>assets/movieposters/come-see-me-in-the-good-light.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>xrgwh0aezq</Fingerprint>
-      <Integrity>ExJsc0oRLYfNYoOg901jrdSELJMFnfQi9AT398sUteo=</Integrity>
+      <Fingerprint>ioqigzf74m</Fingerprint>
+      <Integrity>bnxyFJLKHXSCZ2d7dY2AoWQ05HSdDjNtRbALqFg6RxQ=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\posters\completeunknown.webp'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\movieposters\come-see-me-in-the-good-light.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\posters\conclave.webp'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\movieposters\cutting-through-rocks.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>OscarPartyAPI</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/OscarPartyAPI</BasePath>
-      <RelativePath>assets/posters/conclave.webp</RelativePath>
+      <RelativePath>assets/movieposters/cutting-through-rocks.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>jyderpv0sc</Fingerprint>
-      <Integrity>1dLoY5IZkrWk3zKmGtAzJM/hW89us5nCHD/gwmjGskA=</Integrity>
+      <Fingerprint>o8hrdmk3u5</Fingerprint>
+      <Integrity>+CorYY4kAEies9LibQGzke0G5tSo2j7AIzJbxECada8=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\posters\conclave.webp'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\movieposters\cutting-through-rocks.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\posters\cypress.jpeg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\movieposters\diane-warren-relentless.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>OscarPartyAPI</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/OscarPartyAPI</BasePath>
-      <RelativePath>assets/posters/cypress.jpeg</RelativePath>
+      <RelativePath>assets/movieposters/diane-warren-relentless.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>jnndamwk6m</Fingerprint>
-      <Integrity>AeXOWuqRPo/VlF61YVZbt7mhQoaFh3le6YBXAQ+2RBQ=</Integrity>
+      <Fingerprint>zlxxu6elpq</Fingerprint>
+      <Integrity>mQGY4eii4jfC9npTztXEK3/DIr2b5rxJzUhUkFOKlD8=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\posters\cypress.jpeg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\movieposters\diane-warren-relentless.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\posters\death.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\movieposters\elio.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>OscarPartyAPI</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/OscarPartyAPI</BasePath>
-      <RelativePath>assets/posters/death.jpg</RelativePath>
+      <RelativePath>assets/movieposters/elio.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>200ta9msfv</Fingerprint>
-      <Integrity>vuylkF+LHpWfJARhlsj7+0SOr4CIQxwHv2j7Dlc1+uc=</Integrity>
+      <Fingerprint>4gt9txa5p9</Fingerprint>
+      <Integrity>rMEHolx03k2u29hoBKk/DIf48e5cCnF3xwiOUi1yLIE=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\posters\death.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\movieposters\elio.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\posters\differentman.webp'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\movieposters\f1.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>OscarPartyAPI</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/OscarPartyAPI</BasePath>
-      <RelativePath>assets/posters/differentman.webp</RelativePath>
+      <RelativePath>assets/movieposters/f1.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ooho0pp81h</Fingerprint>
-      <Integrity>ePxk7Xg6Ua2WZhQTr68FXbeqlERgoyDlcCGdn5G0/tA=</Integrity>
+      <Fingerprint>x7tb0jdulu</Fingerprint>
+      <Integrity>reSOvo87NK0iV8PxdJ3ipNdAsIMI3yR3Zs9AGeIirhc=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\posters\differentman.webp'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\movieposters\f1.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\posters\dune.webp'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\movieposters\forevergreen.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>OscarPartyAPI</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/OscarPartyAPI</BasePath>
-      <RelativePath>assets/posters/dune.webp</RelativePath>
+      <RelativePath>assets/movieposters/forevergreen.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ucwq0moni2</Fingerprint>
-      <Integrity>Tn7oIEPDnpZRAloXAXlucltdjVMLhv9HoYkz/byU+RE=</Integrity>
+      <Fingerprint>mb7p5xafqv</Fingerprint>
+      <Integrity>UprTVZXXuCsVB9UXPl3xx1I9wKZYh1yvsrtIk0RnvgE=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\posters\dune.webp'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\movieposters\forevergreen.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\posters\eltonjohn.jpeg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\movieposters\frakenstein.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>OscarPartyAPI</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/OscarPartyAPI</BasePath>
-      <RelativePath>assets/posters/eltonjohn.jpeg</RelativePath>
+      <RelativePath>assets/movieposters/frakenstein.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>vls5xbcy5l</Fingerprint>
-      <Integrity>7dI24JiyIFyo06ltbFGGsKdxDZW0Dqll5Ehu5pmTVVY=</Integrity>
+      <Fingerprint>id9rg3dap7</Fingerprint>
+      <Integrity>NrSk0iAN6Q4YmLHF5xOJrLQdeRimvonyA6mhStBxbKg=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\posters\eltonjohn.jpeg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\movieposters\frakenstein.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\posters\flow.webp'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\movieposters\hamnet.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>OscarPartyAPI</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/OscarPartyAPI</BasePath>
-      <RelativePath>assets/posters/flow.webp</RelativePath>
+      <RelativePath>assets/movieposters/hamnet.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>wr5mg181pf</Fingerprint>
-      <Integrity>vDpAWn7XpulEctYLn9CfrLbLUSRP5AKXMeJQBV6wGxs=</Integrity>
+      <Fingerprint>j22t6ovw34</Fingerprint>
+      <Integrity>RToEx5bVKke+hGOaa9jTWmahTmQ36glZygMqlMNjYeg=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\posters\flow.webp'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\movieposters\hamnet.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\posters\gladiator.webp'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\movieposters\if-i-had-legs-id-kick-you.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>OscarPartyAPI</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/OscarPartyAPI</BasePath>
-      <RelativePath>assets/posters/gladiator.webp</RelativePath>
+      <RelativePath>assets/movieposters/if-i-had-legs-id-kick-you.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ci8fc1533k</Fingerprint>
-      <Integrity>1Bji5eksazwU7wUwWGg/tp7oHkb22YPpuv9PlOwFZ3I=</Integrity>
+      <Fingerprint>snljb9jx8p</Fingerprint>
+      <Integrity>aBNIhg6vf+FJVfjShuSf1v6on2/BHPc3w/n5U+Z7Qko=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\posters\gladiator.webp'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\movieposters\if-i-had-legs-id-kick-you.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\posters\incident.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\movieposters\It-Was-Just-an-Accident.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>OscarPartyAPI</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/OscarPartyAPI</BasePath>
-      <RelativePath>assets/posters/incident.jpg</RelativePath>
+      <RelativePath>assets/movieposters/It-Was-Just-an-Accident.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>s3t038qzyn</Fingerprint>
-      <Integrity>WPba2tUxFXAMvWUcJaPKwAyGgAoR64r6X+lofL3yAEE=</Integrity>
+      <Fingerprint>98cdawbasp</Fingerprint>
+      <Integrity>14ad0UNMg3ikU6P+F+dJWu1aA+up36EFZOl3RQTmdYY=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\posters\incident.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\movieposters\It-Was-Just-an-Accident.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\posters\insideout.webp'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\movieposters\Jane-Austens-Period-Drama.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>OscarPartyAPI</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/OscarPartyAPI</BasePath>
-      <RelativePath>assets/posters/insideout.webp</RelativePath>
+      <RelativePath>assets/movieposters/Jane-Austens-Period-Drama.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>5pgfjqvz9t</Fingerprint>
-      <Integrity>SU0ZKrl6hFJWbK6Ra3BGVdOzEVNFAQAXz5G2WwFpRGc=</Integrity>
+      <Fingerprint>a1yny6jcti</Fingerprint>
+      <Integrity>DnaW5AtRPWkTkWmRo1uxs6zFB9hdZehKRsyvPb0gpiE=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\posters\insideout.webp'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\movieposters\Jane-Austens-Period-Drama.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\posters\instrument.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\movieposters\jurassic-world-rebirth.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>OscarPartyAPI</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/OscarPartyAPI</BasePath>
-      <RelativePath>assets/posters/instrument.jpg</RelativePath>
+      <RelativePath>assets/movieposters/jurassic-world-rebirth.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>uhtqw80mv5</Fingerprint>
-      <Integrity>Lig30KtVghnk7XWevGqVnqaRAD4JyNZRDxTyBlkNP2o=</Integrity>
+      <Fingerprint>fyxlvjwo9k</Fingerprint>
+      <Integrity>J0pFwWXybrxzPcuMGpKvXVUtImgvcj2y6pDHqT3goEM=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\posters\instrument.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\movieposters\jurassic-world-rebirth.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\posters\kingdomofapes.webp'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\movieposters\kokuho.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>OscarPartyAPI</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/OscarPartyAPI</BasePath>
-      <RelativePath>assets/posters/kingdomofapes.webp</RelativePath>
+      <RelativePath>assets/movieposters/kokuho.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>z2bu41yvtc</Fingerprint>
-      <Integrity>m5s9Lns9IiEGU7n1Dq/2LwNvu2AG1bG4L6FjIbrbmRM=</Integrity>
+      <Fingerprint>ac90qkpxj5</Fingerprint>
+      <Integrity>ttYKcOn3HnviP24dMUX/orSeTozUx6Jieia4IxdEuz4=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\posters\kingdomofapes.webp'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\movieposters\kokuho.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\posters\lastranger.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\movieposters\kpop-demon-hunters.webp'))">
       <SourceType>Package</SourceType>
       <SourceId>OscarPartyAPI</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/OscarPartyAPI</BasePath>
-      <RelativePath>assets/posters/lastranger.jpg</RelativePath>
+      <RelativePath>assets/movieposters/kpop-demon-hunters.webp</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>zkk96zw4t6</Fingerprint>
-      <Integrity>jf3K1owPuO31UnYgshxrX0GOIo5f3QTaZ8+0G6cW1tU=</Integrity>
+      <Fingerprint>002e8n42h1</Fingerprint>
+      <Integrity>YHomcQoLbKvlctss3RSTgRBsunhn90a+LMrZTOpmmwY=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\posters\lastranger.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\movieposters\kpop-demon-hunters.webp'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\posters\maria.webp'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\movieposters\Little-Amélie-or-the-Character-of-Rain.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>OscarPartyAPI</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/OscarPartyAPI</BasePath>
-      <RelativePath>assets/posters/maria.webp</RelativePath>
+      <RelativePath>assets/movieposters/Little-Amélie-or-the-Character-of-Rain.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>er4fjagv8v</Fingerprint>
-      <Integrity>2uDqB4L3LMcTyjhvRp2Qvf7c9TrE7fkmE61+V5qWdP0=</Integrity>
+      <Fingerprint>0kv0edfi5g</Fingerprint>
+      <Integrity>QM4m8IxtKNPzuNDs2bVG2zR/Eq2/51Vyc+F6h/7n1cY=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\posters\maria.webp'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\movieposters\Little-Amélie-or-the-Character-of-Rain.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\posters\memoirofasnail.webp'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\movieposters\marty-supreme.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>OscarPartyAPI</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/OscarPartyAPI</BasePath>
-      <RelativePath>assets/posters/memoirofasnail.webp</RelativePath>
+      <RelativePath>assets/movieposters/marty-supreme.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>rz39tt2dod</Fingerprint>
-      <Integrity>d61lbLvDmqYPL2baFLUtvdEXJ7gufhwEr0PuT7FemXE=</Integrity>
+      <Fingerprint>y2flykywyn</Fingerprint>
+      <Integrity>mpHBvbj8cbkmTuycYYLC2Fcoziw+qS0eeg/VGSE5mf8=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\posters\memoirofasnail.webp'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\movieposters\marty-supreme.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\posters\needle.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\movieposters\mr-nobody-against-putin.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>OscarPartyAPI</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/OscarPartyAPI</BasePath>
-      <RelativePath>assets/posters/needle.jpg</RelativePath>
+      <RelativePath>assets/movieposters/mr-nobody-against-putin.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>tjpjur008z</Fingerprint>
-      <Integrity>580N9F5CxG7ctxtpvb1UVquybC5s3fjq9R8WRDiapvU=</Integrity>
+      <Fingerprint>zb1gwbngyt</Fingerprint>
+      <Integrity>QfnWGzxgOX6Ylxy6PHHJZ5uuMLPNAT6jj7iXXINpKJc=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\posters\needle.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\movieposters\mr-nobody-against-putin.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\posters\nickelboys.webp'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\movieposters\one-battle-after-another.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>OscarPartyAPI</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/OscarPartyAPI</BasePath>
-      <RelativePath>assets/posters/nickelboys.webp</RelativePath>
+      <RelativePath>assets/movieposters/one-battle-after-another.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>jylj1lhmai</Fingerprint>
-      <Integrity>FWXNCX0jXzbPSiivQLSRzkuT2tEa9AaFXNmSKlFS/RA=</Integrity>
+      <Fingerprint>xvvh2b694v</Fingerprint>
+      <Integrity>rakPpr8G/ZFwSAJ5lmpPcmzlS1ar/sPpHIKPrIMJqxA=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\posters\nickelboys.webp'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\movieposters\one-battle-after-another.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\posters\nootherland.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\movieposters\Perfectly-a-strangeness.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>OscarPartyAPI</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/OscarPartyAPI</BasePath>
-      <RelativePath>assets/posters/nootherland.jpg</RelativePath>
+      <RelativePath>assets/movieposters/Perfectly-a-strangeness.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>xhw7x4s83s</Fingerprint>
-      <Integrity>u05H3Y0c4BmaUlv1zg891/PCitAUBdAUFqK2VEh7mS4=</Integrity>
+      <Fingerprint>ngpwk0f785</Fingerprint>
+      <Integrity>GXPGgH72QQfr/o0BZKyCTl5xEByifdhddqEzr8PwXDE=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\posters\nootherland.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\movieposters\Perfectly-a-strangeness.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\posters\nosferatu.webp'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\movieposters\retirement-plan.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>OscarPartyAPI</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/OscarPartyAPI</BasePath>
-      <RelativePath>assets/posters/nosferatu.webp</RelativePath>
+      <RelativePath>assets/movieposters/retirement-plan.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>308vl5y9at</Fingerprint>
-      <Integrity>vfz7a7LqBDHkN745DRRdh0QnuScXAcz0hzma8ST3KuQ=</Integrity>
+      <Fingerprint>godjwu9fx2</Fingerprint>
+      <Integrity>AHQ33uQsb9cVYTnzEKJ6RIzK0bkudhW9RW/j4SXrdIw=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\posters\nosferatu.webp'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\movieposters\retirement-plan.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\posters\notarobot.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\movieposters\sentimental-value.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>OscarPartyAPI</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/OscarPartyAPI</BasePath>
-      <RelativePath>assets/posters/notarobot.jpg</RelativePath>
+      <RelativePath>assets/movieposters/sentimental-value.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>h55v17x1tn</Fingerprint>
-      <Integrity>1ZiCg9s7wPxqOojqUrRgvu3/x2mm9PkBZdlExA0bBoI=</Integrity>
+      <Fingerprint>0ab7v5dryx</Fingerprint>
+      <Integrity>KIgg9mpthBCTejLnyLhXQfSu5LAHqYuR9k+4/twvwmc=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\posters\notarobot.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\movieposters\sentimental-value.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\posters\orchestra.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\movieposters\sinners.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>OscarPartyAPI</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/OscarPartyAPI</BasePath>
-      <RelativePath>assets/posters/orchestra.jpg</RelativePath>
+      <RelativePath>assets/movieposters/sinners.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>crcigmi6vf</Fingerprint>
-      <Integrity>6CYPr3fvQNTLKFSCwWFbDKq1Fi1h5RG7ZaZoRuwwcYk=</Integrity>
+      <Fingerprint>sxy77yvyek</Fingerprint>
+      <Integrity>YLSH9zQbegH0p7yckhzI5Wpms34aony7MldAe3Ln6ZY=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\posters\orchestra.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\movieposters\sinners.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\posters\perez.webp'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\movieposters\sirat.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>OscarPartyAPI</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/OscarPartyAPI</BasePath>
-      <RelativePath>assets/posters/perez.webp</RelativePath>
+      <RelativePath>assets/movieposters/sirat.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>g0cm7cnr42</Fingerprint>
-      <Integrity>UC2qEPmGOaVChAJzgUsrHCxnKLF94OKpUWMDeoPUTUk=</Integrity>
+      <Fingerprint>quhlgyhu84</Fingerprint>
+      <Integrity>XkqJ0E/D/ses3u4ndo1ebN5xe1IyrnAo5QzM3IB9/rY=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\posters\perez.webp'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\movieposters\sirat.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\posters\porcelain.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\movieposters\song-sung-blue.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>OscarPartyAPI</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/OscarPartyAPI</BasePath>
-      <RelativePath>assets/posters/porcelain.jpg</RelativePath>
+      <RelativePath>assets/movieposters/song-sung-blue.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>zjlv178sq9</Fingerprint>
-      <Integrity>3xvgPPIwWGI2ugoYD6wXIauczWjSHDf0ebZCrwg1Tm4=</Integrity>
+      <Fingerprint>yw2577y77b</Fingerprint>
+      <Integrity>/p4X0O3DSfDKrSLLAwMXo0BF4FSBY4eYWrKpYneP/cc=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\posters\porcelain.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\movieposters\song-sung-blue.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\posters\remainsilent.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\movieposters\the-alabama-solution.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>OscarPartyAPI</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/OscarPartyAPI</BasePath>
-      <RelativePath>assets/posters/remainsilent.jpg</RelativePath>
+      <RelativePath>assets/movieposters/the-alabama-solution.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>vv2w9mg82z</Fingerprint>
-      <Integrity>ZWiXnF0WiMqduaYGTydPpaYJRTrSjFYtW/Kl8Z3r7yU=</Integrity>
+      <Fingerprint>rg0pm2uznw</Fingerprint>
+      <Integrity>ZXM3qk6ASPO5Ra3tN+N44FaRrYribw0yUUh7rEC+x7M=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\posters\remainsilent.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\movieposters\the-alabama-solution.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\posters\romulus.webp'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\movieposters\the-devil-is-busy.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>OscarPartyAPI</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/OscarPartyAPI</BasePath>
-      <RelativePath>assets/posters/romulus.webp</RelativePath>
+      <RelativePath>assets/movieposters/the-devil-is-busy.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>75g2m2k3p6</Fingerprint>
-      <Integrity>xSO8OmzJFW+qsajQ3Dj40gx3n6EYVD8SOHK2DXeuxzE=</Integrity>
+      <Fingerprint>wiohapiyv0</Fingerprint>
+      <Integrity>mHsmyjnLyqCz9NfPPDH8fxqVaFzqdDqIGNR9HU/F2ME=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\posters\romulus.webp'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\movieposters\the-devil-is-busy.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\posters\sacredfig.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\movieposters\the-girl-who-cried-pearls.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>OscarPartyAPI</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/OscarPartyAPI</BasePath>
-      <RelativePath>assets/posters/sacredfig.jpg</RelativePath>
+      <RelativePath>assets/movieposters/the-girl-who-cried-pearls.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>gp5jeo6lsd</Fingerprint>
-      <Integrity>XI7mEtCb563s2Yq/XIaFWkexQRZtkRk/UShwOjdJ5Vk=</Integrity>
+      <Fingerprint>vmtxf6oiw0</Fingerprint>
+      <Integrity>R1uyHBbQvVAHQCQyYWfTBa3QUI9LEGJ19w1krNHiOmY=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\posters\sacredfig.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\movieposters\the-girl-who-cried-pearls.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\posters\september5.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\movieposters\the-lost-bus.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>OscarPartyAPI</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/OscarPartyAPI</BasePath>
-      <RelativePath>assets/posters/september5.jpg</RelativePath>
+      <RelativePath>assets/movieposters/the-lost-bus.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>v1vh60atej</Fingerprint>
-      <Integrity>c120XdMFiXY8UGfzYmzymIlyoOsHt7Ou7j+buqFQ4ZQ=</Integrity>
+      <Fingerprint>wpvl8ucty9</Fingerprint>
+      <Integrity>LCwcMqOh2EK+9UPwpsNcqbRAS7tUjCFHdlFkMzIioew=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\posters\september5.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\movieposters\the-lost-bus.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\posters\singsing.webp'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\movieposters\the-perfect-neighbor.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>OscarPartyAPI</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/OscarPartyAPI</BasePath>
-      <RelativePath>assets/posters/singsing.webp</RelativePath>
+      <RelativePath>assets/movieposters/the-perfect-neighbor.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>6hym05ii3g</Fingerprint>
-      <Integrity>9tO3T/vqoemzBIsnq587wAWY7zlPV1HmTRx+kw//bVg=</Integrity>
+      <Fingerprint>a2f4onj5rt</Fingerprint>
+      <Integrity>vpZ8jVGIxAeXfQ7ulSIHqRufqQYRDEyQbXQcr6LNXak=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\posters\singsing.webp'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\movieposters\the-perfect-neighbor.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\posters\soundtrack.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\movieposters\the-secret-agent.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>OscarPartyAPI</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/OscarPartyAPI</BasePath>
-      <RelativePath>assets/posters/soundtrack.jpg</RelativePath>
+      <RelativePath>assets/movieposters/the-secret-agent.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>w7l5hp27p8</Fingerprint>
-      <Integrity>rI88ZEebmHQd58UDAuuYA7Er0toYOX/vqC3+xtZxkoY=</Integrity>
+      <Fingerprint>bta4vbbgtl</Fingerprint>
+      <Integrity>QbVyU3tzWZfOuyCu5akBEfU8eXAB96KbVG5RdBKVz9Q=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\posters\soundtrack.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\movieposters\the-secret-agent.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\posters\stillhere.webp'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\movieposters\the-singers.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>OscarPartyAPI</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/OscarPartyAPI</BasePath>
-      <RelativePath>assets/posters/stillhere.webp</RelativePath>
+      <RelativePath>assets/movieposters/the-singers.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ofzp3nfxax</Fingerprint>
-      <Integrity>XLEVWKVj2ZSY5x56NzkCFYmhvgHr/uTh8HmZCnyE/FE=</Integrity>
+      <Fingerprint>y9klgnn9qa</Fingerprint>
+      <Integrity>GirVdGgxiXOtfi8Hp1Mhro6gz8ocW8EZ6mH31G7DaO4=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\posters\stillhere.webp'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\movieposters\the-singers.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\posters\substance.webp'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\movieposters\the-smashing-machine.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>OscarPartyAPI</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/OscarPartyAPI</BasePath>
-      <RelativePath>assets/posters/substance.webp</RelativePath>
+      <RelativePath>assets/movieposters/the-smashing-machine.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>yjzachu1qc</Fingerprint>
-      <Integrity>gp3jB6dQe1L7e7ccykGAwXG7D+/5SRMkVoYkIfDUcNw=</Integrity>
+      <Fingerprint>ogtmnsz3pl</Fingerprint>
+      <Integrity>WGqxwQxM1lCxWcK2dX1mejJO+zI/YAmcxFc3Wu29JLM=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\posters\substance.webp'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\movieposters\the-smashing-machine.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\posters\sugarcane.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\movieposters\the-three-sisters.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>OscarPartyAPI</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/OscarPartyAPI</BasePath>
-      <RelativePath>assets/posters/sugarcane.jpg</RelativePath>
+      <RelativePath>assets/movieposters/the-three-sisters.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>kht96zn7ux</Fingerprint>
-      <Integrity>eKAaEaFYLUi3Af/ZVqauP74AeZvcv0r7UD/eIcCuUoU=</Integrity>
+      <Fingerprint>m5donl46p2</Fingerprint>
+      <Integrity>Zvye3TJ6dGOeruZOCdyHnFbtm83pc16X4bS7zSlEWxQ=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\posters\sugarcane.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\movieposters\the-three-sisters.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\posters\wallace.webp'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\movieposters\the-ugly-stepsister.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>OscarPartyAPI</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/OscarPartyAPI</BasePath>
-      <RelativePath>assets/posters/wallace.webp</RelativePath>
+      <RelativePath>assets/movieposters/the-ugly-stepsister.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>zj8ofk06pq</Fingerprint>
-      <Integrity>TwCtx6XEQpoyB8Ypvwpsxn/aNKBZJU9M84lOTa/f0cg=</Integrity>
+      <Fingerprint>378bm8jhx0</Fingerprint>
+      <Integrity>wZv9E/LXQxnpBqVAJ/tftmm9F7kUBiN7cY/lJ6+c9fs=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\posters\wallace.webp'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\movieposters\the-ugly-stepsister.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\posters\warden.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\movieposters\The-Voice-of-Hind-Rajab.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>OscarPartyAPI</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/OscarPartyAPI</BasePath>
-      <RelativePath>assets/posters/warden.jpg</RelativePath>
+      <RelativePath>assets/movieposters/The-Voice-of-Hind-Rajab.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>h9p5c64nsk</Fingerprint>
-      <Integrity>24zIRcewndSFTnrJbSHNieiviNouY6JMdZUoeXkGCUM=</Integrity>
+      <Fingerprint>9bcshbxu41</Fingerprint>
+      <Integrity>VXpRfy09V6UTINjmkQ4YzUXDRsoEzYkqav/J/HrGlQo=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\posters\warden.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\movieposters\The-Voice-of-Hind-Rajab.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\posters\wicked.webp'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\movieposters\train-dreams.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>OscarPartyAPI</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/OscarPartyAPI</BasePath>
-      <RelativePath>assets/posters/wicked.webp</RelativePath>
+      <RelativePath>assets/movieposters/train-dreams.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>lb51xq2jj2</Fingerprint>
-      <Integrity>z+Vk6QUYhd60oC4vevA78cjN9atGGrS0dVH9PvEPYCU=</Integrity>
+      <Fingerprint>aim3shg9yt</Fingerprint>
+      <Integrity>slS87IVb3s82bEAVou9xvnIkF2roPOVskSlo+lwKvL8=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\posters\wicked.webp'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\movieposters\train-dreams.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\posters\wildrobot.webp'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\movieposters\two-people-exchanging-saliva.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>OscarPartyAPI</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/OscarPartyAPI</BasePath>
-      <RelativePath>assets/posters/wildrobot.webp</RelativePath>
+      <RelativePath>assets/movieposters/two-people-exchanging-saliva.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>fg7i2mq1ts</Fingerprint>
-      <Integrity>wc/CZmgfBE30Gjpwlr1Sn5MimPh2Hh16IAdxRXPZBd8=</Integrity>
+      <Fingerprint>s7e5h94n2e</Fingerprint>
+      <Integrity>yLMK0MQgOuq5aH2UNxJ9xC2/2rNYR7MWvSkvAiioGQM=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\posters\wildrobot.webp'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\movieposters\two-people-exchanging-saliva.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\posters\wonder.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\movieposters\viva-verdi.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>OscarPartyAPI</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/OscarPartyAPI</BasePath>
-      <RelativePath>assets/posters/wonder.jpg</RelativePath>
+      <RelativePath>assets/movieposters/viva-verdi.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>oivs6ybki7</Fingerprint>
-      <Integrity>kMyYm5/cLoEnf89cp8RGTV/x4505kdLiTH+C9FBuUxY=</Integrity>
+      <Fingerprint>vuwi70m9p5</Fingerprint>
+      <Integrity>13154IQ2UmAmozDwqTE4KXIfHOIsyOe/1V9m3pL002M=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\posters\wonder.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\movieposters\viva-verdi.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\posters\yuck.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\movieposters\weapons.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>OscarPartyAPI</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/OscarPartyAPI</BasePath>
-      <RelativePath>assets/posters/yuck.jpg</RelativePath>
+      <RelativePath>assets/movieposters/weapons.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>t10mw3loz3</Fingerprint>
-      <Integrity>wQU1oUbar8RreiyhPBGxRYlW1JcE3pUJRwbMguJj/2Y=</Integrity>
+      <Fingerprint>8cad0lqa2g</Fingerprint>
+      <Integrity>aPZOaqueTwfTCRwR0zr67deFjphWhzbUWPAbhPJoZPk=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\posters\yuck.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\movieposters\weapons.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\movieposters\zootopia-2.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>OscarPartyAPI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/OscarPartyAPI</BasePath>
+      <RelativePath>assets/movieposters/zootopia-2.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>sg6iml50ir</Fingerprint>
+      <Integrity>PIsZaDykRbgkJBKrAxGXT63Qbp75sAUuruP4NB/DzVQ=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\assets\movieposters\zootopia-2.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))">
       <SourceType>Package</SourceType>
@@ -1326,29 +1344,29 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>layo1znkrn</Fingerprint>
-      <Integrity>nUCOrIdcs9dWwxydPp1bHSRZdgKE+GolTScYDbtSva0=</Integrity>
+      <Fingerprint>rfdhqcp348</Fingerprint>
+      <Integrity>R7gtbrVYU6Zi5MeF7o1jh0KR2bCv2VY/3bYPpF3bCcU=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\main-LXFZ4A2R.js'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\main-SCR4UVZR.js'))">
       <SourceType>Package</SourceType>
       <SourceId>OscarPartyAPI</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/OscarPartyAPI</BasePath>
-      <RelativePath>main-LXFZ4A2R.js</RelativePath>
+      <RelativePath>main-SCR4UVZR.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>rj3nzeyv72</Fingerprint>
-      <Integrity>SbOQJ4cMxHCq+Xzmvr8/zcZBcU3V0lPFM8wbp4Vlo7A=</Integrity>
+      <Fingerprint>1nar7kto87</Fingerprint>
+      <Integrity>Y4qlV907XPSecVAP7MktBKPRo3Eq85xG7LrSx9IxPq8=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\main-LXFZ4A2R.js'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\main-SCR4UVZR.js'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\media\Montserrat-VariableFont_wght-KEGAHBID.ttf'))">
       <SourceType>Package</SourceType>
@@ -1398,8 +1416,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>cwe3n4wunx</Fingerprint>
-      <Integrity>LPWCPQBzSmZ7u1dvSqt5LCv5tcV0v44Y4qfGpnu1rxc=</Integrity>
+      <Fingerprint>t34n8xhsym</Fingerprint>
+      <Integrity>ibClMwbXotRF+jL9+xhR9tCXh14aymmneX1O6j4lEkA=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\styles-ZQOJ4CV7.css'))</OriginalItemSpec>

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Repos\\Oscars\\OscarPartyAPI\\OscarPartyAPI.csproj": {}
+    "C:\\Users\\keely\\Documents\\GitHub\\oscarparty\\OscarPartyAPI\\OscarPartyAPI.csproj": {}
   },
   "projects": {
-    "D:\\Repos\\Oscars\\OscarPartyAPI\\OscarPartyAPI.csproj": {
+    "C:\\Users\\keely\\Documents\\GitHub\\oscarparty\\OscarPartyAPI\\OscarPartyAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Repos\\Oscars\\OscarPartyAPI\\OscarPartyAPI.csproj",
+        "projectUniqueName": "C:\\Users\\keely\\Documents\\GitHub\\oscarparty\\OscarPartyAPI\\OscarPartyAPI.csproj",
         "projectName": "OscarPartyAPI",
-        "projectPath": "D:\\Repos\\Oscars\\OscarPartyAPI\\OscarPartyAPI.csproj",
-        "packagesPath": "C:\\Users\\edwar\\.nuget\\packages\\",
-        "outputPath": "D:\\Repos\\Oscars\\OscarPartyAPI\\obj\\",
+        "projectPath": "C:\\Users\\keely\\Documents\\GitHub\\oscarparty\\OscarPartyAPI\\OscarPartyAPI.csproj",
+        "packagesPath": "C:\\Users\\keely\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\keely\\Documents\\GitHub\\oscarparty\\OscarPartyAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\edwar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\keely\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
